@@ -85,9 +85,9 @@ uni.share({
 
 ## uniapp 中使用 official-account 组件时 bindload 属性和 binderror 属性不会执行
 
-:::info
+{%note 解决方法
 将其改为 load 和 error 即可
-:::
+%}
 
 uniapp 中的写法
 

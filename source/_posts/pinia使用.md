@@ -201,14 +201,10 @@ const setUser = () => {
 
 ## Plugins
 
-::: info
-todo plugins 部分的演示
-:::
+<!-- TODO -->
 
 ---
 
-::: tip 推介文章
-
+{%note 推介文章
 [Pinia: How to reset stores created with function/setup syntax](https://dev.to/the_one/pinia-how-to-reset-stores-created-with-functionsetup-syntax-1b74)
-
-:::
+%}

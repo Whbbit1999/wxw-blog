@@ -15,9 +15,7 @@ banner:
 
 # Vue.js
 
-::: tip
 [官网地址(中文)](https://cn.vuejs.org/)
-:::
 
 ## 响应式
 

@@ -13,9 +13,9 @@ cover:
 banner:
 ---
 
-:::warning
+{%note color:red 注意
 必须有用户点击事件
-:::
+%}
 
 用户点击按钮后（必须有点击），打开微信客服。
 

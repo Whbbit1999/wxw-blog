@@ -13,11 +13,7 @@ cover:
 banner:
 ---
 
-:::info
-
-[https://axios-http.com/](axios 官网)
-
-:::
+{%note 官网地址 https://axios-http.com/ %}
 
 ## 安装
 
