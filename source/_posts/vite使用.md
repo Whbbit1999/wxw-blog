@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+vite 简易使用指南
+
+<!-- more -->
+
 > [vite](https://vitejs.dev/)
 
 vite 的基本使用

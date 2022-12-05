@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+跟着尤大实现一下 vue3 的响应式系统
+
+<!-- more -->
+
 # Vue.js
 
 [官网地址(中文)](https://cn.vuejs.org/)

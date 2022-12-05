@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+使用 chrome 调试代码时的一些骚操作
+
+<!-- more -->
+
 ## 跟踪新开标签页的网络请求
 
 浏览器控制台 seeting -> preferences -> Global -> Auto-open DevTools for popups

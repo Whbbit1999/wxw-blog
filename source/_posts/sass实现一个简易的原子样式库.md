@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+用 sass 实现一个简易的原子样式库。通过此了解 sass 基础语法的实际使用。
+
+<!-- more -->
+
 ## \_variables.scss
 
 ```scss

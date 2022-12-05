@@ -39,10 +39,10 @@ search:
     codeblock: false # 是否搜索代码块（需要content: true)
 
 # 开启图片点击放大功能
-tag_plugins:
-  # {% image %}
-  image:
-    fancybox: true
+# tag_plugins:
+#   # {% image %}
+#   image:
+#     fancybox: true
 
 # article:
 #   auto_cover: true

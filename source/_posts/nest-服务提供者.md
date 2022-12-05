@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+实现一些简单的 nest 服务提供者，以此了解服务提供者的作用方式。并且自定义一个 DbModule 接入 typegoose
+
+<!-- more -->
+
 ## 类注册
 
 ```js

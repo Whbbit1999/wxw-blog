@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+使用 gulp 来写一个压缩 js 的小工具
+
+<!-- more -->
+
 ## 使用 gulp 压缩 js 文件
 
 初始化项目

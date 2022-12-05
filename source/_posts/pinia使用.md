@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+pinia 简易入门指南
+
+<!-- more -->
+
 > 详细文档请访问 [pinia](https://pinia.vuejs.org)
 
 ## 安装

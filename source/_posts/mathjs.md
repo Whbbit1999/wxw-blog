@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+常用的 js 计算 精度解决方案
+
+<!-- more -->
+
 ## 安装
 
 ```shell

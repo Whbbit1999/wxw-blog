@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+使用 vite 开发时可能会遇到的问题及解决方案
+
+<!-- more -->
+
 ## vue+ts 工程：找不到模块“@/api/user”或其相应的类型声明
 
 在 `tsconfig.node.json` / `tsconfig.json` 文件中添加

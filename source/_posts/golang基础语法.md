@@ -1,7 +1,7 @@
 ---
 title: golang基础语法
-tags: []
-categories: []
+tags: [go]
+categories: [go]
 poster:
   topic: 标题上方的小字
   headline: 大标题
@@ -12,6 +12,10 @@ description:
 cover:
 banner:
 ---
+
+golang 基础语法概览
+
+<!-- more -->
 
 ## 打印内容
 

@@ -1,7 +1,7 @@
 ---
 title: git统计代码提交数量
-tags: []
-categories: []
+tags: [git]
+categories: [git]
 poster:
   topic: 标题上方的小字
   headline: 大标题
@@ -12,6 +12,10 @@ description:
 cover:
 banner:
 ---
+
+查看项目中的每个人代码提交量，看看谁在摸鱼吧
+
+<!-- more -->
 
 统计 git 提交次数: 所有人的所有提交次数，会展示所有的提交人 提交次数详情
 

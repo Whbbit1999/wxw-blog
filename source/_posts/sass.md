@@ -1,7 +1,7 @@
 ---
 title: sass
-tags: []
-categories: []
+tags: [css, sass]
+categories: [sass]
 poster:
   topic: 标题上方的小字
   headline: 大标题
@@ -12,6 +12,10 @@ description:
 cover:
 banner:
 ---
+
+sass 常用语法一览
+
+<!-- more -->
 
 在我们日常开发中，使用 less/sass 提供的层级样式方便于代码的编写，甚至我们可以使用 sass 中的一些函数来完成一个简单的 css 库来供我们复用 css 代码，这里我会仿照 tailwindcss 来写一些公共代码。我相信，有了这个基础，我们可以对 sass 有更加深入的了解。
 

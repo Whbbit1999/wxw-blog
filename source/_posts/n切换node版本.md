@@ -13,6 +13,10 @@ cover:
 banner:
 ---
 
+linux 和 mac 下如何切换不同的 node 版本呢？
+
+<!-- more -->
+
 ## 安装
 
 ```bash

@@ -1,7 +1,7 @@
 ---
 title: gin初始化项目
-tags: []
-categories: []
+tags: [gin, go, 服务端]
+categories: [go]
 poster:
   topic: 标题上方的小字
   headline: 大标题
@@ -12,6 +12,10 @@ description:
 cover:
 banner:
 ---
+
+初始化一个 gin 的项目，领略一下 go 语言的风采
+
+<!-- more -->
 
 ## 初始化项目
 
