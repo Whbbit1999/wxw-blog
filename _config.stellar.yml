@@ -20,7 +20,7 @@ sidebar:
   menu:
     post: '[btn.blog](/)'
     wiki: '[btn.wiki](/wiki/)'
-    # notes: '[随记](/notes/)'
+    notes: '[导航](/notes/)'
     more: '[社交](/about/)'
 
 # article
