@@ -32,6 +32,8 @@
     url: https://unsplash.com/
   - title: 矢量插画 unDraw
     url: https://undraw.co/illustrations
+  - title: 头像生成
+    url: https://ezshine.jnsii.com/cases/avatarbuilder/
 
 '音频相关':
   - title: 日系音乐[魔王魂]
@@ -115,6 +117,8 @@
 'admin':
   - title: BuildAdmin
     url: https://wonderful-code.gitee.io/
+  - title: Pure Admin
+    url: https://yiming_chang.gitee.io/pure-admin-doc/pages/icon/#%E5%AD%98%E6%94%BE%E7%9B%AE%E5%BD%95-2
 
 
 

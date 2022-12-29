@@ -1,6 +1,6 @@
 ---
 title: 申请https证书并部署至nginx服务器
-tags: [服务器, nginx]
+tags: [服务器, Nginx]
 categories: [服务器]
 poster:
   topic: 标题上方的小字
