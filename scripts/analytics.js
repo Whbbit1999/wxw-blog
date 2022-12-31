@@ -1,5 +1,6 @@
 "use strict";
 
+// 百度统计和google 统计
 hexo.extend.injector.register("body_end", function () {
   return `<script>
   var _hmt = _hmt || [];
