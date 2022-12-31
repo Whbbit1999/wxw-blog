@@ -17,6 +17,9 @@ jobs:
       # 安装依赖
       - name: install packages
         run: npm install
+      # 清空缓存
+      - name: clear
+        run: npm clean
       # 打包项目
       - name: build
         run: npm run build
