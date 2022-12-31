@@ -19,9 +19,9 @@ sidebar:
     page: welcome, toc # for custom pages using 'layout:page'  
   menu:
     post: '[btn.blog](/)'
-    wiki: '[btn.wiki](/wiki/)'
+    wiki: '[专栏](/wiki/)'
     notes: '[导航](/notes/)'
-    more: '[社交](/about/)'
+    more: '[关于](/about/)'
 
 # article
 # article:
