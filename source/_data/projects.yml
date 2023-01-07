@@ -3,7 +3,7 @@
   name: 数据结构
   sidebar: [toc]
   title: js数据结构概览
-  subtitle: '每个人的独立博客 | Designed by xaoxuu'
+  subtitle: "每个人的独立博客 | Designed by xaoxuu"
   tags: 基础知识
   cover: false
   # logo:
@@ -12,17 +12,17 @@
   #   large: 240px
   description: Stellar 是一个内置 wiki 系统的 hexo 主题，适合综合型站点使用。同时也拥有简约而精美的视觉设计和丰富的标签插件，帮助您简单从容地应对各种场合。
   repo: xaoxuu/hexo-theme-stellar
-  comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
+  comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。"
   beaudar:
     repo: xaoxuu/hexo-theme-stellar
-    'issue-term': 'Q & A'
+    "issue-term": "Q & A"
 
 设计模式:
   index: false
   sidebar: [toc]
   name: 设计模式
   title: js设计模式概览
-  subtitle: 'js设计模式概览 | 简单的设计模式'
+  subtitle: "js设计模式概览 | 简单的设计模式"
   tags: 基础知识
   cover: false
   # logo:
@@ -31,22 +31,22 @@
   #   large: 240px
   description: 本章会初步展示一些js的设计模式及简单使用场景
   repo: xaoxuu/hexo-theme-stellar
-  comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
+  comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。"
   beaudar:
     repo: xaoxuu/hexo-theme-stellar
-    'issue-term': 'Q & A'
+    "issue-term": "Q & A"
 
 HTML:
   sidebar: [toc]
   name: HTML基础
   title: HTML基础
-  subtitle: 'HTML | js超集'
+  subtitle: "HTML | 前端三剑客之一"
   tags: 基础知识
   cover: true
   order: 1
-  description: 让你的JavaScript变得更加好用
+  description: HTML基础知识
   logo:
-    src: /assets/wiki/JavaScript/logo.svg
+    src: /assets/wiki/html/logo.svg
     small: 112px
     large: 240px
 
@@ -54,11 +54,11 @@ CSS:
   sidebar: [toc]
   name: CSS基础
   title: CSS基础
-  subtitle: 'CSS | js超集'
+  subtitle: "CSS | 前端三剑客之一"
   tags: 基础知识
   cover: true
   order: 1
-  description: 让你的CSS变得更加好用
+  description: CSS基础知识
   logo:
     src: /assets/wiki/CSS/logo.svg
     small: 112px
@@ -68,11 +68,11 @@ JavaScript:
   sidebar: [toc]
   name: JavaScript基础
   title: JavaScript基础
-  subtitle: 'JavaScript | js超集'
+  subtitle: "JavaScript | 前端三剑客之一"
   tags: 基础知识
   cover: true
   order: 1
-  description: 让你的JavaScript变得更加好用
+  description: JavaScript基础知识
   logo:
     src: /assets/wiki/JavaScript/logo.svg
     small: 112px
@@ -82,11 +82,11 @@ TypeScript:
   sidebar: [toc]
   name: TypeScript基础
   title: TypeScript基础
-  subtitle: 'TypeScript | js超集'
+  subtitle: "TypeScript | js超集，提供强大的类型系统"
   tags: 基础知识
   cover: true
   order: 1
-  description: 让你的TypeScript变得更加好用
+  description: 风靡全球的js类型系统
   logo:
     src: /assets/wiki/TypeScript/logo.svg
     small: 112px
@@ -96,8 +96,8 @@ Vue3:
   sidebar: [toc]
   name: Vue3基础
   title: Vue3基础
-  subtitle: 'Vue3 | 最受欢迎的前端框架之一'
-  tags: 基础知识
+  subtitle: "Vue3 | 最受欢迎的前端框架之一"
+  tags: ["基础知识", "Vue"]
   cover: true
   order: 1
   description: 本章我们会讲解Vue3的基础使用
@@ -110,8 +110,8 @@ Nuxt:
   sidebar: [toc]
   name: Nuxt3使用概览
   title: Nuxt3使用概览
-  subtitle: 'Nuxt3 | Vue3 SEO 解决方案'
-  tags: 基础知识
+  subtitle: "Nuxt3 | Vue3 SEO 解决方案"
+  tags: ["基础知识", "Vue"]
   cover: true
   order: 2
   description: 本章我们会使用Nuxt3来搭建一个网站来练习Nuxt3的使用
@@ -121,11 +121,12 @@ Nuxt:
     large: 240px
 
 React:
+  # index: false
   sidebar: [toc]
   name: React基础
   title: React基础
-  subtitle: 'React | 最受欢迎的前端框架之一'
-  tags: 基础知识
+  subtitle: "React | 最受欢迎的前端框架之一"
+  tags: ["基础知识", "React"]
   cover: true
   order: 3
   description: 本章我们会讲解React的基础使用
@@ -134,14 +135,12 @@ React:
     small: 112px
     large: 240px
 
-
-
 vscode:
   sidebar: [toc]
   name: vscode基础配置
   title: vscode基础配置
-  subtitle: 'vscode | 轻量/快捷文本编辑器'
-  tags: 工具
+  subtitle: "vscode | 轻量/快捷文本编辑器"
+  tags: 开发工具
   cover: true
   order: 4
   description: 让你的vscode变得更加好用

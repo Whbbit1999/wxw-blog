@@ -1,29 +1,31 @@
-'站长工具':
-    - title: 百度统计
-      url: https://tongji.baidu.com/web/
-      # screenshot:
-      # avatar:
-      # description:
-    - title: 谷歌统计
-      url: https://analytics.google.com/analytics/web/
+"站长工具":
+  - title: 百度统计
+    url: https://tongji.baidu.com/web/
+    # screenshot:
+    # avatar:
+    # description:
+  - title: 谷歌统计
+    url: https://analytics.google.com/analytics/web/
 
-'桌面端框架':
-    - title: tauri
-      url: https://tauri.app/
-    - title: Wails
-      url: https://wails.io/
-    - title: Electron
-      url: https://www.electronjs.org/
-    - title: Nw.js
-      url: https://nwjs.io/
-    - title: Flutter for Desktop
-      url: https://flutter.dev/multi-platform/desktop
+"桌面端框架":
+  - title: tauri
+    url: https://tauri.app/
+  - title: Wails
+    url: https://wails.io/
+  - title: Electron
+    url: https://www.electronjs.org/
+  - title: Nw.js
+    url: https://nwjs.io/
+  - title: Flutter for Desktop
+    url: https://flutter.dev/multi-platform/desktop
 
-'GitHub开源库':
-    - title: 离线IP地址定位库和IP定位数据管理框架
-      url: https://github.com/lionsoul2014/ip2region
+"GitHub开源库":
+  - title: 离线IP地址定位库和IP定位数据管理框架
+    url: https://github.com/lionsoul2014/ip2region
+  - title: 编程学习路径
+    url: https://roadmap.sh/
 
-'图片处理':
+"图片处理":
   - title: 移除图片背景
     url: https://www.remove.bg/zh
   - title: 在线 ps
@@ -35,7 +37,7 @@
   - title: 头像生成
     url: https://ezshine.jnsii.com/cases/avatarbuilder/
 
-'音频相关':
+"音频相关":
   - title: 日系音乐[魔王魂]
     url: https://maou.audio/category/bgm/
   - title: freemusicarchive
@@ -43,11 +45,11 @@
   - title: soundcloud
     url: https://soundcloud.com/lakeyinspired
 
-'设计相关':
+"设计相关":
   - title: dribbble
     url: https://dribbble.com/
 
-'颜色相关':
+"颜色相关":
   - title: 中国传统色
     url: http://zhongguose.com/
   - title: 色板materialui
@@ -67,7 +69,7 @@
   - title: 智能渐变工具
     url: https://mycolor.space/
 
-'电子书':
+"电子书":
   - title: Flutter实战·第二版
     url: https://book.flutterchina.club/
   - title: Axios
@@ -79,15 +81,13 @@
   - title: 语义化版本
     url: https://semver.org/lang/zh-CN/
 
-
-'css':
+"css":
   - title: CSS Loading效果
     url: https://loading.io/css/
   - title: Tailwidcss
     url: https://tailwindcss.com/
 
-
-'vue':
+"vue":
   - title: Element UI
     url: https://element.eleme.io/#/zh-CN
   - title: Element Plus
@@ -105,24 +105,21 @@
   - title: Naive UI
     url: https://www.naiveui.com/zh-CN/os-theme
 
-'react':
+"react":
   - title: MUI
     url: https://mui.com/zh/
   - title: Ant Design
     url: https://ant.design/index-cn
   - title: Arco Design
     url: https://arco.design
-  
 
-'admin':
+"admin":
   - title: BuildAdmin
     url: https://wonderful-code.gitee.io/
   - title: Pure Admin
     url: https://yiming_chang.gitee.io/pure-admin-doc/pages/icon/#%E5%AD%98%E6%94%BE%E7%9B%AE%E5%BD%95-2
 
-
-
-'其他工具':
+"其他工具":
   - title: npm
     url: https://www.npmjs.com/
   - title: mdn
@@ -143,9 +140,8 @@
     url: https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN
   - title: Puppeteer
     url: https://pptr.dev/
-
 # '':
-#   - title: 
-#     url: 
-#   - title: 
-#     url: 
+#   - title:
+#     url:
+#   - title:
+#     url:

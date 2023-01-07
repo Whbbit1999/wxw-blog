@@ -16,12 +16,12 @@ sidebar:
     # 文档内页
     wiki: search, ghrepo, toc, ghissues, related # for pages using 'layout:wiki'
     # 其它 layout:page 的页面
-    page: welcome, toc # for custom pages using 'layout:page'  
+    page: welcome, toc # for custom pages using 'layout:page'
   menu:
-    post: '[btn.blog](/)'
-    wiki: '[专栏](/wiki/)'
-    notes: '[导航](/notes/)'
-    more: '[关于](/about/)'
+    post: "[btn.blog](/)"
+    wiki: "[专栏](/wiki/)"
+    notes: "[导航](/notes/)"
+    more: "[关于](/about/)"
 
 # article
 # article:
@@ -44,6 +44,7 @@ search:
 #   image:
 #     fancybox: true
 
+# 是否自动生成文章预览图
 # article:
 #   auto_cover: true
 
@@ -59,24 +60,24 @@ footer:
     [晋ICP备2020011938号-1](https://beian.miit.gov.cn/) | [晋公网安备 14062102000028号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14062102000028)
 
 color:
-    common:
-      theme: '#1BCDFC' # 主题色
-      accent: '#ff5722' # 强调色
-      link: '#2196f3' # 超链接颜色
-      button: '#1BCDFC' # 按钮颜色
-      hover: '#ff5722' # 按钮高亮颜色
-    light:
-      background: '#f8f8f8' # 浅色背景颜色
-      block: '#f2f2f2' # 块背景颜色
-      card: white # 卡片背景颜色
-      title: '#000' # 标题文本颜色
-      text: '#333' # 正文文本颜色
-      code: '#111' # 行内代码颜色
-    dark:
-      background: '#313438' # 深色背景颜色
-      background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
-      block: '#2B2F33' # 块背景颜色
-      card: '#464D57' # 卡片背景颜色
-      title: '#fff' # 标题文本颜色
-      text: '#eee' # 正文文本颜色
-      code: '#ff7043' # 行内代码颜色
+  common:
+    theme: "#1BCDFC" # 主题色
+    accent: "#ff5722" # 强调色
+    link: "#2196f3" # 超链接颜色
+    button: "#1BCDFC" # 按钮颜色
+    hover: "#ff5722" # 按钮高亮颜色
+  light:
+    background: "#f8f8f8" # 浅色背景颜色
+    block: "#f2f2f2" # 块背景颜色
+    card: white # 卡片背景颜色
+    title: "#000" # 标题文本颜色
+    text: "#333" # 正文文本颜色
+    code: "#111" # 行内代码颜色
+  dark:
+    background: "#313438" # 深色背景颜色
+    background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
+    block: "#2B2F33" # 块背景颜色
+    card: "#464D57" # 卡片背景颜色
+    title: "#fff" # 标题文本颜色
+    text: "#eee" # 正文文本颜色
+    code: "#ff7043" # 行内代码颜色
