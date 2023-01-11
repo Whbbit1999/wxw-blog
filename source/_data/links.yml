@@ -81,13 +81,17 @@
   - title: 语义化版本
     url: https://semver.org/lang/zh-CN/
 
+"学习网站":
+  - title: web.dev
+    url: https://web.dev/
+  - title: uiverse css案例
+    url: https://uiverse.io/
+
 "css":
   - title: CSS Loading效果
     url: https://loading.io/css/
   - title: Tailwidcss
     url: https://tailwindcss.com/
-  - title: uiverse css案例
-    url: https://uiverse.io/
 
 "vue":
   - title: Element UI
@@ -142,8 +146,3 @@
     url: https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN
   - title: Puppeteer
     url: https://pptr.dev/
-# '':
-#   - title:
-#     url:
-#   - title:
-#     url:
