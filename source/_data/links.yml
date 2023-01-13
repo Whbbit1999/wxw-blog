@@ -48,6 +48,8 @@
 "设计相关":
   - title: dribbble
     url: https://dribbble.com/
+  - title: lordicon 动态icon
+    url: https://lordicon.com/
 
 "颜色相关":
   - title: 中国传统色
@@ -68,6 +70,8 @@
     url: https://colorbox.io/
   - title: 智能渐变工具
     url: https://mycolor.space/
+  - title: 网页配色，可以直接预览效果
+    url: https://palettemaker.com/
 
 "电子书":
   - title: Flutter实战·第二版

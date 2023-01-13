@@ -4,6 +4,12 @@ welcome:
   content: |
     本站是Whbbit1999的知识和个人博客集合站，希望您在这里玩的开心。
 
+ad:
+  layout: markdown
+  title: 广告
+  content: |
+    广告位招租😁
+
 toc:
   layout: toc
   list_number: false # 是否显示序号
