@@ -98,3 +98,9 @@ export GPG_TTY=$(tty)
 ```
 
 3. 重新加载 zsh 配置文件 `source ~/.zshrc`
+
+### 提交时一直报错
+
+> 这里应该是上面的配置没有生效导致的
+
+可以运行`echo "test" | gpg --clearsign` 先，会提示输入密码，输入密码后再次进行代码提交就 ok 了。
