@@ -128,6 +128,8 @@
     url: https://wonderful-code.gitee.io/
   - title: Pure Admin
     url: https://yiming_chang.gitee.io/pure-admin-doc/pages/icon/#%E5%AD%98%E6%94%BE%E7%9B%AE%E5%BD%95-2
+  - title: DataV vue 支持 Vue3 + Vite 的 DataV 组件库
+    url: https://datav-vue3.netlify.app/
 
 "其他工具":
   - title: npm
