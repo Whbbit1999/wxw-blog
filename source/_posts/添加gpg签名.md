@@ -12,6 +12,8 @@ references:
     url: https://mogeko.me/posts/zh-cn/065/
   - title: 生成新 GPG 密钥
     url: https://docs.github.com/zh/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+  - title: 阮一峰 GPG入门教程
+    url: https://www.ruanyifeng.com/blog/2013/07/gpg.html
 date: 2023-01-16 14:53:13
 description:
 cover:
@@ -60,3 +62,39 @@ ssb   rsa3072/xxx 2023-01-16 [E]
     > 注意： 一定要将打印出的所有内容都粘贴，包括 `-----BEGIN PGP PUBLIC KEY BLOCK-----` 和 `-----END PGP PUBLIC KEY BLOCK-----`。不然添加会失败
 12. 在 GitHub 中添加
     {% link https://docs.github.com/zh/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account %}
+
+## 添加 git 处理
+
+配置让 git 使用 gpg 进行签名
+
+```shell
+git config --global user.signingkey <密钥ID>
+```
+
+设置 git 全局使用该密钥加密 commit
+
+```shell
+git config --global commit.gpgsign true
+```
+
+设置 git 全局使用该密钥进行加密 tag
+
+```shell
+ git config --global tag.forcesignannotated true
+```
+
+## 报错处理
+
+### 报错`gpg failed to sign the data`
+
+使用 zsh 需要添加`export GPG_TTY=$(tty)`
+
+1.  `sudo vi ~/.zshrc`
+
+2.  添加配置
+
+```txt
+export GPG_TTY=$(tty)
+```
+
+3. 重新加载 zsh 配置文件 `source ~/.zshrc`
