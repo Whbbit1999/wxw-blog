@@ -101,6 +101,23 @@ export GPG_TTY=$(tty)
 
 ### 提交时一直报错
 
-> 这里应该是上面的配置没有生效导致的
+如果您之前设置了 pinentry 和 gpg，但它突然停止工作：
+检查您的 gpg 是否有效：
+
+```shell
+echo "test" | gpg --clearsign
+```
+
+如果它说`gpg: signing failed: No pinentry`，只需重新启动 gpg 守护程序客户端，它会不时卡住：
+
+```shell
+gpgconf --kill gpg-agent
+```
+
+现在它应该可以工作了：
 
 可以运行`echo "test" | gpg --clearsign` 先，会提示输入密码，输入密码后再次进行代码提交就 ok 了。
+
+---
+
+实在不行就使用 `git config --global commit.gpgsign false && git config --global tag.forcesignannotated false` 直接关闭全局 gpg 加密

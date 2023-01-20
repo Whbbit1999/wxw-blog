@@ -9,6 +9,10 @@ sidebar: [toc]
 
 {% quot 开发者 el:h2 %}
 
+### 学习网站
+
+{% sites 学习网站 %}
+
 ### GitHub 开源库
 
 {% sites GitHub开源库 %}

@@ -31,6 +31,7 @@ rest client 是 vscode 中类似 Postman 的 api 接口请求利器。
 1. 以 `###` 分割接口
 2. `@uri` 可以定义请求前缀，且不能加 `""`
 3. 示例里的接口服务器地址在国外，测试时可能会发生错误，发生错误时多试几次即可
+   {% link http://jsonplaceholder.typicode.com/ %}
 
 ```http api.http
 @uri=https://jsonplaceholder.typicode.com
