@@ -7,8 +7,11 @@ welcome:
 ad:
   layout: markdown
   title: 广告
+
+  # 广告位招租😁
+
   content: |
-    广告位招租😁
+    [![sable-admin-ad.jpg](/assets/sable-admin-ad.jpg)](https://github.com/Whbbit1999/sable)
 
 toc:
   layout: toc

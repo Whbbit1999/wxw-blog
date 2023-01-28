@@ -84,6 +84,8 @@
     url: https://rustwiki.org/zh-CN/book/title-page.html
   - title: 语义化版本
     url: https://semver.org/lang/zh-CN/
+  - title: labuladong 的算法小抄
+    url: https://github.com/labuladong/fucking-algorithm
 
 "学习网站":
   - title: web.dev
@@ -96,6 +98,8 @@
     url: https://loading.io/css/
   - title: Tailwidcss
     url: https://tailwindcss.com/
+  - title: loading
+    url: https://cssloaders.github.io/
 
 "vue":
   - title: Element UI
