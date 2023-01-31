@@ -35,13 +35,17 @@ sidebar: [ghuser, toc]
 
 {% quot 参与项目 el:h2 %}
 
-### vue-devui
+### vue-devui {% tag Vue3 %} {% tag 组件库 %}
 
-Vue3 组件库 https://github.com/DevCloudFE/vue-devui
+{% ghcard DevCloudFE/vue-devui theme:dark %}
 
-### licht
+### licht {% tag React %} {% tag 组件库 %}
 
-React 组件库 https://github.com/Ningstyle/mzlui-react
+{% ghcard Ningstyle/mzlui-react theme:dark %}
+
+### sable admin {% tag 中后台管理前端脚手架 %}
+
+{% ghcard Whbbit1999/sable theme:dark %}
 
 ---
 
@@ -50,3 +54,4 @@ React 组件库 https://github.com/Ningstyle/mzlui-react
 {% link https://zxuqian.cn/ desc:true %}
 {% link https://sunshy.today/ desc:true %}
 {% link https://blog.charles7c.top/ desc:true %}
+{% link https://ciro.club desc:true %}
