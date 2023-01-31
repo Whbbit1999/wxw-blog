@@ -26,7 +26,7 @@ banner:
 
 > 创建的 `scripts` 文件夹中的文件会被 hexo 自动加载
 
-```js
+```js /scripts/codeCopy.js
 "use strict";
 
 // code block copy
