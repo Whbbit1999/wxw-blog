@@ -39,14 +39,16 @@ search:
     codeblock: false # 是否搜索代码块（需要content: true)
 
 # 开启图片点击放大功能
-# tag_plugins:
-#   # {% image %}
-#   image:
-#     fancybox: true
+tag_plugins:
+  # {% image %}
+  image:
+    fancybox: true
 
 # 是否自动生成文章预览图
-# article:
-#   auto_cover: true
+article:
+  # auto_cover: true
+  # auto_banner: true
+  share: [wechat, weibo, email, link]
 
 # footer
 footer:
@@ -75,29 +77,50 @@ footer:
     本站由 [@Whbbit1999](/) 使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主题创建。
     本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
     [晋ICP备2020011938号-1](https://beian.miit.gov.cn/) | [晋公网安备 14062102000028号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14062102000028)
-
-color:
-  common:
-    theme: "#1BCDFC" # 主题色
-    accent: "#ff5722" # 强调色
-    link: "#2196f3" # 超链接颜色
-    button: "#1BCDFC" # 按钮颜色
-    hover: "#ff5722" # 按钮高亮颜色
-  light:
-    background: "#f8f8f8" # 浅色背景颜色
-    block: "#f2f2f2" # 块背景颜色
-    card: white # 卡片背景颜色
-    title: "#000" # 标题文本颜色
-    text: "#333" # 正文文本颜色
-    code: "#111" # 行内代码颜色
-  dark:
-    background: "#313438" # 深色背景颜色
-    background-mobile: black # 移动端深色背景（OLED调成纯黑可以省电）
-    block: "#2B2F33" # 块背景颜色
-    card: "#464D57" # 卡片背景颜色
-    title: "#fff" # 标题文本颜色
-    text: "#eee" # 正文文本颜色
-    code: "#ff7043" # 行内代码颜色
+    <center>
+    </br>
+    </br>
+    <!--不蒜子计数器-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!--添加一个访问量-->
+    <span>
+                    本"<span style="color: rgb(13, 109, 252); font-weight: bold;">页面</ a></span>"访问 <span id="busuanzi_value_page_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span> 次 | 👀总访问 <span id="busuanzi_value_site_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span>                次 | 🥷总访客 <span id="busuanzi_value_site_uv" style="color: rgb(13, 109, 252); font-weight: bold;"></span> 人
+                </span>
+    </br>
+    </br>
+    <script type="text/javascript">
+    function show_runtime() {
+        window.setTimeout("show_runtime()", 1000);
+        X = new Date("12/02/2022 00:00:00");
+        Y = new Date();
+        T = (Y.getTime() - X.getTime());
+        M = 24 * 60 * 60 * 1000;
+        a = T / M;
+        A = Math.floor(a);
+        b = (a - A) * 24;
+        B = Math.floor(b);
+        c = (b - B) * 60;
+        C = Math.floor((b - B) * 60);
+        D = Math.floor((c - C) * 60);
+        runtime_span.innerHTML = "⏱️本站已运行 " + A + "天" + B + "小时" + C + "分" + D + "秒"
+    }
+    show_runtime();
+    </script>
+    <span id="runtime_span"></span>
+    </center>
+style:
+  color:
+    # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
+    background: "hsl(212 16% 98%)" # 浅色背景颜色
+    block: "hsl(212 8% 95%)" # 块背景颜色
+    code: "hsl(14 100% 48%)" # 行内代码颜色
+    text: "hsl(0 0% 20%)" # 文本颜色
+    # 主题色配置（不会根据明暗动态调整，请设置为通用的颜色）
+    theme: "hsl(192 98% 55%)" # 主题色
+    accent: "hsl(14 100% 57%)" # 强调色
+    link: "hsl(207 90% 54%)" # 超链接颜色
+    button: "hsl(192 98% 55%)" # 按钮颜色
+    hover: "hsl(14 100% 57%)" # 按钮高亮颜色
 
 inject:
   head:
