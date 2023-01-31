@@ -144,3 +144,8 @@ inject:
               });
           }
       </script>
+
+comments:
+  service: beaudar
+  beaudar:
+    repo: Whbbit1999/wxw-blog-comments
