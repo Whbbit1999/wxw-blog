@@ -2,11 +2,11 @@
 title: stellar主题添加代码块复制功能
 tags: [hexo]
 categories: [技术分享]
-poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+# poster:
+#   topic:
+#   headline: stellar主题添加代码块复制功能
+#   caption:
+#   color:
 references:
   - title: ""
     url: ""
@@ -19,6 +19,8 @@ banner:
 给 stellar 主题添加代码块复制功能
 
 <!-- more -->
+
+{% image https://whbbit-blog.oss-cn-beijing.aliyuncs.com/202301311342006.png %}
 
 我们可以利用 hexo 的[注入器](https://hexo.io/zh-cn/api/injector)来完成这个功能
 
