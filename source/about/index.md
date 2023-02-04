@@ -5,15 +5,9 @@ sidebar: [ghuser]
 
 {% about avatar:/assets/whbbit.jpg height:120px %}
 
-<!-- <img height="32px" alt="XAOXUU" src="/assets/codelogo.png"> -->
+{% navbar active:1 [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
 
-<!-- **努力生活，努力成长** -->
-
-<!-- {% navbar [人生](#人生) [参与项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %} -->
-
-{% tabs active:1 align:center %}
-
-<!-- tab 人生 -->
+{% endabout %}
 
 {% quot 人生 icon:hashtag el:h2 %}
 
@@ -41,8 +35,6 @@ sidebar: [ghuser]
 
 <!-- > 曾经短暂在钢厂工作过的我感触颇深 -->
 
-<!-- tab 参与项目 -->
-
 {% quot 参与项目  el:h2 %}
 
 vue-devui {% tag Vue3 %} {% tag 组件库 %}
@@ -56,21 +48,3 @@ licht {% tag React %} {% tag 组件库 %}
 sable admin {% tag 中后台管理前端脚手架 %}
 
 {% ghcard Whbbit1999/sable theme:dark %}
-
-<!-- tab 友链 -->
-
-{% quot 各位大佬的博客 el:h2 %}
-
-{% link https://zxuqian.cn/ desc:true %}
-{% link https://sunshy.today/ desc:true %}
-{% link https://blog.charles7c.top/ desc:true %}
-{% link https://ciro.club desc:true %}
-
-<!-- TODO -->
-<!-- {% quot 来自GitHub的朋友 el:h2 %} -->
-
-<!-- 可以去[友链](https://github.com/Whbbit1999/wxw-blog-friends/issues/new/choose)自助添加 -->
-
-{% endtabs %}
-
-{% endabout %}
