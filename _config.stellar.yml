@@ -21,7 +21,8 @@ sidebar:
     post: "[btn.blog](/)"
     wiki: "[专栏](/wiki/)"
     notes: "[导航](/notes/)"
-    more: "[关于](/about/)"
+    more: "[社交](/about/)"
+    # others: "[其他](/more/)"
 
 # article
 # article:
@@ -106,6 +107,11 @@ footer:
     <div id="runtime_span"></div>
     </div>
 style:
+  font-family:
+    logo: 'hytmr, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    body: 'hytmr, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   color:
     # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
     background: "hsl(212 16% 98%)" # 浅色背景颜色

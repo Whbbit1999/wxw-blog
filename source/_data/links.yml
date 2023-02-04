@@ -86,6 +86,8 @@
     url: https://semver.org/lang/zh-CN/
   - title: labuladong 的算法小抄
     url: https://github.com/labuladong/fucking-algorithm
+  - title: HTTPS的工作原理
+    url: https://howhttps.works/zh/
 
 "学习网站":
   - title: web.dev
