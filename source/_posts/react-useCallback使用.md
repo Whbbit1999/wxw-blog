@@ -20,7 +20,7 @@ banner:
 
 <!-- more -->
 
-轮播图组建需要自动轮播，我想到了使用 setTimeout 来解决 setInterval 可能越来越快的问题。于是就有了以下代码
+轮播图组建需要自动轮播，我想到了使用 setTimeout 来解决 setInterval 可能越来越快的问题。心里想着：这我还不轻松拿下{% emoji blobcat blobcatfingerguns %}？一番奋战后于是就有了以下代码
 
 ```tsx
 const Swiper: React.FC<SwiperProps> = (props) => {
@@ -86,7 +86,7 @@ export default Swiper;
 ```
 
 {% note 报错 Warning: Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render%}
-这时会报错且页面不能加载（报错详情见上文）。在我询问了群里的大佬后，得知有一个 useCallback 貌似可以解决我的问题。
+这时会报错且页面不能加载（报错详情见上文）{% emoji blobcat blobcat0_0 %}。在我询问了群里的大佬后，得知有一个 useCallback 貌似可以解决我的问题。
 
 {% image /assets/posts/7721675935071_.pic.jpg %}
 
@@ -127,3 +127,5 @@ export default Swiper;
     }
   }, [autoplay, autoPlay]);
 ```
+
+嘿嘿，有问题不能自己死磕，还是得问问{% emoji blobcat ablobcatrainbow %}！
