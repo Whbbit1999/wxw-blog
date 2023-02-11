@@ -1,7 +1,7 @@
 ---
 title: gulp压缩js文件
 tags: [js, gulp, 前端工程化]
-categories: [gulp]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

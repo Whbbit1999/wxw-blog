@@ -1,7 +1,7 @@
 ---
 title: react useCallback使用
 tags: [react]
-categories: [编程知识]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

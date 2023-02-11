@@ -1,7 +1,7 @@
 ---
 title: rest client插件使用
 tags: [vscode, 插件]
-categories: [vscode, 插件]
+categories: [代码人生, 编码工具]
 poster:
   topic: 标题上方的小字
   headline: 大标题

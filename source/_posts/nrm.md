@@ -1,7 +1,7 @@
 ---
 title: nrm切换npm版本
 tags: [nrm]
-categories: [nrm]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

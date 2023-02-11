@@ -2,7 +2,7 @@
 title: Nginx gzip配置
 # cover: code
 # banner: code
-categories: [Nginx]
+categories: [代码人生, Linux/运维]
 date: 2022-12-03
 tag: [Nginx, Linux, 服务器]
 references:

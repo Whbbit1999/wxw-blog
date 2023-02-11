@@ -1,7 +1,7 @@
 ---
 title: showToast 在真机会闪退的问题及解决方案
 tags: [小程序, uniapp]
-categories: [小程序]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

@@ -1,7 +1,7 @@
 ---
 title: Hexo-theme-Stellar主题使用
 tags: [hexo, hexo主题]
-categories: [hexo]
+categories: [代码人生, 静态站点]
 poster:
   topic: 标题上方的小字
   headline: 大标题

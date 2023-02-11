@@ -1,7 +1,7 @@
 ---
 title: sass
 tags: [css, sass]
-categories: [sass]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

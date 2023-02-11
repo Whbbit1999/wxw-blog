@@ -1,7 +1,7 @@
 ---
 title: axios
 tags: [node, js]
-categories: [接口请求]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题
@@ -48,3 +48,13 @@ pnpm i axios
 ## 响应拦截器
 
 ## axios 封装
+
+```ts
+
+```
+
+使用示例
+
+```css
+
+```

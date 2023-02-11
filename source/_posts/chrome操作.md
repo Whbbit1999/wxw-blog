@@ -1,7 +1,7 @@
 ---
 title: chrome操作
-tags: []
-categories: []
+tags: [chrome, 浏览器, 代码调试]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

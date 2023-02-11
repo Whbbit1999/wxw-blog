@@ -1,7 +1,7 @@
 ---
 title: GitHub status 获取GitHub项目信息
 tags: []
-categories: []
+categories: [代码人生, 其他]
 poster:
   topic: 标题上方的小字
   headline: 大标题

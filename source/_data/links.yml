@@ -1,164 +1,397 @@
 "站长工具":
   - title: 百度统计
     url: https://tongji.baidu.com/web/
-    # screenshot:
-    # avatar:
-    # description:
+    screenshot: /assets/sites/tongji.baidu.com.png
+    avatar: /assets/sites/tongji.baidu.com.png
+    description: 网站访问次数统计
   - title: 谷歌统计
     url: https://analytics.google.com/analytics/web/
+    screenshot:
+    avatar:
+    description: 谷歌网站统计
 
 "桌面端框架":
   - title: tauri
     url: https://tauri.app/
+    screenshot:
+    avatar:
+    description:
   - title: Wails
     url: https://wails.io/
+    screenshot:
+    avatar:
+    description:
   - title: Electron
     url: https://www.electronjs.org/
+    screenshot:
+    avatar:
+    description:
   - title: Nw.js
     url: https://nwjs.io/
+    screenshot:
+    avatar:
+    description:
   - title: Flutter for Desktop
     url: https://flutter.dev/multi-platform/desktop
+    screenshot:
+    avatar:
+    description:
 
 "GitHub开源库":
   - title: 离线IP地址定位库和IP定位数据管理框架
     url: https://github.com/lionsoul2014/ip2region
+    screenshot:
+    avatar:
+    description:
   - title: 编程学习路径
     url: https://roadmap.sh/
+    screenshot:
+    avatar:
+    description:
   - title: markdown编辑器
     url: https://imzbf.github.io/md-editor-v3/docs
+    screenshot:
+    avatar:
+    description:
 
 "图片处理":
   - title: 移除图片背景
     url: https://www.remove.bg/zh
+    screenshot:
+    avatar:
+    description:
   - title: 在线 ps
     url: https://www.logosc.cn/online-ps
+    screenshot:
+    avatar:
+    description:
   - title: 免版权的高质量图库[unsplash]
     url: https://unsplash.com/
+    screenshot:
+    avatar:
+    description:
   - title: 矢量插画 unDraw
     url: https://undraw.co/illustrations
+    screenshot:
+    avatar:
+    description:
   - title: 头像生成
     url: https://ezshine.jnsii.com/cases/avatarbuilder/
+    screenshot:
+    avatar:
+    description:
+  - title: 快速生成网站截图
+    url: https://www.thum.io/
+    screenshot:
+    avatar:
+    description:
 
 "音频相关":
   - title: 日系音乐[魔王魂]
     url: https://maou.audio/category/bgm/
+    screenshot:
+    avatar:
+    description:
   - title: freemusicarchive
     url: https://freemusicarchive.org/home
+    screenshot:
+    avatar:
+    description:
   - title: soundcloud
     url: https://soundcloud.com/lakeyinspired
+    screenshot:
+    avatar:
+    description:
 
 "设计相关":
   - title: dribbble
     url: https://dribbble.com/
+    screenshot:
+    avatar:
+    description:
   - title: lordicon 动态icon
     url: https://lordicon.com/
+    screenshot:
+    avatar:
+    description:
 
 "颜色相关":
   - title: 中国传统色
     url: http://zhongguose.com/
+    screenshot:
+    avatar:
+    description:
   - title: 色板materialui
     url: https://materialui.co/socialcolors/
+    screenshot:
+    avatar:
+    description:
   - title: 色板flatuicolors
     url: https://flatuicolors.com/palette/defo
+    screenshot:
+    avatar:
+    description:
   - title: 渐变色webgradients
     url: https://webgradients.com/
+    screenshot:
+    avatar:
+    description:
   - title: 渐变色webkul
     url: https://webkul.github.io/coolhue/
+    screenshot:
+    avatar:
+    description:
   - title: colorhunt
     url: https://colorhunt.co/
+    screenshot:
+    avatar:
+    description:
   - title: 颜色转换工具
     url: https://htmlcolorcodes.com/zh/
+    screenshot:
+    avatar:
+    description:
   - title: colorbox色板
     url: https://colorbox.io/
+    screenshot:
+    avatar:
+    description:
   - title: 智能渐变工具
     url: https://mycolor.space/
+    screenshot:
+    avatar:
+    description:
   - title: 网页配色，可以直接预览效果
     url: https://palettemaker.com/
+    screenshot:
+    avatar:
+    description:
 
 "电子书":
   - title: Flutter实战·第二版
     url: https://book.flutterchina.club/
+    screenshot:
+    avatar:
+    description:
   - title: Axios
     url: https://axios-http.com/
+    screenshot:
+    avatar:
+    description:
   - title: Socket.IO
     url: https://socket.io/
+    screenshot:
+    avatar:
+    description:
   - title: Rust 程序设计语言 中文版
     url: https://rustwiki.org/zh-CN/book/title-page.html
+    screenshot:
+    avatar:
+    description:
   - title: 语义化版本
     url: https://semver.org/lang/zh-CN/
+    screenshot:
+    avatar:
+    description:
   - title: labuladong 的算法小抄
     url: https://github.com/labuladong/fucking-algorithm
+    screenshot:
+    avatar:
+    description:
   - title: HTTPS的工作原理
     url: https://howhttps.works/zh/
+    screenshot:
+    avatar:
+    description:
+  - title: 中医古籍
+    url: http://www.mst1739.com/yidao/yuedu.php
+    screenshot:
+    avatar:
+    description:
+  - title: 编程相关书籍
+    url: https://github.com/justjavac/free-programming-books-zh_CN
+    screenshot:
+    avatar:
+    description:
+  - title: 移动端开发啊
+    url: https://github.com/hoosin/mobile-web-favorites
+    screenshot:
+    avatar:
+    description:
+  - title: 程序员编程技艺
+    url: https://github.com/julycoding/The-Art-Of-Programming-By-July-2nd
+    screenshot:
+    avatar:
+    description:
+  - title: 腾讯前端代码编写规范
+    url: http://alloyteam.github.io/CodeGuide/
+    screenshot:
+    avatar:
+    description:
+  - title: 逐行剖析vuejs源码
+    url: https://nlrx-wjc.github.io/Learn-Vue-Source-Code/
+    screenshot:
+    avatar:
+    description:
 
 "学习网站":
   - title: web.dev
     url: https://web.dev/
+    screenshot:
+    avatar:
+    description:
   - title: uiverse css案例
     url: https://uiverse.io/
+    screenshot:
+    avatar:
+    description:
 
 "css":
   - title: CSS Loading效果
     url: https://loading.io/css/
+    screenshot:
+    avatar:
+    description:
   - title: Tailwidcss
     url: https://tailwindcss.com/
+    screenshot:
+    avatar:
+    description:
   - title: loading
     url: https://cssloaders.github.io/
+    screenshot:
+    avatar:
+    description:
   - title: daisyui
     url: https://daisyui.com/
+    screenshot:
+    avatar:
+    description:
 
 "vue":
   - title: Element UI
     url: https://element.eleme.io/#/zh-CN
+    screenshot:
+    avatar:
+    description:
   - title: Element Plus
     url: https://element-plus.org/zh-CN/#/zh-CN
+    screenshot:
+    avatar:
+    description:
   - title: Ant Design Vue
     url: https://antdv.com/components/overview-cn
+    screenshot:
+    avatar:
+    description:
   - title: Material Design for Bootstrap 5 & Vue 3
     url: https://mdbootstrap.com/docs/vue/
+    screenshot:
+    avatar:
+    description:
   - title: Vant
     url: https://vant-ui.github.io/vant/#/zh-CN
+    screenshot:
+    avatar:
+    description:
   - title: Vuetify
     url: https://vuetifyjs.com/zh-Hans/
+    screenshot:
+    avatar:
+    description:
   - title: Quasar
     url: https://quasar.dev/
+    screenshot:
+    avatar:
+    description:
   - title: Naive UI
     url: https://www.naiveui.com/zh-CN/os-theme
+    screenshot:
+    avatar:
+    description:
 
 "react":
   - title: MUI
     url: https://mui.com/zh/
+    screenshot:
+    avatar:
+    description:
   - title: Ant Design
     url: https://ant.design/index-cn
+    screenshot:
+    avatar:
+    description:
   - title: Arco Design
     url: https://arco.design
+    screenshot:
+    avatar:
+    description:
 
 "admin":
   - title: BuildAdmin
     url: https://wonderful-code.gitee.io/
+    screenshot:
+    avatar:
+    description:
   - title: Pure Admin
     url: https://yiming_chang.gitee.io/pure-admin-doc/pages/icon/#%E5%AD%98%E6%94%BE%E7%9B%AE%E5%BD%95-2
+    screenshot:
+    avatar:
+    description:
   - title: DataV vue 支持 Vue3 + Vite 的 DataV 组件库
     url: https://datav-vue3.netlify.app/
+    screenshot:
+    avatar:
+    description:
 
 "其他工具":
   - title: npm
     url: https://www.npmjs.com/
+    screenshot:
+    avatar:
+    description: npm
   - title: mdn
     url: https://developer.mozilla.org/zh-CN/
+    screenshot:
+    avatar:
+    description: mdn
   - title: 字体下载
     url: https://www.nerdfonts.com/font-downloads
+    screenshot:
+    avatar:
+    description: 编程字体下载网站
   - title: 百度翻译
     url: https://fanyi.baidu.com/
+    screenshot:
+    avatar:
+    description: 百度翻译
   - title: 谷歌翻译
     url: https://translate.google.com/?hl=zh-CN&tab=TT
+    screenshot:
+    avatar:
+    description: 谷歌翻译
   - title: Vue3项目初始模板
     url: https://github.com/antfu/vitesse-lite
+    screenshot:
+    avatar:
+    description: antfu的Vue3项目初始模板
   - title: vxe-table 高性能表格组件
     url: https://vxetable.cn/
+    screenshot:
+    avatar:
+    description: 高性能表格，可以代替 antd-vue 的表格组建
   - title: 精灵图切图
     url: http://www.spritecow.com/
+    screenshot:
+    avatar:
+    description: 自动精灵图切图
   - title: 在线nginx配置
     url: https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN
+    screenshot:
+    avatar:
+    description: 在线nginx配置网站
   - title: Puppeteer
     url: https://pptr.dev/
+    screenshot:
+    avatar:
+    description: 无头浏览器

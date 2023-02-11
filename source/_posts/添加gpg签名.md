@@ -1,7 +1,7 @@
 ---
 title: 添加gpg签名
-tags: []
-categories: []
+tags: [gpg签名]
+categories: [代码人生]
 poster:
   topic: 标题上方的小字
   headline: 大标题

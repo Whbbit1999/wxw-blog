@@ -1,7 +1,7 @@
 ---
 title: oss搭建个人图床
 tags: [阿里云, oss]
-categories: [oss]
+categories: [代码人生, 其他, Linux/运维]
 poster:
   topic: 标题上方的小字
   headline: 大标题

@@ -1,7 +1,7 @@
 ---
 title: app打包上线要注意的部分
-tags: [app, uniapp]
-categories: [app]
+tags: [app, uniapp, 项目打包]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

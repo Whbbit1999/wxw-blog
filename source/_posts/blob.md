@@ -1,13 +1,20 @@
 ---
 title: blob
 tags: [js, blob]
-categories: [js]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题
   caption: 标题下方的小字
   color: 标题颜色
 date: 2022-12-04 16:12:29
+references:
+  - title: Blob
+    url: https://developer.mozilla.org/zh-CN/docs/Web/API/Blob
+  - title: MIME 类型
+    url: https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+  - title: Blob 和 Base64 互相转换
+    url: https://www.cnblogs.com/dcb3688/p/4608062.html
 description:
 cover:
 banner:
@@ -156,11 +163,3 @@ function blobToDataURI(blob, callback) {
   reader.readAsDataURL(blob);
 }
 ```
-
----
-
-## MDN
-
-[Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)  
-[MIME 类型](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types)  
-[Blob 和 Base64 互相转换](https://www.cnblogs.com/dcb3688/p/4608062.html)

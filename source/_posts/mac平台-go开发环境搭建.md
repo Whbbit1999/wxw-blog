@@ -1,7 +1,7 @@
 ---
 title: mac平台 go开发环境搭建
 tags: []
-categories: []
+categories: [代码人生, 后端技术]
 date: 2023-01-11 21:45:49
 description:
 cover:

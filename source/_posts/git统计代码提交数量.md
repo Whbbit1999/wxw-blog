@@ -1,7 +1,7 @@
 ---
 title: git统计代码提交数量
 tags: [git]
-categories: [git]
+categories: [代码人生, Linux/运维]
 poster:
   topic: 标题上方的小字
   headline: 大标题

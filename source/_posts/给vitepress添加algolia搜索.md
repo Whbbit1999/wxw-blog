@@ -1,7 +1,7 @@
 ---
 title: 给vitepress添加algolia搜索
 tags: [vitepress]
-categories: [vitepress]
+categories: [代码人生, 静态站点]
 poster:
   topic: 标题上方的小字
   headline: 大标题

@@ -1,7 +1,7 @@
 ---
 title: 使用GitHubActions部署
 tags: [hexo, GitHubActions]
-categories: [hexo]
+categories: [代码人生, CI/CD]
 date: 2022-12-05 16:25:27
 cover:
 banner:

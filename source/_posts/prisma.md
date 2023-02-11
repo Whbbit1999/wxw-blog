@@ -1,7 +1,7 @@
 ---
 title: prisma
 tags: [node, prisma, orm]
-categories: [prisma]
+categories: [代码人生, 后端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

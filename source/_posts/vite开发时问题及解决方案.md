@@ -1,7 +1,7 @@
 ---
 title: vite开发时问题及解决方案
 tags: []
-categories: []
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

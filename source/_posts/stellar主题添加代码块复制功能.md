@@ -1,7 +1,7 @@
 ---
 title: stellar主题添加代码块复制功能
 tags: [hexo]
-categories: [技术分享]
+categories: [代码人生, 静态站点]
 # poster:
 #   topic:
 #   headline: stellar主题添加代码块复制功能

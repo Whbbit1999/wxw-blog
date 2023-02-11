@@ -1,7 +1,7 @@
 ---
 title: nest 服务提供者
 tags: [nest, 服务端]
-categories: [nest]
+categories: [代码人生, 后端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

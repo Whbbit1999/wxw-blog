@@ -1,7 +1,7 @@
 ---
 title: vite使用
 tags: [vite, 前端工程化]
-categories: [vite]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

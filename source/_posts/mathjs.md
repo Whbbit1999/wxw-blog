@@ -1,7 +1,7 @@
 ---
 title: math.js 的使用
 tags: [node, js, 工具]
-categories: [工具]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

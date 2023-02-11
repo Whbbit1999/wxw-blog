@@ -1,7 +1,7 @@
 ---
 title: uniapp 条件编译
 tags: [uniapp, 小程序]
-categories: [小程序]
+categories: [代码人生, 前端技术]
 poster:
   topic: 标题上方的小字
   headline: 大标题

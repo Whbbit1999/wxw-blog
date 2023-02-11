@@ -1,7 +1,7 @@
 ---
 title: Nginx安装配置
 tags: [Nginx]
-categories: [Nginx]
+categories: [代码人生, Linux/运维]
 poster:
   topic: 标题上方的小字
   headline: 大标题
