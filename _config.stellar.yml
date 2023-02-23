@@ -77,14 +77,14 @@ footer:
   content: | # 支持 Markdown 格式
     本站由 [@Whbbit1999](/) 使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主题创建。
     本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
-    [晋ICP备2020011938号-1](https://beian.miit.gov.cn/) | [晋公网安备 14062102000028号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14062102000028)
+    备案信息：[晋ICP备2020011938号-1](https://beian.miit.gov.cn/) | [晋公网安备 14062102000028号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14062102000028)
     <div>
       <br />
       <!--不蒜子计数器-->
       <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       <!--添加一个访问量-->
       <div>
-        本"<span style="color: rgb(13, 109, 252); font-weight: bold;">页面</ a></span>"访问 <span id="busuanzi_value_page_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span> 次 | 👀总访问 <span id="busuanzi_value_site_pv" style="color: rgb(13, 109, 252); font-weight: bold;"></span>                次 | 🥷总访客 <span id="busuanzi_value_site_uv" style="color: rgb(13, 109, 252); font-weight: bold;"></span> 人
+        本"<span style="font-weight: bold;">页面</ a></span>"访问 <span id="busuanzi_value_page_pv" style="font-weight: bold;"></span> 次 | 👀总访问 <span id="busuanzi_value_site_pv" style="font-weight: bold;"></span>                次 | 🥷总访客 <span id="busuanzi_value_site_uv" style="font-weight: bold;"></span> 人
       </div>
       <div id="runtime_span"></div>
         <script type="text/javascript">
