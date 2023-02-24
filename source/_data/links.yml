@@ -339,51 +339,51 @@
     avatar: /assets/sites/tauri.app.png
     description:
   - title: Pure Admin
-    url: https://yiming_chang.gitee.io/pure-admin-doc/pages/icon/#%E5%AD%98%E6%94%BE%E7%9B%AE%E5%BD%95-2
+    url: https://yiming_chang.gitee.io/pure-admin-doc/
     screenshot: /assets/sites/tauri.app.png
     avatar: /assets/sites/tauri.app.png
     description:
   - title: DataV vue 支持 Vue3 + Vite 的 DataV 组件库
     url: https://datav-vue3.netlify.app/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/datav-vue3.netlify.app.png
+    avatar: /assets/sites/datav-vue3.netlify.app.png
     description:
 
 "其他工具":
   - title: npm
     url: https://www.npmjs.com/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/www.npmjs.com.png
+    avatar: /assets/sites/www.npmjs.com.png
     description: npm
   - title: mdn
     url: https://developer.mozilla.org/zh-CN/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/developer.mozilla.org.png
+    avatar: /assets/sites/developer.mozilla.org.png
     description: mdn
   - title: 字体下载
     url: https://www.nerdfonts.com/font-downloads
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/www.nerdfonts.com.png
+    avatar: /assets/sites/www.nerdfonts.com.png
     description: 编程字体下载网站
   - title: 百度翻译
     url: https://fanyi.baidu.com/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/fanyi.baidu.com.png
+    avatar: /assets/sites/fanyi.baidu.com.png
     description: 百度翻译
   - title: 谷歌翻译
     url: https://translate.google.com/?hl=zh-CN&tab=TT
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/translate.google.com.png
+    avatar: /assets/sites/translate.google.com.png
     description: 谷歌翻译
   - title: Vue3项目初始模板
     url: https://github.com/antfu/vitesse-lite
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description: antfu的Vue3项目初始模板
   - title: vxe-table 高性能表格组件
     url: https://vxetable.cn/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/vxetable.cn.png
+    avatar: /assets/sites/vxetable.cn.png
     description: 高性能表格，可以代替 antd-vue 的表格组建
   - title: 精灵图切图
     url: http://www.spritecow.com/
@@ -400,6 +400,16 @@
     screenshot: /assets/sites/pptr.dev.png
     avatar: /assets/sites/pptr.dev.png
     description: 无头浏览器
+  - title: jsont 在线JSON验证和编辑
+    url: https://www.jsont.run/
+    screenshot: /assets/sites/www.jsont.run.png
+    avatar: /assets/sites/www.jsont.run.png
+    description: 在线JSON验证和编辑
+  # - title:  Markdown Here
+  #   url:  Markdown Here
+  #   screenshot:
+  #   avatar:
+  #   description: markdown转html插件，可以使用于公众号文章
 
 国内镜像站:
   - title: 清华大学开源软件镜像站
