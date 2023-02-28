@@ -17,6 +17,53 @@
     repo: xaoxuu/hexo-theme-stellar
     "issue-term": "Q & A"
 
+sites:
+  index: true
+  name: 网站收藏
+  sidebar: [toc, search]
+  order: 0
+  title: 一些好用的网站
+  subtitle: "一些好用的网站收藏 | Create By Whbbit1999"
+  tags: 其他
+  logo:
+    src: /assets/sites/sites_wiki.svg
+    small: 112px
+    large: 240px
+  cover: false
+  description: 这里会有一些我常用的一些网站
+  comment_title:
+    "欢迎大家一起来分享一些好用的网站"
+    # repo: xaoxuu/hexo-theme-stellar
+    # comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。"
+    # beaudar:
+    #   repo: xaoxuu/hexo-theme-stellar
+    #   "issue-term": "Q & A"
+
+sable:
+  index: true
+  name: Sable Admin 文档
+  sidebar: [toc, search, repo]
+  order: 0
+  title: Sable Admin 中后台脚手架文档
+  subtitle: "Sable Admin 中后台脚手架文档 | Create By Whbbit1999"
+  description: 使用Vue3 + Pinia + typescript + tailwindcss 开发，集成了一些常用的自定义组件。
+  tags: Vue
+  logo:
+    src: /assets/wiki/sable/logo.svg
+    small: 112px
+    large: 240px
+  cover: true
+  repo: Whbbit1999/sable
+  comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/Whbbit1999/sable/issues) 反馈。"
+  beaudar:
+    repo: Whbbit1999/sable
+    "issue-term": "Q & A"
+  sections:
+    "快速开始": [0, 99]
+    "基本使用": [100, 199]
+    "文档系统": [200, 299]
+    "进阶设定": [900, 999]
+
 设计模式:
   index: false
   sidebar: [toc]
@@ -37,6 +84,7 @@
     "issue-term": "Q & A"
 
 HTML:
+  index: false
   sidebar: [toc]
   name: HTML基础
   title: HTML基础
@@ -51,6 +99,7 @@ HTML:
     large: 240px
 
 CSS:
+  index: false
   sidebar: [toc]
   name: CSS基础
   title: CSS基础
@@ -65,6 +114,7 @@ CSS:
     large: 240px
 
 JavaScript:
+  index: false
   sidebar: [toc]
   name: JavaScript基础
   title: JavaScript基础
@@ -79,6 +129,7 @@ JavaScript:
     large: 240px
 
 TypeScript:
+  index: true
   sidebar: [toc]
   name: TypeScript基础
   title: TypeScript基础
@@ -93,6 +144,7 @@ TypeScript:
     large: 240px
 
 Vue3:
+  index: false
   sidebar: [toc]
   name: Vue3基础
   title: Vue3基础
@@ -107,6 +159,7 @@ Vue3:
     large: 240px
 
 Nuxt:
+  index: false
   sidebar: [toc]
   name: Nuxt3使用概览
   title: Nuxt3使用概览
@@ -121,7 +174,7 @@ Nuxt:
     large: 240px
 
 React:
-  # index: false
+  index: false
   sidebar: [toc]
   name: React基础
   title: React基础

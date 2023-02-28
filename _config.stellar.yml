@@ -20,16 +20,9 @@ sidebar:
   menu:
     post: "[btn.blog](/)"
     wiki: "[专栏](/wiki/)"
-    notes: "[导航](/notes/)"
+    # notes: "[导航](/notes/)"
     more: "[社交](/about/)"
     # others: "[其他](/more/)"
-
-# article
-# article:
-#   # 文章许可协议
-#   license: '本文采用 [署名 - 非商业性使用 - 相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
-#   # 分享
-#   share: [email, link]
 
 search:
   service: local_search # local_search, todo...
