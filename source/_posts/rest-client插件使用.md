@@ -44,7 +44,7 @@ GET {{uri}}/posts
 
 ###
 POST {{uri}}/posts
-Content-Type: application/json;charset=UTF-8;
+Content-Type: application/json;charset=UTF-8
 
 {
   "title": "foo",
@@ -54,7 +54,7 @@ Content-Type: application/json;charset=UTF-8;
 
 ###
 PUT {{uri}}/posts/1
-Content-Type: application/json;charset=UTF-8;
+Content-Type: application/json;charset=UTF-8
 
 {
   "id": 1,
@@ -65,7 +65,7 @@ Content-Type: application/json;charset=UTF-8;
 
 ###
 PATCH {{uri}}/posts/1
-Content-Type: application/json;charset=UTF-8;
+Content-Type: application/json;charset=UTF-8
 
 {
   "title": "foo",
