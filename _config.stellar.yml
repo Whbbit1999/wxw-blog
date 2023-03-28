@@ -32,9 +32,8 @@ search:
     content: true # 是否搜索内容
     codeblock: false # 是否搜索代码块（需要content: true)
 
-# 开启图片点击放大功能
+# 开启图片点击放大功能 {% image %}
 tag_plugins:
-  # {% image %}
   image:
     fancybox: true
 
