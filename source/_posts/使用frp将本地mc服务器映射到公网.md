@@ -44,6 +44,12 @@ tar -zxvf frp_0.48.0_linux_amd64.tar.gz
 cp -r frp_0.48.0_linux_amd64 frp
 ```
 
+### 安装 screen
+
+```bash
+sudo apt install screen
+```
+
 ## 服务端操作（公网云服务）
 
 进入 frp 目录并编辑 frps.ini 文件
@@ -52,12 +58,6 @@ cp -r frp_0.48.0_linux_amd64 frp
 [common]
 bind_port = 7000
 vhost_http_port = 8080
-```
-
-安装 screen
-
-```bash
-sudo apt install screen
 ```
 
 创建 screen 并且启动 frp
@@ -114,3 +114,5 @@ sudo ./frpc -c frpc.ini
 ## 结语
 
 在做完上面的操作后，就可以使用公网 ip 来链接 mc 服务器了。如果你有域名，也可以使用使用域名解析到对应的 ip。
+
+叫上你的伙伴一起来玩吧！！！
