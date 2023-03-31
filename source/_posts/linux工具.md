@@ -26,4 +26,4 @@ sudo apt install htop
 
 效果：
 
-<!-- ![htop](/assets/posts/htop.png) -->
+![htop](/assets/posts/htop.png)
