@@ -13,6 +13,12 @@ ad:
   content: |
     [![sable-admin-ad.jpg](/assets/sable-admin-ad.jpg)](https://github.com/Whbbit1999/sable)
 
+support:
+  layout: markdown
+  title: 赞助小站
+  content: |
+    ![微信](/assets/wepay.jpeg)
+
 toc:
   layout: toc
   list_number: false # 是否显示序号

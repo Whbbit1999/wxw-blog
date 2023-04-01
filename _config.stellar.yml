@@ -3,20 +3,20 @@ sidebar:
   widgets:
     #### 自动生成的页面 ####
     # 主页
-    home: search, welcome, recent, ad, tagcloud, timeline # for home
+    home: search, welcome, recent, ad,support, tagcloud, timeline # for home
     # 博客索引页
-    blog_index: search_blog, recent, ad, timeline # for categories/tags/archives
+    blog_index: search_blog, recent, ad,support, timeline # for categories/tags/archives
     # 文档索引页
-    wiki_index: search_docs, recent, ad, timeline # for wiki
+    wiki_index: search_docs, recent, ad,support, timeline # for wiki
     # 其它（404）
     others: search, welcome, recent, timeline # for 404 and ...
     #### 手动创建的页面 ####
     # 文章内页
-    post: toc, ghrepo, search, ghissues, ad # for pages using 'layout:post'
+    post: toc, ghrepo, search, ghissues, ad,support # for pages using 'layout:post'
     # 文档内页
-    wiki: search, ghrepo, toc, ad, ghissues, related # for pages using 'layout:wiki'
+    wiki: search, ghrepo, toc, ad,support, ghissues, related # for pages using 'layout:wiki'
     # 其它 layout:page 的页面
-    page: welcome, toc, ad # for custom pages using 'layout:page'
+    page: welcome, toc, ad,support # for custom pages using 'layout:page'
   menu:
     post: "[btn.blog](/)"
     wiki: "[专栏](/wiki/)"
