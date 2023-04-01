@@ -3,14 +3,14 @@ title: pinia使用
 tags: [pinia]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  # topic: 标题上方的小字
+  # headline: 大标题
+  # caption: 标题下方的小字
+  # color: 标题颜色
 date: 2022-12-04 15:42:19
 description:
-cover:
-banner:
+cover: /assets/posts/pinia使用.jpg
+banner: /assets/posts/pinia使用.jpg
 ---
 
 pinia 简易入门指南

@@ -2,15 +2,15 @@
 title: uniapp中使用pinia
 tags: [uniapp, 小程序, pinia]
 categories: [代码人生, 前端技术]
-poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+# poster:
+#   topic: 标题上方的小字
+#   headline: 大标题
+#   caption: 标题下方的小字
+#   color: 标题颜色
 date: 2022-12-04 15:34:35
 description:
-cover:
-banner:
+cover: /assets/posts/pinia&uniapp.jpg
+banner: /assets/posts/pinia&uniapp.jpg
 ---
 
 ## 在小程序中使用 pinia
