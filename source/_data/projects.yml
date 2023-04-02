@@ -46,7 +46,7 @@ sable:
   order: 0
   title: Sable Admin 中后台脚手架文档
   subtitle: "Sable Admin 中后台脚手架文档 | Create By Whbbit1999"
-  description: 使用Vue3 + Pinia + typescript + tailwindcss 开发，集成了一些常用的自定义组件。
+  description: 使用Vue3 + Pinia + typescript + tailwindcss + Naive UI 开发，集成了一些常用的自定义组件。
   tags: Vue
   logo:
     src: /assets/wiki/sable/logo.svg
