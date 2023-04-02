@@ -42,7 +42,7 @@ sites:
 sable:
   index: true
   name: Sable Admin 文档
-  sidebar: [toc, search, repo]
+  sidebar: search, ghrepo, toc, support
   order: 0
   title: Sable Admin 中后台脚手架文档
   subtitle: "Sable Admin 中后台脚手架文档 | Create By Whbbit1999"
@@ -55,9 +55,14 @@ sable:
   cover: true
   repo: Whbbit1999/sable
   comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/Whbbit1999/sable/issues) 反馈。"
-  beaudar:
-    repo: Whbbit1999/sable
-    "issue-term": "Q & A"
+  # comments:
+  #   giscus:
+  #     data-repo: Whbbit1999/sable
+  #     data-mapping: number
+  #     data-term: 226
+  # beaudar:
+  #   repo: Whbbit1999/sable
+  #   "issue-term": "Q & A"
   sections:
     "快速开始": [0, 99]
     "基本使用": [100, 199]
