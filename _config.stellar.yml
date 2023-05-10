@@ -143,7 +143,8 @@ comments:
     data-loading: lazy
     crossorigin: anonymous
 
-CodeBlock:
-  show_copy: true
-  default_text: "copy"
-  success_text: "copied"
+copycode:
+  enable: true
+  js: /js/plugins/copycode.js
+  default_text: "Copy"
+  success_text: "Copied"
