@@ -142,3 +142,8 @@ comments:
     data-lang: zh-CN
     data-loading: lazy
     crossorigin: anonymous
+
+CodeBlock:
+  show_copy: true
+  default_text: "copy"
+  success_text: "copied"
