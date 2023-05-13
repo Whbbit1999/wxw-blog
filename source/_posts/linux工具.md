@@ -3,10 +3,10 @@ title: linux工具
 tags: []
 categories: [代码人生, Linux/运维]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  # topic: 标题上方的小字
+  # headline: 大标题
+  # caption: 标题下方的小字
+  # color: 标题颜色
 references:
   - title: ""
     url: ""
