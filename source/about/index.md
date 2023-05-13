@@ -5,7 +5,7 @@ sidebar: [ghuser]
 
 {% about avatar:/assets/whbbit.jpg height:120px %}
 
-{% navbar active:1 [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/)%}
+{% navbar active:1 [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline/)%}
 
 {% endabout %}
 
