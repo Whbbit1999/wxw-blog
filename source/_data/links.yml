@@ -123,7 +123,7 @@
     url: https://d.design/
     screenshot: /assets/sites/default-cover.svg
     avatar: /assets/sites/default-logo.svg
-    description: 
+    description:
 
 "颜色相关":
   - title: 中国传统色
@@ -410,6 +410,11 @@
     screenshot: /assets/sites/www.jsont.run.png
     avatar: /assets/sites/www.jsont.run.png
     description: 在线JSON验证和编辑
+  - title: electron-vite
+    url: https://cn.electron-vite.org/
+    screenshot:
+    avatar:
+    description:
   # - title:  Markdown Here
   #   url:  Markdown Here
   #   screenshot:
