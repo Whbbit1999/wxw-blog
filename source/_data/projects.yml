@@ -113,3 +113,41 @@ notes:
     "设计学习笔记": [1000, 1999]
     "玄学趣闻": [8000, 8999]
     "其他学习笔记": [9000, 9999]
+# clientNotes:
+#   index: true
+#   name: 客户端，小程序学习笔记
+#   sidebar: search, ghrepo, toc, support
+#   order: 200
+#   title: 客户端、小程序学习笔记
+#   subtitle: "学习笔记 | 实践出真知"
+#   description: 客户端学习笔记，包括uni-app、Flutter、ReactNative、Electron等
+#   tags: [客户端, 小程序]
+#   logo:
+#     src: /assets/wiki/clientNotes/logo.svg
+#     small: 112px
+#     large: 240px
+#   cover: true
+#   sections:
+#     "uni-app": [0, 999]
+#     "Electron": [1000, 1999]
+#     "ReactNative": [2000, 2999]
+#     "Flutter": [3000, 3999]
+
+# backendNotes:
+#   index: true
+#   name: 服务端学习笔记
+#   sidebar: search, ghrepo, toc, support
+#   order: 200
+#   title: 服务端学习笔记
+#   subtitle: "学习笔记 | 实践出真知"
+#   description: 服务端学习笔记，包括Nodejs、Go、Rust等
+#   tags: [服务端]
+#   logo:
+#     src: /assets/wiki/clientNotes/logo.svg
+#     small: 112px
+#     large: 240px
+#   cover: true
+#   sections:
+#     "Go": [0, 999]
+#     "Rust": [1000, 1999]
+#     "Nodejs": [2000, 2999]
