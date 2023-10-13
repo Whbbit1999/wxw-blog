@@ -96,11 +96,7 @@ makeRequest();
 
 我们使用 [response.ok](https://developer.mozilla.org/en-US/docs/Web/API/Response/ok) 属性来检查服务器是否以 `200-299` 范围内的状态响应。
 
-:::info
-
-如果服务器的 HTTP 响应成功（200-299），`response.ok` 属性的值将为 `true`，否则，它的值将为 `false`。
-
-:::
+{% note 说明 如果服务器的 HTTP 响应成功（200-299），`response.ok` 属性的值将为 `true`，否则，它的值将为 `false`。 %}
 
 Fetch 本身不会拒绝 HTTP 请求的 Promise 响应，因此我们必须检查 ok 属性是否设置为 false。
 
