@@ -1,27 +1,8 @@
-数据结构:
-  index: false
-  name: 数据结构
-  sidebar: [toc]
-  title: js数据结构概览
-  subtitle: "每个人的独立博客 | Designed by xaoxuu"
-  tags: 基础知识
-  cover: false
-  # logo:
-  #   src: /assets/wiki/stellar/icon.svg
-  #   small: 112px
-  #   large: 240px
-  description: Stellar 是一个内置 wiki 系统的 hexo 主题，适合综合型站点使用。同时也拥有简约而精美的视觉设计和丰富的标签插件，帮助您简单从容地应对各种场合。
-  repo: xaoxuu/hexo-theme-stellar
-  comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。"
-  beaudar:
-    repo: xaoxuu/hexo-theme-stellar
-    "issue-term": "Q & A"
-
 sites:
   index: true
   name: 网站收藏
   sidebar: [toc, search]
-  order: 0
+  order: 100
   title: 一些好用的网站
   subtitle: "一些好用的网站收藏 | Create By Whbbit1999"
   tags: 其他
@@ -31,19 +12,13 @@ sites:
     large: 240px
   cover: false
   description: 这里会有一些我常用的一些网站
-  comment_title:
-    "欢迎大家一起来分享一些好用的网站"
-    # repo: xaoxuu/hexo-theme-stellar
-    # comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。"
-    # beaudar:
-    #   repo: xaoxuu/hexo-theme-stellar
-    #   "issue-term": "Q & A"
+  comment_title: "欢迎大家一起来分享一些好用的网站"
 
 sable:
   index: true
   name: Sable Admin 文档
   sidebar: search, ghrepo, toc, support
-  order: 0
+  order: 261
   title: Sable Admin 中后台脚手架文档
   subtitle: "Sable Admin 中后台脚手架文档 | Create By Whbbit1999"
   description: 使用Vue3 + Pinia + typescript + unocss + Naive UI 开发，集成了一些常用的自定义组件。
@@ -55,143 +30,10 @@ sable:
   cover: true
   repo: Whbbit1999/sable
   comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/Whbbit1999/sable/issues) 反馈。"
-  # comments:
-  #   giscus:
-  #     data-repo: Whbbit1999/sable
-  #     data-mapping: number
-  #     data-term: 226
-  # beaudar:
-  #   repo: Whbbit1999/sable
-  #   "issue-term": "Q & A"
   sections:
     "快速开始": [0, 99]
     "基本使用": [100, 199]
     "代码精简": [200, 299]
-    # "进阶设定": [900, 999]
-
-设计模式:
-  index: false
-  sidebar: [toc]
-  name: 设计模式
-  title: js设计模式概览
-  subtitle: "js设计模式概览 | 简单的设计模式"
-  tags: 基础知识
-  cover: false
-  # logo:
-  #   src: /assets/wiki/stellar/icon.svg
-  #   small: 112px
-  #   large: 240px
-  description: 本章会初步展示一些js的设计模式及简单使用场景
-  repo: xaoxuu/hexo-theme-stellar
-  comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。"
-  beaudar:
-    repo: xaoxuu/hexo-theme-stellar
-    "issue-term": "Q & A"
-
-HTML:
-  index: false
-  sidebar: [toc]
-  name: HTML基础
-  title: HTML基础
-  subtitle: "HTML | 前端三剑客之一"
-  tags: 基础知识
-  cover: true
-  order: 1
-  description: HTML基础知识
-  logo:
-    src: /assets/wiki/html/logo.svg
-    small: 112px
-    large: 240px
-
-CSS:
-  index: false
-  sidebar: [toc]
-  name: CSS基础
-  title: CSS基础
-  subtitle: "CSS | 前端三剑客之一"
-  tags: 基础知识
-  cover: true
-  order: 1
-  description: CSS基础知识
-  logo:
-    src: /assets/wiki/CSS/logo.svg
-    small: 112px
-    large: 240px
-
-JavaScript:
-  index: false
-  sidebar: [toc]
-  name: JavaScript基础
-  title: JavaScript基础
-  subtitle: "JavaScript | 前端三剑客之一"
-  tags: 基础知识
-  cover: true
-  order: 1
-  description: JavaScript基础知识
-  logo:
-    src: /assets/wiki/JavaScript/logo.svg
-    small: 112px
-    large: 240px
-
-TypeScript:
-  index: true
-  sidebar: [toc]
-  name: TypeScript基础
-  title: TypeScript基础
-  subtitle: "TypeScript | js超集，提供强大的类型系统"
-  tags: 基础知识
-  cover: true
-  order: 1
-  description: 风靡全球的js类型系统
-  logo:
-    src: /assets/wiki/TypeScript/logo.svg
-    small: 112px
-    large: 240px
-
-Vue3:
-  index: false
-  sidebar: [toc]
-  name: Vue3基础
-  title: Vue3基础
-  subtitle: "Vue3 | 最受欢迎的前端框架之一"
-  tags: ["基础知识", "Vue"]
-  cover: true
-  order: 1
-  description: 本章我们会讲解Vue3的基础使用
-  logo:
-    src: /assets/wiki/Vue/logo.svg
-    small: 112px
-    large: 240px
-
-Nuxt:
-  index: false
-  sidebar: [toc]
-  name: Nuxt3使用概览
-  title: Nuxt3使用概览
-  subtitle: "Nuxt3 | Vue3 SEO 解决方案"
-  tags: ["基础知识", "Vue"]
-  cover: true
-  order: 2
-  description: 本章我们会使用Nuxt3来搭建一个网站来练习Nuxt3的使用
-  logo:
-    src: /assets/wiki/Nuxt/logo.svg
-    small: 112px
-    large: 240px
-
-React:
-  index: false
-  sidebar: [toc]
-  name: React基础
-  title: React基础
-  subtitle: "React | 最受欢迎的前端框架之一"
-  tags: ["基础知识", "React"]
-  cover: true
-  order: 3
-  description: 本章我们会讲解React的基础使用
-  logo:
-    src: /assets/wiki/React/logo.svg
-    small: 112px
-    large: 240px
 
 vscode:
   sidebar: [toc]
@@ -200,7 +42,7 @@ vscode:
   subtitle: "vscode | 轻量/快捷文本编辑器"
   tags: 开发工具
   cover: true
-  order: 4
+  order: 300
   description: 让你的vscode变得更加好用
   logo:
     src: /assets/wiki/vscode/logo.svg
@@ -211,7 +53,7 @@ vscode:
   index: true
   name: 技术视频逐字稿
   sidebar: search, ghrepo, toc, support
-  order: 1000
+  order: 310
   title: 技术视频逐字稿
   subtitle: "技术视频逐字稿 | Create By Whbbit1999"
   description: 月空人频道技术视频逐字稿，供大家参考。
@@ -226,3 +68,48 @@ vscode:
     # "基本使用": [100, 199]
     # "代码精简": [200, 299]
     # "进阶设定": [900, 999]
+
+frontNotes:
+  index: true
+  name: 前端学习笔记
+  sidebar: search, ghrepo, toc, support
+  order: 200
+  title: 前端学习笔记
+  subtitle: "学习笔记 | 实践出真知"
+  description: 前端学习笔记，包括HTML、CSS、JavaScript、TypeScript、Vue、Nuxt、React、Vite等
+  tags: 前端
+  logo:
+    src: /assets/wiki/frontNotes/logo.svg
+    small: 112px
+    large: 240px
+  cover: true
+  sections:
+    "HTML": [0, 999]
+    "CSS": [1000, 1999]
+    "JavaScript": [2000, 2999]
+    "TypeScript": [3000, 3999]
+    "Vue": [4000, 4999]
+    "Nuxt": [5000, 5999]
+    "React": [6000, 6999]
+    "设计模式": [8000, 8999]
+    "数据结构与算法": [9000, 9999]
+
+notes:
+  index: true
+  name: 学习笔记
+  sidebar: search, ghrepo, toc, support
+  order: 330
+  title: 学习笔记
+  subtitle: "学习笔记 | 实践出真知"
+  description: 杂乱无章的笔记
+  tags: 其他
+  logo:
+    src: /assets/wiki/notes/logo.svg
+    small: 112px
+    large: 240px
+  cover: true
+  sections:
+    "编程学习笔记": [0, 999]
+    "设计学习笔记": [1000, 1999]
+    "玄学趣闻": [8000, 8999]
+    "其他学习笔记": [9000, 9999]

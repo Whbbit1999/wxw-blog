@@ -34,7 +34,7 @@
   - title: Flutter for Desktop
     url: https://flutter.dev/multi-platform/desktop
     screenshot: /assets/sites/flutter.dev.png
-    avatar: /assets/sites/flutter.dev.png
+    avatar: /assets/sites/default-logo.svg
     description:
 # TODO cover change
 "GitHub开源库":
@@ -128,7 +128,7 @@
     url: https://yesicon.app/
     screenshot: /assets/sites/default-cover.svg
     avatar: /assets/sites/default-logo.svg
-    description:
+    description: 快速查询ICON
 
 "颜色相关":
   - title: 中国传统色
@@ -153,237 +153,237 @@
     description:
   - title: 渐变色webkul
     url: https://webkul.github.io/coolhue/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: colorhunt
     url: https://colorhunt.co/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 颜色转换工具
     url: https://htmlcolorcodes.com/zh/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: colorbox色板
     url: https://colorbox.io/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 智能渐变工具
     url: https://mycolor.space/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 网页配色，可以直接预览效果
     url: https://palettemaker.com/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "电子书":
   - title: Flutter实战·第二版
     url: https://book.flutterchina.club/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Axios
     url: https://axios-http.com/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Socket.IO
     url: https://socket.io/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Rust 程序设计语言 中文版
     url: https://rustwiki.org/zh-CN/book/title-page.html
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 语义化版本
     url: https://semver.org/lang/zh-CN/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: labuladong 的算法小抄
     url: https://github.com/labuladong/fucking-algorithm
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: HTTPS的工作原理
     url: https://howhttps.works/zh/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 中医古籍
     url: http://www.mst1739.com/yidao/yuedu.php
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 编程相关书籍
     url: https://github.com/justjavac/free-programming-books-zh_CN
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 移动端开发啊
     url: https://github.com/hoosin/mobile-web-favorites
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 程序员编程技艺
     url: https://github.com/julycoding/The-Art-Of-Programming-By-July-2nd
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 腾讯前端代码编写规范
     url: http://alloyteam.github.io/CodeGuide/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 逐行剖析vuejs源码
     url: https://nlrx-wjc.github.io/Learn-Vue-Source-Code/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "学习网站":
   - title: web.dev
     url: https://web.dev/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: uiverse css案例
     url: https://uiverse.io/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "css":
   - title: CSS Loading效果
     url: https://loading.io/css/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Tailwidcss
     url: https://tailwindcss.com/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: loading
     url: https://cssloaders.github.io/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: daisyui
     url: https://daisyui.com/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "vue":
   - title: Element UI
     url: https://element.eleme.io/#/zh-CN
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Element Plus
     url: https://element-plus.org/zh-CN/#/zh-CN
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Ant Design Vue
     url: https://antdv.com/components/overview-cn
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Material Design for Bootstrap 5 & Vue 3
     url: https://mdbootstrap.com/docs/vue/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Vant
     url: https://vant-ui.github.io/vant/#/zh-CN
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Vuetify
     url: https://vuetifyjs.com/zh-Hans/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Quasar
     url: https://quasar.dev/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Naive UI
     url: https://www.naiveui.com/zh-CN/os-theme
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "react":
   - title: MUI
     url: https://mui.com/zh/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Ant Design
     url: https://ant.design/index-cn
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Arco Design
     url: https://arco.design
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "admin":
   - title: BuildAdmin
     url: https://wonderful-code.gitee.io/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: Pure Admin
     url: https://yiming_chang.gitee.io/pure-admin-doc/
-    screenshot: /assets/sites/tauri.app.png
-    avatar: /assets/sites/tauri.app.png
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: DataV vue 支持 Vue3 + Vite 的 DataV 组件库
     url: https://datav-vue3.netlify.app/
     screenshot: /assets/sites/datav-vue3.netlify.app.png
-    avatar: /assets/sites/datav-vue3.netlify.app.png
+    avatar: /assets/sites/default-logo.svg
     description:
 
 "其他工具":
   - title: npm
     url: https://www.npmjs.com/
     screenshot: /assets/sites/www.npmjs.com.png
-    avatar: /assets/sites/www.npmjs.com.png
+    avatar: /assets/sites/default-logo.svg
     description: npm
   - title: mdn
     url: https://developer.mozilla.org/zh-CN/
     screenshot: /assets/sites/developer.mozilla.org.png
-    avatar: /assets/sites/developer.mozilla.org.png
+    avatar: /assets/sites/default-logo.svg
     description: mdn
   - title: 字体下载
     url: https://www.nerdfonts.com/font-downloads
     screenshot: /assets/sites/www.nerdfonts.com.png
-    avatar: /assets/sites/www.nerdfonts.com.png
+    avatar: /assets/sites/default-logo.svg
     description: 编程字体下载网站
   - title: 百度翻译
     url: https://fanyi.baidu.com/
     screenshot: /assets/sites/fanyi.baidu.com.png
-    avatar: /assets/sites/fanyi.baidu.com.png
+    avatar: /assets/sites/default-logo.svg
     description: 百度翻译
   - title: 谷歌翻译
     url: https://translate.google.com/?hl=zh-CN&tab=TT
     screenshot: /assets/sites/translate.google.com.png
-    avatar: /assets/sites/translate.google.com.png
+    avatar: /assets/sites/default-logo.svg
     description: 谷歌翻译
   - title: Vue3项目初始模板
     url: https://github.com/antfu/vitesse-lite
@@ -393,64 +393,59 @@
   - title: vxe-table 高性能表格组件
     url: https://vxetable.cn/
     screenshot: /assets/sites/vxetable.cn.png
-    avatar: /assets/sites/vxetable.cn.png
+    avatar: /assets/sites/default-logo.svg
     description: 高性能表格，可以代替 antd-vue 的表格组建
   - title: 精灵图切图
     url: http://www.spritecow.com/
     screenshot: /assets/sites/www.spritecow.com.png
-    avatar: /assets/sites/www.spritecow.com.png
+    avatar: /assets/sites/default-logo.svg
     description: 自动精灵图切图
   - title: 在线nginx配置
     url: https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN
     screenshot: /assets/sites/www.digitalocean.com.png
-    avatar: /assets/sites/www.digitalocean.com.png
+    avatar: /assets/sites/default-logo.svg
     description: 在线nginx配置网站
   - title: Puppeteer
     url: https://pptr.dev/
     screenshot: /assets/sites/pptr.dev.png
-    avatar: /assets/sites/pptr.dev.png
+    avatar: /assets/sites/default-logo.svg
     description: 无头浏览器
   - title: jsont 在线JSON验证和编辑
     url: https://www.jsont.run/
     screenshot: /assets/sites/www.jsont.run.png
-    avatar: /assets/sites/www.jsont.run.png
+    avatar: /assets/sites/default-logo.svg
     description: 在线JSON验证和编辑
   - title: electron-vite
     url: https://cn.electron-vite.org/
     screenshot:
-    avatar:
+    avatar: /assets/sites/default-logo.svg
     description:
-  # - title:  Markdown Here
-  #   url:  Markdown Here
-  #   screenshot:
-  #   avatar:
-  #   description: markdown转html插件，可以使用于公众号文章
 
 国内镜像站:
   - title: 清华大学开源软件镜像站
     url: https://mirrors.tuna.tsinghua.edu.cn
     screenshot: https://bu.dusays.com/2021/07/04/6f214fd127e65.png
-    avatar: https://bu.dusays.com/2021/07/04/0e5faae4d59b0.png
+    avatar: /assets/sites/default-logo.svg
     description:
   - title: 阿里云官方镜像站
     url: https://developer.aliyun.com/mirror/
     screenshot: https://bu.dusays.com/2021/07/04/3e669b4780254.png
-    avatar: https://bu.dusays.com/2021/07/04/53979dab9a153.png
+    avatar: /assets/sites/default-logo.svg
     description:
 
 Mac应用下载:
   - title: MacWk
     url: https://macwk.com/
     screenshot: https://cdn.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/macwk-screenshot.jpg
-    avatar: https://cdn.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/macwk-icon.png
+    avatar: /assets/sites/default-logo.svg
     description: 精品mac软件下载
   - title: MacBL
     url: https://www.macbl.com
     screenshot: https://cdn.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/macbl-screenshot.jpg
-    avatar: https://cdn.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/macbl-icon.png
+    avatar: /assets/sites/default-logo.svg
     description: 马可菠萝 - 分享你喜欢的MAC应用
   - title: Xclient
     url: https://xclient.info
     screenshot: https://cdn.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/xclient-screenshot.jpg
-    avatar: https://cdn.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/xclient-icon.png
+    avatar: /assets/sites/default-logo.svg
     description: 精品MAC应用分享
