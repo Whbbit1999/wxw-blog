@@ -84,7 +84,7 @@ frontNotes:
     large: 240px
   cover: true
   sections:
-    "HTML": [0, 999]
+    "HTML": [1, 999]
     "CSS": [1000, 1999]
     "JavaScript": [2000, 2999]
     "TypeScript": [3000, 3999]
@@ -109,7 +109,7 @@ notes:
     large: 240px
   cover: true
   sections:
-    "编程学习笔记": [0, 999]
+    "编程学习笔记": [1, 999]
     "设计学习笔记": [1000, 1999]
     "玄学趣闻": [8000, 8999]
     "其他学习笔记": [9000, 9999]
