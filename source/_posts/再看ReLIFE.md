@@ -1,7 +1,7 @@
 ---
 title: 再观 ReLIFE 有感
 tags: [观影体验]
-categories: [生活剪影, 垃圾话]
+categories: [生活剪影, 观后感]
 date: 2023-10-21 19:31:18
 cover: /assets/posts/Relife_Cast.webp
 banner: /assets/posts/Relife_Cast.webp
