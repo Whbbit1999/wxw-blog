@@ -18,10 +18,10 @@ order: 0
 
 主要做 JavaScript 生态的一些内容，包括：
 
-- 原生三件套：js、html、css
-- vue 生态：vue、nuxt、uniapp
-- react 生态：react、next
-- nodejs：nodejs、express、nest
+- 原生三件套：`JS`、`HTML`、`CSS`
+- vue 生态：`vue`、`nuxt`、`uniapp`
+- react 生态：`react`、`next`
+- nodejs：`nodejs`、`express`、`nest`
 - electron
 
-**主要方向是项目实战。后端使用 nodejs ，数据库使用 mongodb/mysql ，前端使用 vue/react 等进行项目复刻。**
+**主要方向是项目实战。后端使用 nodejs ，数据库使用 mongodb/mysql/pgsql ，前端使用 vue/react 等进行项目复刻。**

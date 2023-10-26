@@ -3,8 +3,6 @@ layout: wiki
 wiki: sable
 title: 快速开始
 order: 0
-beaudar:
-  "issue-term": "Sable Admin"
 ---
 
 ## 介绍

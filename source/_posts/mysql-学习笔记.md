@@ -35,3 +35,11 @@ CREATE table stu_bak SELECT * FROM stu;
 ALERT table stu_bak charset utf8;
 ALERT table stu charset gbk;
 ```
+
+## 多表关联
+
+### 一对多
+
+### 多对一
+
+### 多对多
