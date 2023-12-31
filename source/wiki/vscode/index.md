@@ -2,7 +2,6 @@
 layout: wiki
 wiki: vscode
 title: vscode基础使用指南
-order: 1
 ---
 
 {% link https://code.visualstudio.com/ desc:true %}

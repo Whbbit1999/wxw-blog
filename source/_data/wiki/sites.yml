@@ -1,0 +1,34 @@
+name: 网站收藏
+title: 一些好用的网站
+subtitle: "一些好用的网站收藏 | Collect By Whbbit1999"
+tags: 其他
+icon: /assets/sites/sites_wiki.svg
+cover: /assets/sites/sites_wiki.svg
+coverpage: true # 默认是 true
+description: 这里会有一些我常用的一些网站
+sidebar:
+  - search:
+    override: search
+    filter: /wiki/sites/
+    placeholder: 搜索...
+  - toc
+  - ad
+  - support
+path: /wiki/sites/
+share: true
+# repo: Whbbit1999/sable
+# comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/Whbbit1999/sable/issues) 反馈。"
+# comments:
+#   service: giscus
+#   giscus:
+#     data-repo: Whbbit1999/wxw-blog-comments
+#     data-mapping: number
+#     data-term: 226
+toc:
+  - index
+  - 电子书
+  - 开发相关
+  - 站长工具
+  - 自媒体
+  - mac软件
+  - 其他

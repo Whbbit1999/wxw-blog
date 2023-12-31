@@ -1,13 +1,14 @@
 ---
 menu_id: more
 sidebar: [ghuser]
+header: false
+beaudar:
+  "issue-term": "留言板"
 ---
 
-{% about avatar:/assets/whbbit.jpg height:120px %}
-
-{% navbar active:1 [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline.html)%}
-
-{% endabout %}
+{% banner bg:/assets/whbbit.jpg %}
+{% navbar active:/about/ [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline)%}
+{% endbanner %}
 
 {% quot 人生 icon:hashtag el:h2 %}
 
@@ -37,14 +38,14 @@ sidebar: [ghuser]
 
 {% quot 参与项目  el:h2 %}
 
-vue-devui {% tag Vue3 %} {% tag 组件库 %}
+vue-devui {% hashtag Vue3 %} {% hashtag 组件库 %}
 
 {% ghcard DevCloudFE/vue-devui theme:dark %}
 
-licht {% tag React %} {% tag 组件库 %}
+licht {% hashtag React %} {% hashtag 组件库 %}
 
 {% ghcard Ningstyle/mzlui-react theme:dark %}
 
-sable admin {% tag 中后台管理前端脚手架 %}
+sable admin {% hashtag 中后台管理前端脚手架 %}
 
 {% ghcard Whbbit1999/sable theme:dark %}

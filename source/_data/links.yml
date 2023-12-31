@@ -341,6 +341,11 @@
     screenshot: /assets/sites/default-cover.svg
     avatar: /assets/sites/default-logo.svg
     description:
+  - title: fluentui
+    url: https://github.com/microsoft/fluentui
+    screenshot: /assets/sites/default-cover.svg
+    avatar: /assets/sites/default-logo.svg
+    description:
 
 "admin":
   - title: BuildAdmin

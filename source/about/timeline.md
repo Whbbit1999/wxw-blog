@@ -1,6 +1,14 @@
 ---
 menu_id: more
+sidebar: [ghuser]
+header: false
+beaudar:
+  "issue-term": "留言板"
 ---
+
+{% banner bg:/assets/whbbit.jpg %}
+{% navbar active:/about/timeline [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline)%}
+{% endbanner %}
 
 {% quot 大事记 icon:hashtag el:h2 %}
 {% timeline %}

@@ -2,8 +2,9 @@
 layout: wiki
 wiki: sable
 title: 快速开始
-order: 0
 ---
+
+![](/assets/sable_cover.png)
 
 ## 介绍
 

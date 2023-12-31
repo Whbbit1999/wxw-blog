@@ -1,11 +1,16 @@
 ---
 menu_id: more
 sidebar: [ghuser]
+header: false
+beaudar:
+  "issue-term": "留言板"
 ---
 
-{% about avatar:/assets/whbbit.jpg height:120px %}
-{% navbar active:2 [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
-{% endabout %}
+{% banner bg:/assets/whbbit.jpg %}
+
+{% navbar active:/friends/ [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline.html)%}
+
+{% endbanner %}
 
 {% quot 各位大佬的博客 el:h2 %}
 
