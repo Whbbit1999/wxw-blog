@@ -14,14 +14,6 @@ sidebar:
   - toc
   - ad
   - support
-# repo: Whbbit1999/sable
-# comment_title: "评论区仅供交流，有问题请提 [issue](https://github.com/Whbbit1999/sable/issues) 反馈。"
-# comments:
-#   service: giscus
-#   giscus:
-#     data-repo: Whbbit1999/wxw-blog-comments
-#     data-mapping: number
-#     data-term: 226
 path: /wiki/sable/
 share: true
 toc:
