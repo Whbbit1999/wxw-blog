@@ -8,8 +8,6 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2023-02-05 12:27:31
 description:
 cover:
@@ -84,12 +82,12 @@ export default defineConfig({
 {% note `__dirname和process.cwd()的区别`
 
 ```js
-const { resolve } = require("path");
+const { resolve } = require("path")
 
-const dirnamePath = resolve(__dirname, "");
-console.log(dirnamePath);
-const pwdPath = resolve(process.cwd());
-console.log(pwdPath);
+const dirnamePath = resolve(__dirname, "")
+console.log(dirnamePath)
+const pwdPath = resolve(process.cwd())
+console.log(pwdPath)
 ```
 
 输出结果是：

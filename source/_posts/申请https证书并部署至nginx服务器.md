@@ -8,10 +8,8 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: 阿里云服务器 nginx 上部署 SSL 证书实现 https 访问
-    url: https://xmuli.tech/posts/70a6b02f/
-  - title: 在Nginx或Tengine服务器上安装证书
-    url: https://help.aliyun.com/document_detail/98728.htm?spm=a2c4g.11186623.0.0.22fc4af0YHDew5
+  - "[阿里云服务器 nginx 上部署 SSL 证书实现 https 访问](https://xmuli.tech/posts/70a6b02f/)"
+  - "[在Nginx或Tengine服务器上安装证书](https://help.aliyun.com/document_detail/98728.htm?spm=a2c4g.11186623.0.0.22fc4af0YHDew5)"
 date: 2022-12-15 15:01:33
 description:
 cover:

@@ -8,8 +8,7 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: gitlab-cicd-保姆式讲解从零到一搭建部署流程
-    url: https://www.bilibili.com/video/BV1YP411N7sT?p=2&vd_source=6e32730b05dc719c9f21598867bef69d
+  - "[gitlab-cicd-保姆式讲解从零到一搭建部署流程](https://www.bilibili.com/video/BV1YP411N7sT?p=2&vd_source=6e32730b05dc719c9f21598867bef69d)"
 date: 2023-03-29 18:35:11
 description:
 cover:

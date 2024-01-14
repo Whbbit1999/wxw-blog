@@ -12,18 +12,12 @@ description:
 cover:
 banner:
 references:
-  - title: "华为 APP 常见个人信息保护问题 FAQ"
-    url: "https://developer.huawei.com/consumer/cn/doc/distribution/app/FAQ-faq#h2-1628486431553-2"
-  - title: "隐私政策参考（CSDN 隐私政策）"
-    url: "https://marketing.csdn.net/p/016dc84c68432f7ced83bd6d0bc43d1d?external=true"
-  - title: uniapp Android 平台各功能模块隐私合规协议
-    url: https://ask.dcloud.net.cn/article/39484
-  - title: uni-AD App 端打包注意及 plus.ad 使用指南
-    url: https://ask.dcloud.net.cn/article/36718
-  - title: uniapp 国内应用市场上架
-    url: https://uniapp.dcloud.net.cn/tutorial/store.html#
-  - title: uniapp 示例项目
-    url: https://uniapp.dcloud.net.cn/case.html#%E5%AE%98%E6%96%B9%E7%A4%BA%E4%BE%8B
+  - '["华为 APP 常见个人信息保护问题 FAQ"](https://developer.huawei.com/consumer/cn/doc/distribution/app/FAQ-faq#h2-1628486431553-2)'
+  - '["隐私政策参考（CSDN 隐私政策）"](https://marketing.csdn.net/p/016dc84c68432f7ced83bd6d0bc43d1d?external=true)'
+  - "[uniapp Android 平台各功能模块隐私合规协议](https://ask.dcloud.net.cn/article/39484)"
+  - "[uni-AD App 端打包注意及 plus.ad 使用指南](https://ask.dcloud.net.cn/article/36718)"
+  - "[uniapp 国内应用市场上架](https://uniapp.dcloud.net.cn/tutorial/store.html#)"
+  - "[uniapp 示例项目](https://uniapp.dcloud.net.cn/case.html#%E5%AE%98%E6%96%B9%E7%A4%BA%E4%BE%8B)"
 ---
 
 ## 隐私政策部分

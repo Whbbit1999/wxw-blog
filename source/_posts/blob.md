@@ -9,12 +9,9 @@ poster:
   color: 标题颜色
 date: 2022-12-04 16:12:29
 references:
-  - title: Blob
-    url: https://developer.mozilla.org/zh-CN/docs/Web/API/Blob
-  - title: MIME 类型
-    url: https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types
-  - title: Blob 和 Base64 互相转换
-    url: https://www.cnblogs.com/dcb3688/p/4608062.html
+  - "[Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)"
+  - "[MIME 类型](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types)"
+  - "[Blob 和 Base64 互相转换](https://www.cnblogs.com/dcb3688/p/4608062.html)"
 description:
 cover:
 banner:
@@ -113,14 +110,14 @@ banner:
 export function dowloadBlobFile(blobData, blobType, fileName, ...attr) {
   const blob = new Blob([blobData], {
     type: blobType || "application/vnd.ms-excel",
-  });
-  const objectUrl = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.style.display = "none";
-  link.href = objectUrl;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  })
+  const objectUrl = URL.createObjectURL(blob)
+  const link = document.createElement("a")
+  link.style.display = "none"
+  link.href = objectUrl
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
 }
 ```
 
@@ -128,13 +125,13 @@ export function dowloadBlobFile(blobData, blobType, fileName, ...attr) {
 
 ```js
 export function dowloadFile(url) {
-  const link = document.createElement("a");
-  link.style.display = "none";
-  link.href = url;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  link.remove();
+  const link = document.createElement("a")
+  link.style.display = "none"
+  link.href = url
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+  link.remove()
 }
 ```
 
@@ -143,23 +140,23 @@ export function dowloadFile(url) {
 ```js
 // base64  to blob二进制
 function dataURItoBlob(dataURI) {
-  const mimeString = dataURI.split(",")[0].split(":")[1].split(";")[0]; // mime类型
-  const byteString = atob(dataURI.split(",")[1]); //base64 解码
-  const arrayBuffer = new ArrayBuffer(byteString.length); //创建缓冲数组
-  const intArray = new Uint8Array(arrayBuffer); //创建视图
+  const mimeString = dataURI.split(",")[0].split(":")[1].split(";")[0] // mime类型
+  const byteString = atob(dataURI.split(",")[1]) //base64 解码
+  const arrayBuffer = new ArrayBuffer(byteString.length) //创建缓冲数组
+  const intArray = new Uint8Array(arrayBuffer) //创建视图
 
   for (let i = 0; i < byteString.length; i++) {
-    intArray[i] = byteString.charCodeAt(i);
+    intArray[i] = byteString.charCodeAt(i)
   }
-  return new Blob([intArray], { type: mimeString });
+  return new Blob([intArray], { type: mimeString })
 }
 
 // blob二进制 to base64
 function blobToDataURI(blob, callback) {
-  const reader = new FileReader();
+  const reader = new FileReader()
   reader.onload = function (e) {
-    callback(e.target.result);
-  };
-  reader.readAsDataURL(blob);
+    callback(e.target.result)
+  }
+  reader.readAsDataURL(blob)
 }
 ```

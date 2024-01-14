@@ -8,8 +8,6 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2022-12-12 15:23:45
 description:
 cover:
@@ -89,7 +87,7 @@ pnpm add -D @types/bcryptjs
 使用 bcrypt 加密密码
 
 ```ts
-import { hashSync } from "bcryptjs";
+import { hashSync } from "bcryptjs"
 // hasnSync(要散列的值，加密等级)
 // val ? hashSync(val) : val;
 
@@ -139,75 +137,71 @@ pnpm add -D @types/passport @types/passport-local @types/passport-jwt
 > 进行登录时的校验并颁发 token
 
 ```ts local.strategy.ts
-import { Strategy, IStrategyOptions } from "passport-local";
-import { PassportStrategy } from "@nestjs/passport";
-import { compareSync } from "bcryptjs";
+import { Strategy, IStrategyOptions } from "passport-local"
+import { PassportStrategy } from "@nestjs/passport"
+import { compareSync } from "bcryptjs"
 
 export class LocalStrategy extends PassportStrategy(Strategy, "local") {
   //local为策略的名称，默认为passport-local ,-后面的local。可以自定义名称，自定义名称后，使用AuthGuard需要指定对应的名称
-  constructor(
-    @InjectModel(User) private userModel: ReturnModelType<typeof User>
-  ) {
+  constructor(@InjectModel(User) private userModel: ReturnModelType<typeof User>) {
     super({
       usernameField: "username",
       passwordField: "password",
-    } as IStrategyOptions);
+    } as IStrategyOptions)
   }
 
   // 策略执行
   async validate(username: string, password: string) {
-    const user = await this.userModel.findOne({ username }).select("password");
+    const user = await this.userModel.findOne({ username }).select("password")
 
     // 用户不存在
     if (!user) {
-      throw new BadRequestException("用户名不正确");
+      throw new BadRequestException("用户名不正确")
     }
     // 密码不存在
     if (!compareSync(password, user.password)) {
-      throw new BadRequestException("密码错误");
+      throw new BadRequestException("密码错误")
     }
 
-    return user;
+    return user
   }
 }
 ```
 
 ```ts jwt.strategy.ts
-import { Strategy, StrategyOptions, ExtractJwt } from "passport-jwt";
-import { PassportStrategy } from "@nestjs/passport";
-import { compareSync } from "bcryptjs";
+import { Strategy, StrategyOptions, ExtractJwt } from "passport-jwt"
+import { PassportStrategy } from "@nestjs/passport"
+import { compareSync } from "bcryptjs"
 
 export class LocalStrategy extends PassportStrategy(Strategy, "jwt") {
   //jwt为策略的名称，默认为passport-jwt ,-后面的jwt。可以自定义名称，自定义名称后，使用AuthGuard需要指定对应的名称
-  constructor(
-    @InjectModel(User) private userModel: ReturnModelType<typeof User>
-  ) {
+  constructor(@InjectModel(User) private userModel: ReturnModelType<typeof User>) {
     super({
       jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
       secretOrKey: process.env.SECRET,
-    } as StrategyOptions);
+    } as StrategyOptions)
   }
 
   // 策略执行
   async validate(id) {
-    return await this.userModel.findById(id);
+    return await this.userModel.findById(id)
   }
 }
 ```
 
 ```ts login.dto.ts
 export class LoginDto {
-  username: string;
-  password: string;
+  username: string
+  password: string
 }
 ```
 
 ```ts auth.module.ts
-import { Module } from "@nestjs/common";
-import { AuthController } from "./auth.controller";
-import { PassportModule } from "@nestjs/passport";
-import { LocalStrategy } from "./local.strategy";
-import { JwtStrategy } from "./jwt.strategy";
+import { Module } from "@nestjs/common"
+import { AuthController } from "./auth.controller"
+import { PassportModule } from "@nestjs/passport"
+import { LocalStrategy } from "./local.strategy"
+import { JwtStrategy } from "./jwt.strategy"
 
 @Module({
   imports: [PassportModule],
@@ -218,10 +212,10 @@ export class AuthModule {}
 ```
 
 ```ts auth.controller.ts
-import { Post, UseGuards } from "@nestjs/common";
-import { AuthGuard } from "@nestjs/passport";
-import { LoginDto } from "./login.dto.ts";
-import { JwtService } from "/jwt.module";
+import { Post, UseGuards } from "@nestjs/common"
+import { AuthGuard } from "@nestjs/passport"
+import { LoginDto } from "./login.dto.ts"
+import { JwtService } from "/jwt.module"
 export class AuthController {
   constructor(private jwtService: JwtService) {}
   @Post("login")
@@ -229,13 +223,13 @@ export class AuthController {
   async login(@Body() dto: LoginDto, @Req() req) {
     return {
       token: this.jwtService.sign(String(req.user._id)),
-    };
+    }
   }
 
   @Post("user")
   @UseGuards(AuthGuard("jwt"))
   async user(@Req() req) {
-    return req.user;
+    return req.user
   }
 }
 ```

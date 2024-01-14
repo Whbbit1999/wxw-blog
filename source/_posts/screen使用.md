@@ -8,8 +8,6 @@ poster:
   # caption: 标题下方的小字
   # color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2023-03-31 19:44:20
 description:
 cover:
@@ -36,7 +34,8 @@ screen -list
 screen -ls
 ```
 
-{%image /assets/posts/screen.png%}
+![](/assets/posts/screen.png)
+
 恢复 screen 会话
 
 ```bash

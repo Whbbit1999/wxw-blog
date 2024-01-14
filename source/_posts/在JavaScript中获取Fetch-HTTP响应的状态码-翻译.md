@@ -3,8 +3,7 @@ title: 🔗 在JavaScript中获取Fetch HTTP响应的状态码(翻译)
 tags: [Fetch, JavaScript]
 categories: [代码人生, 文章翻译]
 references:
-  - title: "原文 Get the Status Code of a Fetch HTTP Response in JavaScript"
-    url: "https://bobbyhadz.com/blog/javascript-get-response-status-code-fetch"
+  - "[原文 Get the Status Code of a Fetch HTTP Response in JavaScript](https://bobbyhadz.com/blog/javascript-get-response-status-code-fetch)"
 date: 2023-10-13 19:47:11
 ---
 
@@ -21,16 +20,16 @@ date: 2023-10-13 19:47:11
 ```js
 async function makeRequest() {
   try {
-    const response = await fetch("https://randomuser.me/api/");
+    const response = await fetch("https://randomuser.me/api/")
 
-    console.log("response.status: ", response.status); // 👉️ 200
-    console.log(response);
+    console.log("response.status: ", response.status) // 👉️ 200
+    console.log(response)
   } catch (err) {
-    console.log(err);
+    console.log(err)
   }
 }
 
-makeRequest();
+makeRequest()
 ```
 
 ![Alt text](https://bobbyhadz.com/images/blog/javascript-get-response-status-code-fetch/get-status-code-of-fetch-http-response.webp)
@@ -47,15 +46,15 @@ makeRequest();
 function makeRequest() {
   fetch("https://randomuser.me/api/")
     .then((response) => {
-      console.log("response.status: ", response.status); // 👉️ 200
-      console.log(response);
+      console.log("response.status: ", response.status) // 👉️ 200
+      console.log(response)
     })
     .catch((err) => {
-      console.log(err);
-    });
+      console.log(err)
+    })
 }
 
-makeRequest();
+makeRequest()
 ```
 
 ![Alt text](https://bobbyhadz.com/images/blog/javascript-get-response-status-code-fetch/using-promise-then-instead-of-async-await.webp)
@@ -73,23 +72,23 @@ makeRequest();
 ```js
 async function makeRequest() {
   try {
-    const response = await fetch("https://randomuser.me/api/");
+    const response = await fetch("https://randomuser.me/api/")
 
-    console.log("status code: ", response.status); // 👉️ 200
+    console.log("status code: ", response.status) // 👉️ 200
 
     if (!response.ok) {
-      console.log(response);
-      throw new Error(`Error! status: ${response.status}`);
+      console.log(response)
+      throw new Error(`Error! status: ${response.status}`)
     }
 
-    const result = await response.json();
-    return result;
+    const result = await response.json()
+    return result
   } catch (err) {
-    console.log(err);
+    console.log(err)
   }
 }
 
-makeRequest();
+makeRequest()
 ```
 
 ![Alt text](https://bobbyhadz.com/images/blog/javascript-get-response-status-code-fetch/handling-errors-when-using-fetch.webp)

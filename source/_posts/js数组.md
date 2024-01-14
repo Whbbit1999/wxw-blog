@@ -8,8 +8,7 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: "后盾人文档库/后盾人网站"
-    url: "www.hodunren.com"
+  - "[后盾人文档库/后盾人网站](www.hodunren.com)"
 date: 2022-12-07 14:01:02
 description:
 cover:
@@ -28,9 +27,9 @@ js 数组的基础知识
 
 ```js
 // 使用构造函数创建
-let arr = new Arrary(0, 1, 2, 3);
+let arr = new Arrary(0, 1, 2, 3)
 // 字面量方式创建
-let newArr = [0, 1, 2, 3];
+let newArr = [0, 1, 2, 3]
 ```
 
 ### 获取元素
@@ -38,15 +37,15 @@ let newArr = [0, 1, 2, 3];
 根据下标获取，从 0 开始
 
 ```js
-let arr = [0, 1, 2, 3, 4];
+let arr = [0, 1, 2, 3, 4]
 // 获取第三个元素
-cosnole.log(arr[2]); // 2
+cosnole.log(arr[2]) // 2
 
 let arr1 = [
   [1, 2],
   [2, 3],
-];
-console.log(arr[0]); // [1,2]
+]
+console.log(arr[0]) // [1,2]
 ```
 
 ### 获取数组长度
@@ -54,12 +53,12 @@ console.log(arr[0]); // [1,2]
 根据 `arr.length` 获取数组长度
 
 ```js
-let arr = [0, 1, 2, 3, 4];
-console.log(arr.length); // 5
+let arr = [0, 1, 2, 3, 4]
+console.log(arr.length) // 5
 
-arr[10] = 2;
-console.log(arr.length); // 10，6-9会填充为empty
-console.log(arr[7]); // undefined
+arr[10] = 2
+console.log(arr.length) // 10，6-9会填充为empty
+console.log(arr[7]) // undefined
 ```
 
 {% quot 注意 el:h3 %}
@@ -67,16 +66,16 @@ console.log(arr[7]); // undefined
 使用构造函数创建数组时， 如果只填写一个为 number 类型的值，就会将此数组填充为对应长度的数组
 
 ```js
-let arr = new Array(10);
-console.log(arr.length); // 10
+let arr = new Array(10)
+console.log(arr.length) // 10
 ```
 
 在 es6 以后，使用 `Array.of` 可以解决此问题
 
 ```js
-let arr = Array.of(10);
-console.log(arr.length); // 1
-console.log(arr); // [10]
+let arr = Array.of(10)
+console.log(arr.length) // 1
+console.log(arr) // [10]
 ```
 
 ### 类型检测
@@ -84,11 +83,11 @@ console.log(arr); // [10]
 可以使用 `Array.isArray` 检测一个数据是否是数组
 
 ```js
-console.log(Array.isArray([])); // true
-console.log(Array.isArray("")); // false
-console.log(Array.isArray({})); // false
-console.log(Array.isArray(1)); // false
-console.log(Array.isArray(false)); // false
+console.log(Array.isArray([])) // true
+console.log(Array.isArray("")) // false
+console.log(Array.isArray({})) // false
+console.log(Array.isArray(1)) // false
+console.log(Array.isArray(false)) // false
 ```
 
 ### 转换为字符串
@@ -96,8 +95,8 @@ console.log(Array.isArray(false)); // false
 可以使用 `数组.toString` 将数组转换为字符串
 
 ```js
-console.log([].toString()); // ''
-console.log([1, 2, 3].toString()); // '1,2,3'
+console.log([].toString()) // ''
+console.log([1, 2, 3].toString()) // '1,2,3'
 ```
 
 {% note 使用
@@ -107,14 +106,14 @@ console.log([1, 2, 3].toString()); // '1,2,3'
 可以使用数组 `String(数组)` 来转换
 
 ```js
-console.log(String([1, 2, 3, 4])); // '1,2,3,4'
+console.log(String([1, 2, 3, 4])) // '1,2,3,4'
 ```
 
 可以使用`数组.join('拼接的字符')`来自定义用什么符号拼接为字符串
 
 ```js
-console.log([1, 2, 3, 4].join("-")); // '1-2-3-4'
-console.log([1, 2, 3, 4].join(",")); // '1,2,3,4'
+console.log([1, 2, 3, 4].join("-")) // '1-2-3-4'
+console.log([1, 2, 3, 4].join(",")) // '1,2,3,4'
 ```
 
 ### 其他类型数据转换为数组
@@ -122,14 +121,14 @@ console.log([1, 2, 3, 4].join(",")); // '1,2,3,4'
 字符串可以使用`字符串.split()`转换为数组
 
 ```js
-console.log("1,3,4,6".split(",")); // [1,3,4,6]
+console.log("1,3,4,6".split(",")) // [1,3,4,6]
 ```
 
 元素中有 length 属性时，可以使用 `Array.from(元素)` 转换
 
 ```js
-const string = "whbbit.cn";
-console.log(Array.from(string));
+const string = "whbbit.cn"
+console.log(Array.from(string))
 //['w', 'h', 'b', 'b', 'i', 't','.', 'c', 'n']
 ```
 
@@ -151,12 +150,12 @@ Arrar.from()有第二个参数，是对第一个元素的操作
 <div>1</div>
 <div>2</div>
 <script>
-  let divs = document.querySelectorAll("div");
+  let divs = document.querySelectorAll("div")
   // 将div元素的color设置为红色
   Array.from(divs, (item) => {
-    item.style.color = "red";
-    return item;
-  });
+    item.style.color = "red"
+    return item
+  })
 </script>
 ```
 
@@ -165,9 +164,9 @@ Arrar.from()有第二个参数，是对第一个元素的操作
 ### 数组拼接
 
 ```js
-let className = ["js", "css", "html"];
-let numbers = [1, 2, 3];
-console.log([...numbers, className]);
+let className = ["js", "css", "html"]
+let numbers = [1, 2, 3]
+console.log([...numbers, className])
 ```
 
 ### 函数传参
@@ -176,10 +175,10 @@ console.log([...numbers, className]);
 
 ```js
 function sum(...rest) {
-  return rest.reduce((s, v) => (s += v), 0);
+  return rest.reduce((s, v) => (s += v), 0)
 }
 
-sum(1, 2, 3, 4);
+sum(1, 2, 3, 4)
 ```
 
 ### dom 节点操作
@@ -188,13 +187,13 @@ sum(1, 2, 3, 4);
 <div>1</div>
 <div>2</div>
 <script>
-  let divs = document.querySelectorAll("div");
+  let divs = document.querySelectorAll("div")
   // 直接进行遍历会报错
   // divs.map(item => console.log(item)) // 报错
   // 需要转换为数组进行遍历
-  [...divs].map((item) => {
-    console.log(item);
-  });
+  ;[...divs].map((item) => {
+    console.log(item)
+  })
 </script>
 ```
 
@@ -203,36 +202,36 @@ sum(1, 2, 3, 4);
 不使用解构赋值
 
 ```js
-let arr = ["wxw", 23];
-let name = arr[0];
-let age = arr[1];
+let arr = ["wxw", 23]
+let name = arr[0]
+let age = arr[1]
 ```
 
 使用解构赋值
 
 ```js
-let [name, age] = ["wxw", 23];
+let [name, age] = ["wxw", 23]
 ```
 
 过滤某个值
 
 ```js
-let [, age] = ["wxw", 23];
+let [, age] = ["wxw", 23]
 ```
 
 结合扩展运算符
 
 ```js
-let [name, ...rest] = ["wxw", 23, "whbbit.cn"];
+let [name, ...rest] = ["wxw", 23, "whbbit.cn"]
 ```
 
 赋值默认值
 
 ```js
 function show([name, year, site = 10]) {
-  console.log(name, year, site); // 'wxw', 23, 10
+  console.log(name, year, site) // 'wxw', 23, 10
 }
-show(["wxw", 23]);
+show(["wxw", 23])
 ```
 
 ## 数组方法
@@ -240,15 +239,15 @@ show(["wxw", 23]);
 ### 数组元素添加
 
 ```js
-let arr = [0, 1];
+let arr = [0, 1]
 // 数组后追加
-arr[arr.length] = [2];
-arr[arr.length] = [3];
-arr = [...arr, 4];
-arr.push(5); // 返回值是数组长度
+arr[arr.length] = [2]
+arr[arr.length] = [3]
+arr = [...arr, 4]
+arr.push(5) // 返回值是数组长度
 // 在数组前添加
-arr.unshift(-1); // 返回值是数组长度
-arr = [-2, ...arr];
+arr.unshift(-1) // 返回值是数组长度
+arr = [-2, ...arr]
 ```
 
 ### 数组删除元素
@@ -256,30 +255,30 @@ arr = [-2, ...arr];
 使用 pop()弹出数组最后一个元素，会改变原数组
 
 ```js
-let arr = [0, 1];
-let val = arr.pop();
-console.log(val); // 1
+let arr = [0, 1]
+let val = arr.pop()
+console.log(val) // 1
 ```
 
 使用 shift() 弹出数组第一个元素，会改变原数组
 
 ```js
-let arr = [0, 1];
-let val = arr.shift();
-console.log(val); // 0
+let arr = [0, 1]
+let val = arr.shift()
+console.log(val) // 0
 ```
 
 ### 数组填充
 
 ```js
-console.log(new Array(3).fill(0)); // [0,0,0]
+console.log(new Array(3).fill(0)) // [0,0,0]
 ```
 
 在指定位置填充
 
 ```js
 // 从下标为1填充至下标为3，不包含3
-console.log([1, 2, 3, 4].fill("wxw", 1, 3));
+console.log([1, 2, 3, 4].fill("wxw", 1, 3))
 // [1, 'wxw', 'wxw', 4]
 ```
 
@@ -288,10 +287,10 @@ console.log([1, 2, 3, 4].fill("wxw", 1, 3));
 会改变原数组，返回值为受改变的元素
 
 ```js
-let arr = [0, 1, 2, 3, 4];
+let arr = [0, 1, 2, 3, 4]
 // 第一个参数从下标为几开始 第二个参数截取几位，第三个/n个参数：替换的元素
-let change = arr.slice(1, 2);
-console.log(change); // [1,2]
+let change = arr.slice(1, 2)
+console.log(change) // [1,2]
 ```
 
 ### slice
@@ -299,16 +298,16 @@ console.log(change); // [1,2]
 不会改变原数组，返回值为受改变的元素
 
 ```js
-let arr = [0, 1, 2, 3, 4];
+let arr = [0, 1, 2, 3, 4]
 // 第一个参数从下标为几开始 第二个参数到下标为几结束
-let change = arr.slice(1, 2);
-console.log(change); // [2]
+let change = arr.slice(1, 2)
+console.log(change) // [2]
 // 从0截取到末尾
-change = arr.slice();
-console.log(change); // [0,1,2,3,4]
+change = arr.slice()
+console.log(change) // [0,1,2,3,4]
 // 从1截取到末尾
-change = arr.slice(1);
-console.log(change); // [1,2,3,4]
+change = arr.slice(1)
+console.log(change) // [1,2,3,4]
 ```
 
 ### 案例：移动数组元素方法
@@ -316,16 +315,16 @@ console.log(change); // [1,2,3,4]
 ```js
 function move(array, from, to) {
   if (from < 0 || to >= array.length) {
-    console.log("参数错误");
-    return;
+    console.log("参数错误")
+    return
   }
-  const newArray = [...array];
-  let item = newArray.splice(from, 1);
-  newArray.splice(to, 0, ...item);
-  return newArray;
+  const newArray = [...array]
+  let item = newArray.splice(from, 1)
+  newArray.splice(to, 0, ...item)
+  return newArray
 }
-let array = [0, 1, 2, 3];
-console.log(move(array, 1, 3));
+let array = [0, 1, 2, 3]
+console.log(move(array, 1, 3))
 ```
 
 ### 清空数组
@@ -333,30 +332,30 @@ console.log(move(array, 1, 3));
 赋值一个新数组，内存地址更改为新数组的地址。对原有内存地址数据没有改变
 
 ```js
-let array = [0, 1, 2, 3, 4];
-let w = array;
-array = [];
-console.log(array); // []
-console.log(w); // [0, 1, 2, 3, 4]
+let array = [0, 1, 2, 3, 4]
+let w = array
+array = []
+console.log(array) // []
+console.log(w) // [0, 1, 2, 3, 4]
 ```
 
 长度设置为 0，对原有内存地址数据进行操作。其他引用该地址的数据也会清空
 
 ```js
-let array = [0, 1, 2, 3, 4];
-let w = array;
-array.length = 0;
-console.log(array); // []
-console.log(w); // []
+let array = [0, 1, 2, 3, 4]
+let w = array
+array.length = 0
+console.log(array) // []
+console.log(w) // []
 ```
 
 ```js
-let array = [0, 1, 2, 3, 4];
-array.splice(0);
+let array = [0, 1, 2, 3, 4]
+array.splice(0)
 ```
 
 ```js
-let array = [0, 1, 2, 3, 4];
+let array = [0, 1, 2, 3, 4]
 while (array.pop()) {}
 ```
 
@@ -365,16 +364,16 @@ while (array.pop()) {}
 拆分
 
 ```js
-let str = "1,2";
-let arr = str.split(",");
+let str = "1,2"
+let arr = str.split(",")
 ```
 
 合并 concat() 或 扩展运算符
 
 ```js
-let arr1 = [1, 2, 3];
-let arr2 = [4, 5, 6];
-arr1.concat(arr2);
+let arr1 = [1, 2, 3]
+let arr2 = [4, 5, 6]
+arr1.concat(arr2)
 ```
 
 复制指定元素至指定位置 copyWithin()
@@ -388,9 +387,9 @@ arr1.concat(arr2);
 从数组左侧开始查找对应元素。元素存在就返回当前元素在数组中第一次出现的位置，不存在就返回-1
 
 ```js
-let arr = [1, 2, 3, 4];
-console.log(arr.indexOf(2)); // 1
-console.log(arr.indexOf(8)); // -1
+let arr = [1, 2, 3, 4]
+console.log(arr.indexOf(2)) // 1
+console.log(arr.indexOf(8)) // -1
 ```
 
 #### lastIndexOf
@@ -398,17 +397,17 @@ console.log(arr.indexOf(8)); // -1
 从数组右侧开始查找对应的元素。元素存在就返回当前元素最后一次出现的位置，不存在就返回 -1
 
 ```js
-let arr = [1, 2, 3, 4, 3];
-console.log(arr.lastIndexOf(3)); // 4
-console.log(arr.lastIndexOf(6)); // -1
+let arr = [1, 2, 3, 4, 3]
+console.log(arr.lastIndexOf(3)) // 4
+console.log(arr.lastIndexOf(6)) // -1
 ```
 
 {% note 注意 indexOf 和 lastIndexOf会进行类型匹配 %}
 
 ```js
-let arr = [1, 2, 3, 4, "5"];
-console.log(arr.indexOf(5)); // -1
-console.log(arr.lastIndexOf(5)); // -1
+let arr = [1, 2, 3, 4, "5"]
+console.log(arr.indexOf(5)) // -1
+console.log(arr.lastIndexOf(5)) // -1
 ```
 
 {% note 注意 indexOf 和 lastIndexOf可以传递第二个参数，表示从第几个元素开始查找 %}
@@ -416,9 +415,9 @@ console.log(arr.lastIndexOf(5)); // -1
 > 返回值还是该元素在数组中出现的第一次或最后一次
 
 ```js
-let arr = [1, 2, 3, 4, 2];
-console.log(arr.indexOf(2, 1)); // 1
-console.log(arr.indexOf(3, 1)); // 4
+let arr = [1, 2, 3, 4, 2]
+console.log(arr.indexOf(2, 1)) // 1
+console.log(arr.indexOf(3, 1)) // 4
 ```
 
 ### includes
@@ -426,9 +425,9 @@ console.log(arr.indexOf(3, 1)); // 4
 查找对应的元素是否在对应的数组中，返回 boolean 类型
 
 ```js
-let arr = [1, 2, 3, 4, 5];
-console.log(arr.includes(2)); // true
-console.log(arr.includes(10)); // false
+let arr = [1, 2, 3, 4, 5]
+console.log(arr.includes(2)) // true
+console.log(arr.includes(10)) // false
 ```
 
 includes 实现原理
@@ -436,18 +435,18 @@ includes 实现原理
 ```js
 function includes(array, val) {
   for (const value of array) {
-    if (value === val) return true;
-    return false;
+    if (value === val) return true
+    return false
   }
 }
-let array = [1, 2];
-console.log(includes(array, 2)); // true
+let array = [1, 2]
+console.log(includes(array, 2)) // true
 ```
 
 ```js
-let lesson = [{ name: "html" }, { name: "js" }, { name: "css" }];
+let lesson = [{ name: "html" }, { name: "js" }, { name: "css" }]
 
-console.log(lesson.includes({ name: "html" })); // false
+console.log(lesson.includes({ name: "html" })) // false
 // 内存地址不一致导致没有找到对应的元素
 ```
 
@@ -458,17 +457,17 @@ console.log(lesson.includes({ name: "html" })); // false
 find 可以传递一个回调函数，回调函数返回值为 true 时就返回找到第一个值，回调函数返回为 false 时就返回 undefined
 
 ```js
-let arr = [1, 2, 3];
-console.log(arr.find((item) => true)); // 1
-console.log(arr.find((item) => item === 2)); // 2
-console.log(arr.find((item) => item === "2")); // undefined
-console.log(arr.find((item) => item === 200)); // undefined
+let arr = [1, 2, 3]
+console.log(arr.find((item) => true)) // 1
+console.log(arr.find((item) => item === 2)) // 2
+console.log(arr.find((item) => item === "2")) // undefined
+console.log(arr.find((item) => item === 200)) // undefined
 ```
 
 ```js
-let lesson = [{ name: "html" }, { name: "js" }, { name: "css" }];
+let lesson = [{ name: "html" }, { name: "js" }, { name: "css" }]
 
-console.log(lesson.find((item) => item.name === "html")); // {name: 'html'}
+console.log(lesson.find((item) => item.name === "html")) // {name: 'html'}
 ```
 
 #### findIndex
@@ -476,9 +475,9 @@ console.log(lesson.find((item) => item.name === "html")); // {name: 'html'}
 findIndex 可以传递一个回调函数，回调函数返回值为 true 时就返回找到第一个值所在的位置，回调函数返回为 false 时就返回 -1
 
 ```js
-let lesson = [{ name: "html" }, { name: "js" }, { name: "css" }];
+let lesson = [{ name: "html" }, { name: "js" }, { name: "css" }]
 
-console.log(lesson.findIndex((item) => item.name === "html")); // 1
+console.log(lesson.findIndex((item) => item.name === "html")) // 1
 ```
 
 #### 自定义 find
@@ -487,12 +486,12 @@ console.log(lesson.findIndex((item) => item.name === "html")); // 1
 function find(array, callback) {
   for (const value of array) {
     if (callback(value)) {
-      return value;
+      return value
     }
   }
-  return undefined;
+  return undefined
 }
-find([1, 2, 3, 4], (item) => item === 2); // 2
+find([1, 2, 3, 4], (item) => item === 2) // 2
 ```
 
 在原型链上定制 findValue 方法
@@ -500,11 +499,11 @@ find([1, 2, 3, 4], (item) => item === 2); // 2
 ```js
 Array.prototype.findValue = function (callback) {
   for (const value of this) {
-    if (callback(value)) return value;
+    if (callback(value)) return value
   }
-  return undefined;
-};
-[1, 2, 3, 4].findValue((item) => item === 2); // 2
+  return undefined
+}
+;[1, 2, 3, 4].findValue((item) => item === 2) // 2
 ```
 
 ## 排序
@@ -514,21 +513,21 @@ Array.prototype.findValue = function (callback) {
 回调函数返回值小于 0 两者位置互换，大于 0 不变
 
 ```js
-let arr = [1, 3, 2, 4, 5];
+let arr = [1, 3, 2, 4, 5]
 // 从小到大排序
-arr.sort((a, b) => a - b); // [1,2,3,4,5]
+arr.sort((a, b) => a - b) // [1,2,3,4,5]
 // 从大到小排序
-arr.sort((a, b) => b - a); // [5,4,3,2,1]
+arr.sort((a, b) => b - a) // [5,4,3,2,1]
 
 let cart = [
   { name: "html", price: 20 },
   { name: "css", price: 25 },
   { name: "js", price: 30 },
-];
+]
 //按价格从小到大排
-cart = cart.sort((a, b) => a.price - b.price);
+cart = cart.sort((a, b) => a.price - b.price)
 // 按价格从大到小排
-cart = cart.sort((a, b) => b.price - a.price);
+cart = cart.sort((a, b) => b.price - a.price)
 ```
 
 #### sort 实现
@@ -538,15 +537,15 @@ function sort(array, callback) {
   for (const n in array) {
     for (const m in array) {
       if (callback(array[n], array[m]) < 0) {
-        [array[n], array[m]] = [array[m], array[n]];
+        ;[array[n], array[m]] = [array[m], array[n]]
       }
     }
   }
-  return array;
+  return array
 }
 
-arr = sort([2, 3, 1], (a, b) => a - b);
-arr = sort([2, 3, 1], (a, b) => b - a);
+arr = sort([2, 3, 1], (a, b) => a - b)
+arr = sort([2, 3, 1], (a, b) => b - a)
 ```
 
 ## 数组循环
@@ -558,9 +557,9 @@ let lessons = [
   { name: "html", price: 20 },
   { name: "css", price: 25 },
   { name: "js", price: 30 },
-];
+]
 for (let i = 0; i < lessons.length; i++) {
-  console.log(lessons[i]);
+  console.log(lessons[i])
 }
 // { name: "html", price: 20 }
 // { name: "css", price: 25 }
@@ -576,11 +575,11 @@ let lessons = [
   { name: "html", price: 20 },
   { name: "css", price: 25 },
   { name: "js", price: 30 },
-];
+]
 for (const lesson of lessons) {
-  lesson.click = true;
+  lesson.click = true
 }
-console.log(lessons);
+console.log(lessons)
 /**
  [
   { name: "html", price: 20, click: true},
@@ -595,11 +594,11 @@ console.log(lessons);
 %}
 
 ```js
-let arr = [1, 2, 3];
+let arr = [1, 2, 3]
 for (const value of arr) {
-  value = 3;
+  value = 3
 }
-console.log(arr); // [1,2,3]
+console.log(arr) // [1,2,3]
 ```
 
 ### for ... in
@@ -611,9 +610,9 @@ let lessons = [
   { name: "html", price: 20 },
   { name: "css", price: 25 },
   { name: "js", price: 30 },
-];
+]
 for (const index in lessons) {
-  console.log(lessons[index]);
+  console.log(lessons[index])
 }
 // { name: "html", price: 20 }
 // { name: "css", price: 25 }
@@ -629,10 +628,10 @@ let lessons = [
   { name: "html", price: 20 },
   { name: "css", price: 25 },
   { name: "js", price: 30 },
-];
+]
 lessons.forEach((item, index, lessons) => {
-  console.log(item, index, lessons);
-});
+  console.log(item, index, lessons)
+})
 ```
 
 ### interator 迭代器
@@ -642,8 +641,8 @@ let lessons = [
   { name: "html", price: 20 },
   { name: "css", price: 25 },
   { name: "js", price: 30 },
-];
-console.log(lessons.keys().next());
+]
+console.log(lessons.keys().next())
 ```
 
 ### some & every
@@ -659,25 +658,25 @@ console.log(lessons.keys().next());
 返回符合条件的数据数组
 
 ```js
-let arr = [1, 2, 3];
-console.log(arr.filter((item) => item > 2)); // [3]
+let arr = [1, 2, 3]
+console.log(arr.filter((item) => item > 2)) // [3]
 ```
 
 #### filter 实现
 
 ```js
-let arr = [1, 2, 3];
+let arr = [1, 2, 3]
 function filter(array, callback) {
-  let newArray = [];
+  let newArray = []
   for (const value of array) {
     if (callback(value) === true) {
-      newArray.push(value);
+      newArray.push(value)
     }
   }
-  return newArray;
+  return newArray
 }
-const res = filter(arr, (item) => item > 2);
-console.log(res); // [3]
+const res = filter(arr, (item) => item > 2)
+console.log(res) // [3]
 ```
 
 ## map
@@ -685,9 +684,9 @@ console.log(res); // [3]
 返回一个操作后的数组
 
 ```js
-let arr = [1, 2, 3];
-let newArr = arr.map((item) => item + 2);
-console.log(newArr); // [3,4,5]
+let arr = [1, 2, 3]
+let newArr = arr.map((item) => item + 2)
+console.log(newArr) // [3,4,5]
 ```
 
 ## reduce
@@ -697,10 +696,10 @@ reduce 接收两个参数，第一个参数为一个回调函数，第二个参�
 回调函数第一个值是上一次回调函数的返回值，第一次调用时 reduce 没有传递第二个参数，就默认为数组的第一个参数，第二个参数有传值就为第二个参数传递的值
 
 ```js
-let arr = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5]
 arr.reduce((pre, value, index, array) => {
-  console.log(pre, value);
-});
+  console.log(pre, value)
+})
 /**
  1,2
  undefined, 3
@@ -708,8 +707,8 @@ arr.reduce((pre, value, index, array) => {
  undefined, 5
  */
 arr.reduce((pre, value, index, array) => {
-  console.log(pre, value);
-}, 2);
+  console.log(pre, value)
+}, 2)
 /**
  2,1
  undefined, 2
@@ -719,9 +718,9 @@ arr.reduce((pre, value, index, array) => {
  */
 
 arr.reduce((pre, value, index, array) => {
-  console.log(pre, value);
-  return 22;
-}, 2);
+  console.log(pre, value)
+  return 22
+}, 2)
 /**
  2,1
  22, 2
@@ -736,21 +735,21 @@ arr.reduce((pre, value, index, array) => {
 ```js
 function arrayCount(array, item) {
   return array.reduce((total, cur) => {
-    total += item === cur ? 1 : 0;
-    return total;
-  }, 0);
+    total += item === cur ? 1 : 0
+    return total
+  }, 0)
 }
-console.log(arrayCount([1, 2, 2, 2, 1, 1, 2], 2)); // 4
-console.log(arrayCount([1, 2, 2, 2, 1, 1, 2], 1)); // 3
+console.log(arrayCount([1, 2, 2, 2, 1, 1, 2], 2)) // 4
+console.log(arrayCount([1, 2, 2, 2, 1, 1, 2], 1)) // 3
 ```
 
 #### 案例：获取元素中的最大值
 
 ```js
 function getMaxItem(array, item) {
-  return array.reduce((pre, cur) => (pre > cur ? pre : cur));
+  return array.reduce((pre, cur) => (pre > cur ? pre : cur))
 }
-console.log(getMaxItem([1, 2, 3, 444, 555]));
+console.log(getMaxItem([1, 2, 3, 444, 555]))
 ```
 
 #### 案例：获取阅读次数最多的文章
@@ -758,8 +757,8 @@ console.log(getMaxItem([1, 2, 3, 444, 555]));
 ```js
 function max(array) {
   return array.reduce((pre, cur) => {
-    return pre.count > cur.count ? pre : cur;
-  });
+    return pre.count > cur.count ? pre : cur
+  })
 }
 
 let article = [
@@ -767,15 +766,15 @@ let article = [
   { title: "css基础", count: 200 },
   { title: "ts基础", count: 10 },
   { title: "html基础", count: 500 },
-];
-console.log(max(article));
+]
+console.log(max(article))
 ```
 
 #### 案例：所有文章阅读总数
 
 ```js
 function count(array) {
-  return array.reduce((pre, cur) => (pre += cur.count), 0);
+  return array.reduce((pre, cur) => (pre += cur.count), 0)
 }
 
 let article = [
@@ -783,8 +782,8 @@ let article = [
   { title: "css基础", count: 200 },
   { title: "ts基础", count: 10 },
   { title: "html基础", count: 500 },
-];
-console.log(count(article));
+]
+console.log(count(article))
 ```
 
 #### 案例：文章阅读总数大于 200 的文章名称
@@ -794,11 +793,11 @@ function getTitleByCount(array, count) {
   return array
     .reduce((arr, cur) => {
       if (cur.count > count) {
-        arr.push(cur);
+        arr.push(cur)
       }
-      return arr;
+      return arr
     }, [])
-    .map((item) => item.title);
+    .map((item) => item.title)
 }
 
 let article = [
@@ -806,8 +805,8 @@ let article = [
   { title: "css基础", count: 200 },
   { title: "ts基础", count: 10 },
   { title: "html基础", count: 500 },
-];
-console.log(getTitleByCount(article, 200));
+]
+console.log(getTitleByCount(article, 200))
 ```
 
 #### 案例： 数组去重
@@ -815,20 +814,20 @@ console.log(getTitleByCount(article, 200));
 使用 reduce
 
 ```js
-let arr = [1, 2, 2, 2, 3, 34, 4, 1, 1, 1, 2, 3, 4, 5];
+let arr = [1, 2, 2, 2, 3, 34, 4, 1, 1, 1, 2, 3, 4, 5]
 let result = arr.reduce((arr, cur) => {
   if (!arr.includes(cur)) {
-    arr.push(cur);
+    arr.push(cur)
   }
-  return arr;
-}, []);
-console.log(result);
+  return arr
+}, [])
+console.log(result)
 ```
 
 使用扩展运算符和 Set
 
 ```js
-let arr = [1, 2, 2, 2, 3, 34, 4, 1, 1, 1, 2, 3, 4, 5];
-let result = [...new Set([...arr])];
-console.log(result);
+let arr = [1, 2, 2, 2, 3, 34, 4, 1, 1, 1, 2, 3, 4, 5]
+let result = [...new Set([...arr])]
+console.log(result)
 ```

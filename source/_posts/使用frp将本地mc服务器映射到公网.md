@@ -8,8 +8,6 @@ poster:
   # caption: 标题下方的小字
   # color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2023-03-31 18:42:55
 description:
 cover: /assets/posts/minecraft.jpg

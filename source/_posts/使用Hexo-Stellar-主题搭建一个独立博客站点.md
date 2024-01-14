@@ -8,10 +8,8 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: "Stellar"
-    url: "https://xaoxuu.com/wiki/stellar/pages/"
-  - title: hexo
-    url: https://hexo.io/zh-cn/
+  - "[Stellar](https://xaoxuu.com/wiki/stellar/pages/)"
+  - "[hexo](https://hexo.io/zh-cn/)"
 date: 2023-01-31 00:48:42
 description:
 cover:
@@ -225,7 +223,7 @@ Notes:
 ### 注入谷歌统计和百度统计
 
 ```js
-"use strict";
+"use strict"
 
 // 百度统计和google 统计
 hexo.extend.injector.register("body_end", function () {
@@ -246,8 +244,8 @@ hexo.extend.injector.register("body_end", function () {
     gtag('js', new Date());
     gtag('config', 'G-FTR5YKFFCM');
   </script>
-  `;
-});
+  `
+})
 ```
 
 这些只是 stellar 主题的基础使用，更多进阶部分您可以访问 stellar 主题页面中的[探索号]()进行查看

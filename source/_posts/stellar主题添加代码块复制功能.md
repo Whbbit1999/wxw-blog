@@ -8,8 +8,6 @@ categories: [代码人生, 静态站点]
 #   caption:
 #   color:
 references:
-  - title: ""
-    url: ""
 date: 2023-01-31 13:07:10
 description:
 cover:
@@ -29,7 +27,7 @@ banner:
 > 创建的 `scripts` 文件夹中的文件会被 hexo 自动加载
 
 ```js /scripts/codeCopy.js
-"use strict";
+"use strict"
 
 // code block copy
 hexo.extend.injector.register("body_end", function () {
@@ -103,6 +101,6 @@ hexo.extend.injector.register("body_end", function () {
       }
     }
   </script>
-  `;
-});
+  `
+})
 ```

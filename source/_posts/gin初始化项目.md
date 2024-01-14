@@ -8,12 +8,9 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: gin
-    url: https://gin-gonic.com/zh-cn/docs/quickstart/
-	- title: ini
-		url: https://ini.unknwon.io/docs
-	- title: gorm
-		url: https://gorm.io/index.html
+  - '[gin](https://gin-gonic.com/zh-cn/docs/quickstart/)'
+	- '[ini](https://ini.unknwon.io/docs)'
+	- '[gorm](https://gorm.io/index.html)'
 date: 2022-12-04 16:02:46
 description:
 cover:

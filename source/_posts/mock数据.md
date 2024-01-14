@@ -8,12 +8,9 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: json-server
-    url: https://www.npmjs.com/package/json-server
-  - title: mockjs GitHub地址
-    url: https://github.com/nuysoft/Mock
-  - title: mockjs 示例
-    url: http://mockjs.com/examples.html
+  - "[json-server](https://www.npmjs.com/package/json-server)"
+  - "[mockjs GitHub地址](https://github.com/nuysoft/Mock)"
+  - "[mockjs 示例](http://mockjs.com/examples.html)"
 date: 2022-12-31 13:59:25
 description:
 cover:
@@ -71,16 +68,16 @@ DELETE http://localhost:3004/post/1
 
 ```js mock.js
 module.exports = () => {
-  const data = { post: [] };
+  const data = { post: [] }
   for (let i = 0; i < 20; i++) {
     data.post.push({
       id: i,
       content: `post content ${i}`,
-    });
+    })
   }
 
-  return data;
-};
+  return data
+}
 ```
 
 ```shell
@@ -106,18 +103,18 @@ npm i -D mockjs
 编写 mock.js 文件用于 json-server 模拟数据
 
 ```js mock.js
-const mockjs = require("mockjs");
-const Random = mockjs.Random;
+const mockjs = require("mockjs")
+const Random = mockjs.Random
 module.exports = () => {
-  const data = { post: [] };
+  const data = { post: [] }
   for (let i = 0; i < 5; i++) {
     data.post.push({
       id: i,
       content: Random.cword(3),
-    });
+    })
   }
-  return data;
-};
+  return data
+}
 ```
 
 启动

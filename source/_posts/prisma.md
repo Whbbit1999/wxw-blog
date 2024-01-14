@@ -7,9 +7,6 @@ poster:
   headline: 大标题
   caption: 标题下方的小字
   color: 标题颜色
-# references:
-#   - title: ""
-#     url: ""
 date: 2023-01-02 23:08:07
 description:
 cover:

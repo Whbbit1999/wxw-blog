@@ -2,14 +2,6 @@
 title: markdown基础
 tags: []
 categories: []
-# poster:
-#   topic: 标题上方的小字
-#   headline: 大标题
-#   caption: 标题下方的小字
-#   color: 标题颜色
-# references:
-#   - title: ''
-#     url: ''
 date: 2023-08-30 11:59:21
 description:
 cover:
@@ -142,14 +134,14 @@ markdown 是一种轻量级的文本标记语言，提供一系列简单的标�
 
 ````markdown
 ```javascript
-const a = 20;
+const a = 20
 ```
 ````
 
 #### 示例
 
 ```javascript
-const a = 20;
+const a = 20
 ```
 
 ## 链接和图片

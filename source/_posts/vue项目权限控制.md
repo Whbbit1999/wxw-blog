@@ -8,12 +8,9 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: vue动态路由权限控制
-    url: https://www.bilibili.com/video/BV1gR4y1f7tb/?vd_source=6e32730b05dc719c9f21598867bef69d
-  - title: addRoute
-    url: https://router.vuejs.org/zh/api/#addroute
-  - title: hasRoute
-    url: https://router.vuejs.org/zh/api/#hasroute
+  - "[vue动态路由权限控制](https://www.bilibili.com/video/BV1gR4y1f7tb/?vd_source=6e32730b05dc719c9f21598867bef69d)"
+  - "[addRoute](https://router.vuejs.org/zh/api/#addroute)"
+  - "[hasRoute](https://router.vuejs.org/zh/api/#hasroute)"
 date: 2023-01-03 22:25:15
 description:
 cover:
@@ -25,7 +22,7 @@ banner:
 <!-- more -->
 
 ```ts router/index.ts
-import { createWebHashHistory, createRouter, RouteRecordRaw } from "vue-router";
+import { createWebHashHistory, createRouter, RouteRecordRaw } from "vue-router"
 
 // 静态路由
 const routes: RouteRecordRaw[] = [
@@ -48,7 +45,7 @@ const routes: RouteRecordRaw[] = [
     meta: { label: "工作台" },
     component: () => import("../pages/disboard.vue"),
   },
-];
+]
 
 // 动态路由
 const dynamicRoutes: RouteRecordRaw[] = [
@@ -98,86 +95,73 @@ const dynamicRoutes: RouteRecordRaw[] = [
       },
     ],
   },
-];
+]
 
 // routes 扁平化处理
 const loopRoutes = (routes: RouteRecordRaw[], role: string = "") => {
-  const result: RouteRecordRaw[] = [];
-  const loopChildren = (
-    children: RouteRecordRaw[] = [],
-    parent: string = ""
-  ) => {
+  const result: RouteRecordRaw[] = []
+  const loopChildren = (children: RouteRecordRaw[] = [], parent: string = "") => {
     children.forEach((item) => {
       if (item.children) {
-        const { children, ...rest } = item;
-        if (
-          !rest.meta?.roles ||
-          (rest.meta?.roles as string[]).includes(role)
-        ) {
-          result.push(rest);
+        const { children, ...rest } = item
+        if (!rest.meta?.roles || (rest.meta?.roles as string[]).includes(role)) {
+          result.push(rest)
           if (!router.hasRoute(item.name!)) {
             if (parent) {
-              router.addRoute(parent, rest);
+              router.addRoute(parent, rest)
             } else {
-              router.addRoute(rest);
+              router.addRoute(rest)
             }
           }
         }
-        loopChildren(children, rest.name as string);
+        loopChildren(children, rest.name as string)
       } else {
         // meta信息中没有roles或者meta信息中roles包含当前登录用户的role
-        if (
-          !item.meta?.roles ||
-          (item.meta?.roles as string[]).includes(role)
-        ) {
-          result.push(item);
+        if (!item.meta?.roles || (item.meta?.roles as string[]).includes(role)) {
+          result.push(item)
           if (!router.hasRoute(item.name!)) {
             if (parent) {
               // 有父级
-              router.addRoute(parent, item);
+              router.addRoute(parent, item)
             } else {
-              router.addRoute(item);
+              router.addRoute(item)
             }
           }
         }
       }
-    });
-  };
-  loopChildren(dynamicRoutes);
-  console.log(result);
-  return [...routes, ...result].filter((item) => item.name !== "login");
-};
+    })
+  }
+  loopChildren(dynamicRoutes)
+  console.log(result)
+  return [...routes, ...result].filter((item) => item.name !== "login")
+}
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
-});
+})
 
-export default router;
+export default router
 
-export { routes, loopRoutes };
+export { routes, loopRoutes }
 ```
 
 ```html App.vue
 <script setup lang="ts">
-  import { provide, ref, watch } from "vue";
-  import router, { routes } from "./router";
-  const showRoutes = ref(routes);
-  provide("showRoutes", showRoutes);
+  import { provide, ref, watch } from "vue"
+  import router, { routes } from "./router"
+  const showRoutes = ref(routes)
+  provide("showRoutes", showRoutes)
   const logout = () => {
-    location.href = "/";
-  };
+    location.href = "/"
+  }
   watch(showRoutes, () => {
-    console.log(router.getRoutes()); // 查看当前路由列表
-  });
+    console.log(router.getRoutes()) // 查看当前路由列表
+  })
 </script>
 
 <template>
-  <router-link
-    v-for="route in showRoutes"
-    :key="route.name"
-    :to="{ name: route.name }"
-  >
+  <router-link v-for="route in showRoutes" :key="route.name" :to="{ name: route.name }">
     【{{ route.meta?.label }}】
   </router-link>
   <button @click="logout">退出登录</button>
@@ -190,13 +174,13 @@ export { routes, loopRoutes };
 
 ```html login.vue
 <script lang="ts" setup>
-  import { inject, Ref } from "vue";
-  import { loopRoutes, routes } from "../router";
+  import { inject, Ref } from "vue"
+  import { loopRoutes, routes } from "../router"
 
-  const showRoutes = inject("showRoutes") as unknown as Ref;
+  const showRoutes = inject("showRoutes") as unknown as Ref
   const login = (userType: string) => {
-    showRoutes.value = loopRoutes(routes, userType);
-  };
+    showRoutes.value = loopRoutes(routes, userType)
+  }
 </script>
 
 <template>

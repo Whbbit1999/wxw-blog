@@ -8,8 +8,6 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2023-04-07 10:47:23
 description:
 cover:

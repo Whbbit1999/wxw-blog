@@ -8,12 +8,9 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: 使用 GPG 签名你的 Git Commit
-    url: https://mogeko.me/posts/zh-cn/065/
-  - title: 生成新 GPG 密钥
-    url: https://docs.github.com/zh/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
-  - title: 阮一峰 GPG入门教程
-    url: https://www.ruanyifeng.com/blog/2013/07/gpg.html
+  - "[使用 GPG 签名你的 Git Commit](https://mogeko.me/posts/zh-cn/065/)"
+  - "[生成新 GPG 密钥](https://docs.github.com/zh/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)"
+  - "[阮一峰 GPG入门教程](https://www.ruanyifeng.com/blog/2013/07/gpg.html)"
 date: 2023-01-16 14:53:13
 description:
 cover:

@@ -2,14 +2,6 @@
 title: pm2部署Nuxt3
 tags: []
 categories: []
-poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
-references:
-  - title: ""
-    url: ""
 date: 2023-12-05 18:02:30
 description:
 cover:

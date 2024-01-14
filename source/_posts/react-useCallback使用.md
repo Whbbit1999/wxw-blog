@@ -8,8 +8,7 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: "react useCallback"
-    url: "https://beta.reactjs.org/reference/react/useCallback#usecallback"
+  - "[react useCallback](https://beta.reactjs.org/reference/react/useCallback#usecallback)"
 date: 2023-02-09 18:11:51
 description:
 cover:

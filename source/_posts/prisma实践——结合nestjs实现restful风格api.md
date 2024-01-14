@@ -8,8 +8,6 @@ categories: [代码人生, 后端技术]
 #   caption: 标题下方的小字
 #   color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2023-01-03 14:10:44
 description: prisma实现restful风格api
 cover:

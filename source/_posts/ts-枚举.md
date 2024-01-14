@@ -8,8 +8,6 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: ""
-    url: ""
 date: 2022-12-05 16:32:15
 description:
 cover:
@@ -27,8 +25,8 @@ enum SexType {
   BOY,
   GIRL,
 }
-console.log(SexType.BOY); // 0
-console.log(SexType.GIRL); // 1
+console.log(SexType.BOY) // 0
+console.log(SexType.GIRL) // 1
 ```
 
 ## 枚举编号会自动递增
@@ -38,8 +36,8 @@ enum SexType {
   BOY = 2,
   GIRL,
 }
-console.log(SexType.BOY); // 2
-console.log(SexType.GIRL); // 3
+console.log(SexType.BOY) // 2
+console.log(SexType.GIRL) // 3
 ```
 
 ## 枚举可以自定义
@@ -49,6 +47,6 @@ enum SexType {
   BOY = "男",
   GIRL = "女",
 }
-console.log(SexType.BOY); // 男
-console.log(SexType.GIRL); // 女
+console.log(SexType.BOY) // 男
+console.log(SexType.GIRL) // 女
 ```

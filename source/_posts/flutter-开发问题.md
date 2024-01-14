@@ -7,13 +7,9 @@ poster:
   headline: #大标题
   caption: #标题下方的小字
   color: #标题颜色
-# references:
-#   - title: ""
-#     url: ""
 date: 2023-04-06 20:49:38
 description:
 cover: /assets/posts/flutter抓虫记.jpg
-# banner: /assets/posts/flutter抓虫记.jpg
 ---
 
 本新手使用 flutter 时遇到的一些问题合集

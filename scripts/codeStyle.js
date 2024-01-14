@@ -1,11 +1,124 @@
-"use strict";
+"use strict"
 
 // inject font
 hexo.extend.injector.register("head_end", () => {
   return `
 
     <style>
-      pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{background:#2e3440}.hljs,.hljs-subst{color:#d8dee9}.hljs-selector-tag{color:#81a1c1}.hljs-selector-id{color:#8fbcbb;font-weight:700}.hljs-selector-attr,.hljs-selector-class{color:#8fbcbb}.hljs-property,.hljs-selector-pseudo{color:#88c0d0}.hljs-addition{background-color:rgba(163,190,140,.5)}.hljs-deletion{background-color:rgba(191,97,106,.5)}.hljs-built_in,.hljs-class,.hljs-type{color:#8fbcbb}.hljs-function,.hljs-function>.hljs-title,.hljs-title.hljs-function{color:#88c0d0}.hljs-keyword,.hljs-literal,.hljs-symbol{color:#81a1c1}.hljs-number{color:#b48ead}.hljs-regexp{color:#ebcb8b}.hljs-string{color:#a3be8c}.hljs-title{color:#8fbcbb}.hljs-params{color:#d8dee9}.hljs-bullet{color:#81a1c1}.hljs-code{color:#8fbcbb}.hljs-emphasis{font-style:italic}.hljs-formula{color:#8fbcbb}.hljs-strong{font-weight:700}.hljs-link:hover{text-decoration:underline}.hljs-comment,.hljs-quote{color:#4c566a}.hljs-doctag{color:#8fbcbb}.hljs-meta,.hljs-meta .hljs-keyword{color:#5e81ac}.hljs-meta .hljs-string{color:#a3be8c}.hljs-attr{color:#8fbcbb}.hljs-attribute{color:#d8dee9}.hljs-name{color:#81a1c1}.hljs-section{color:#88c0d0}.hljs-tag{color:#81a1c1}.hljs-template-variable,.hljs-variable{color:#d8dee9}.hljs-template-tag{color:#5e81ac}.language-abnf .hljs-attribute{color:#88c0d0}.language-abnf .hljs-symbol{color:#ebcb8b}.language-apache .hljs-attribute{color:#88c0d0}.language-apache .hljs-section{color:#81a1c1}.language-arduino .hljs-built_in{color:#88c0d0}.language-aspectj .hljs-meta{color:#d08770}.language-aspectj>.hljs-title{color:#88c0d0}.language-bnf .hljs-attribute{color:#8fbcbb}.language-clojure .hljs-name{color:#88c0d0}.language-clojure .hljs-symbol{color:#ebcb8b}.language-coq .hljs-built_in{color:#88c0d0}.language-cpp .hljs-meta .hljs-string{color:#8fbcbb}.language-css .hljs-built_in{color:#88c0d0}.language-css .hljs-keyword{color:#d08770}.language-diff .hljs-meta,.language-ebnf .hljs-attribute{color:#8fbcbb}.language-glsl .hljs-built_in{color:#88c0d0}.language-groovy .hljs-meta:not(:first-child),.language-haxe .hljs-meta,.language-java .hljs-meta{color:#d08770}.language-ldif .hljs-attribute{color:#8fbcbb}.language-lisp .hljs-name,.language-lua .hljs-built_in,.language-moonscript .hljs-built_in,.language-nginx .hljs-attribute{color:#88c0d0}.language-nginx .hljs-section{color:#5e81ac}.language-pf .hljs-built_in,.language-processing .hljs-built_in{color:#88c0d0}.language-scss .hljs-keyword,.language-stylus .hljs-keyword{color:#81a1c1}.language-swift .hljs-meta{color:#d08770}.language-vim .hljs-built_in{color:#88c0d0;font-style:italic}.language-yaml .hljs-meta{color:#d08770}
+      pre code.hljs {
+        display: block;
+        overflow-x: auto;
+        padding: 1em
+      }
+      code.hljs {
+        padding: 3px 5px
+      }
+      /*!
+        Theme: Tokyo-night-Dark
+        origin: https://github.com/enkia/tokyo-night-vscode-theme
+        Description: Original highlight.js style
+        Author: (c) Henri Vandersleyen <hvandersleyen@gmail.com>
+        License: see project LICENSE
+        Touched: 2022
+      */
+      /*  Comment */
+      .hljs-meta,
+      .hljs-comment {
+        color: #565f89
+      }
+      /* Red */
+      /*INFO: This keyword, HTML elements, Regex group symbol, CSS units, Terminal Red */
+      .hljs-tag,
+      .hljs-doctag,
+      .hljs-selector-id,
+      .hljs-selector-class,
+      .hljs-regexp,
+      .hljs-template-tag,
+      .hljs-selector-pseudo,
+      .hljs-selector-attr,
+      .hljs-variable.language_,
+      .hljs-deletion {
+        color: #f7768e
+      }
+      /*Orange */
+      /*INFO: Number and Boolean constants, Language support constants */
+      .hljs-variable,
+      .hljs-template-variable,
+      .hljs-number,
+      .hljs-literal,
+      .hljs-type,
+      .hljs-params,
+      .hljs-link {
+        color: #ff9e64
+      }
+      /*  Yellow */
+      /* INFO:  	Function parameters, Regex character sets, Terminal Yellow */
+      .hljs-built_in,
+      .hljs-attribute {
+        color: #e0af68
+      }
+      /* cyan */
+      /* INFO: Language support functions, CSS HTML elements */
+      .hljs-selector-tag {
+        color: #2ac3de
+      }
+      /* light blue */
+      /* INFO: Object properties, Regex quantifiers and flags, Markdown headings, Terminal Cyan, Markdown code, Import/export keywords */
+      .hljs-keyword,
+      .hljs-title.function_,
+      .hljs-title,
+      .hljs-title.class_,
+      .hljs-title.class_.inherited__,
+      .hljs-subst,
+      .hljs-property {
+        color: #7dcfff
+      }
+      /*Green*/
+      /* INFO: Object literal keys, Markdown links, Terminal Green */
+      .hljs-selector-tag {
+        color: #73daca
+      }
+      /*Green(er) */
+      /* INFO: Strings, CSS class names */
+      .hljs-quote,
+      .hljs-string,
+      .hljs-symbol,
+      .hljs-bullet,
+      .hljs-addition {
+        color: #9ece6a
+      }
+      /* Blue */
+      /* INFO:  	Function names, CSS property names, Terminal Blue */
+      .hljs-code,
+      .hljs-formula,
+      .hljs-section {
+        color: #7aa2f7
+      }
+      /* Magenta */
+      /*INFO: Control Keywords, Storage Types, Regex symbols and operators, HTML Attributes, Terminal Magenta */
+      .hljs-name,
+      .hljs-keyword,
+      .hljs-operator,
+      .hljs-keyword,
+      .hljs-char.escape_,
+      .hljs-attr {
+        color: #bb9af7
+      }
+      /* white*/
+      /* INFO: Variables, Class names, Terminal White */
+      .hljs-punctuation {
+        color: #c0caf5
+      }
+      .hljs {
+        background: #1a1b26;
+        color: #9aa5ce
+      }
+      .hljs-emphasis {
+        font-style: italic
+      }
+      .hljs-strong {
+        font-weight: bold
+      }
     </style>
 
     <style>
@@ -45,5 +158,5 @@ hexo.extend.injector.register("head_end", () => {
     }
     </style>
     
-  `;
-});
+  `
+})

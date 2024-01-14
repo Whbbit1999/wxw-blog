@@ -8,8 +8,7 @@ poster:
   caption: 标题下方的小字
   color: 标题颜色
 references:
-  - title: 给大家演示下log4js使用 一款node日志管理工具
-    url: https://www.bilibili.com/video/BV1DQ4y1N7Nv/?vd_source=6e32730b05dc719c9f21598867bef69d
+  - "[给大家演示下log4js使用 一款node日志管理工具](https://www.bilibili.com/video/BV1DQ4y1N7Nv/?vd_source=6e32730b05dc719c9f21598867bef69d)"
 date: 2022-12-19 14:45:33
 description:
 cover:
@@ -53,15 +52,15 @@ yarn add log4js
 #### 使用
 
 ```js main.js
-const log4js = require("log4js");
-const logger = log4js.getLogger();
+const log4js = require("log4js")
+const logger = log4js.getLogger()
 
-logger.trace("trace");
-logger.debug("debug");
-logger.info("info");
-logger.warn("warn");
-logger.error("error");
-logger.fatal("fatal");
+logger.trace("trace")
+logger.debug("debug")
+logger.info("info")
+logger.warn("warn")
+logger.error("error")
+logger.fatal("fatal")
 ```
 
 ### 控制输出的日志级别
@@ -69,17 +68,17 @@ logger.fatal("fatal");
 一下控制日志输出级别大于 debug 的输出到控制台
 
 ```js main.js
-const log4js = require("log4js");
-const logger = log4js.getLogger();
+const log4js = require("log4js")
+const logger = log4js.getLogger()
 
-log4js.level = "warn";
+log4js.level = "warn"
 
-logger.trace("trace");
-logger.debug("debug");
-logger.info("info");
-logger.warn("warn"); // 会在控制台输出
-logger.error("error"); // 输出
-logger.fatal("fatal"); // 输出
+logger.trace("trace")
+logger.debug("debug")
+logger.info("info")
+logger.warn("warn") // 会在控制台输出
+logger.error("error") // 输出
+logger.fatal("fatal") // 输出
 ```
 
 ### 控制日志输出至文件
@@ -87,7 +86,7 @@ logger.fatal("fatal"); // 输出
 以下示例表示日志文件输出为 all.log 文件中，文件根据每日日期进行分割，输出 debug 以上级别日志
 
 ```js main.js
-const log4js = require("log4js");
+const log4js = require("log4js")
 
 log4js.configure({
   appenders: {
@@ -105,15 +104,15 @@ log4js.configure({
       level: "debug", // 显示什么级别及以上日志
     },
   },
-});
+})
 
-const logger = log4js.getLogger();
-logger.trace("trace");
-logger.debug("debug");
-logger.info("info");
-logger.warn("warn");
-logger.error("error");
-logger.fatal("fatal");
+const logger = log4js.getLogger()
+logger.trace("trace")
+logger.debug("debug")
+logger.info("info")
+logger.warn("warn")
+logger.error("error")
+logger.fatal("fatal")
 ```
 
 ```log all.log
