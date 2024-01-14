@@ -120,12 +120,6 @@ style:
     button: "hsl(192 98% 55%)" # 按钮颜色
     hover: "hsl(14 100% 57%)" # 按钮高亮颜色
 
-# inject:
-#   head:
-#     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css"> # 复制弹窗
-#   script:
-#     - <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script> # 复制弹窗
-
 # comments
 comments:
   service: giscus
