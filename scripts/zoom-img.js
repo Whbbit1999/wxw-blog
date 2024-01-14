@@ -19,7 +19,7 @@ hexo.extend.injector.register("head_end", () => {
 hexo.extend.injector.register("body_end", function () {
   return `
   <script>
-    mediumZoom(".l_body img", { background: "var(--site-bg)" })
+    mediumZoom(".l_body .content p img", { background: "var(--site-bg)" })
   </script>
   `
 })
