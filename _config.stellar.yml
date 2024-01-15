@@ -20,9 +20,8 @@ sidebar:
   menu:
     post: "[btn.blog](/)"
     wiki: "[专栏](/wiki/)"
-    # notes: "[导航](/notes/)"
-    more: "[社交](/about/)"
-    # others: "[其他](/more/)"
+    friends: "[友链](/friends/)"
+    more: "[关于](/about/)"
 
 search:
   service: local_search # local_search, todo...
