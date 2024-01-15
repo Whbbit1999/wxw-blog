@@ -1,5 +1,12 @@
 # 侧边栏配置
 sidebar:
+menu:
+  post: "[btn.blog](/)"
+  wiki: "[专栏](/wiki/)"
+  friends: "[友链](/friends/)"
+  more: "[关于](/about/)"
+
+site_tree:
   widgets:
     #### 自动生成的页面 ####
     # 主页
@@ -17,11 +24,6 @@ sidebar:
     wiki: search, ghrepo, toc, ad,support, ghissues, related # for pages using 'layout:wiki'
     # 其它 layout:page 的页面
     page: welcome, toc, ad,support # for custom pages using 'layout:page'
-  menu:
-    post: "[btn.blog](/)"
-    wiki: "[专栏](/wiki/)"
-    friends: "[友链](/friends/)"
-    more: "[关于](/about/)"
 
 search:
   service: local_search # local_search, todo...
