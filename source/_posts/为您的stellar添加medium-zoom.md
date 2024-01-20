@@ -3,19 +3,19 @@ title: 为您的stellar添加medium-zoom
 tags: []
 categories: []
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  # topic: 标题上方的小字
+  headline: ""
+  # caption: 标题下方的小字
+  # color: 标题颜色
 references:
-  - "[]()"
+  - "[medium-zoom](https://github.com/francoischalifour/medium-zoom)"
 date: 2024-01-14 14:41:05
 description:
-cover:
+cover: /assets/posts/medium-zoom.png
 banner:
 ---
 
-为您的文档添加图片预览功能而不适用 Stellar 提供的`{%image src%}`组件
+<!-- 为您的文档添加图片预览功能而不适用 Stellar 提供的`{%image src%}`组件 -->
 
 <!-- more -->
 

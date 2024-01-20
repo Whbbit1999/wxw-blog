@@ -6,9 +6,14 @@ beaudar:
   "issue-term": "留言板"
 ---
 
+{% banner WxW 无名小卒，为生活奔波 avatar:/assets/codelogo-fill.png bg:/assets/about-cover-bg.jpg %}
+{% navbar active:/about/ [个人介绍](/about/) [赞助列表](/about/sponsor) [大事记](/about/timeline) [留言](#comments)%}
+{% endbanner %}
+
+<!--
 {% banner bg:/assets/whbbit.jpg %}
 {% navbar active:/about/ [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline)%}
-{% endbanner %}
+{% endbanner %} -->
 
 {% quot 人生 icon:hashtag el:h2 %}
 

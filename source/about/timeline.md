@@ -6,12 +6,20 @@ beaudar:
   "issue-term": "留言板"
 ---
 
-{% banner bg:/assets/whbbit.jpg %}
-{% navbar active:/about/timeline [个人介绍](/about/) [友链](/friends/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) [赞助列表](/support/) [大事记](/about/timeline)%}
+{% banner 大事记 bg:/assets/more/life.jpg %}
 {% endbanner %}
 
-{% quot 大事记 icon:hashtag el:h2 %}
 {% timeline %}
+
+<!-- node 2023 年 10 月 -->
+
+重返北京，生活还需继续
+
+<!-- node 2023 年 7 月 -->
+
+来大理了，出来逛逛。话说大理是真不错啊！
+
+找到一份远程的工作，感觉还不错哦！
 
 <!-- node 2023 年 5 月 -->
 

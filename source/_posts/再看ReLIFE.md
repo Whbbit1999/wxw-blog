@@ -2,6 +2,10 @@
 title: 再观 ReLIFE 有感
 tags: [观影体验]
 categories: [生活剪影, 观后感]
+poster:
+  headline: "再观 ReLIFE 有感"
+  caption: "如果你有能力回到过去，你会如何重来一次？"
+  color: black
 date: 2023-10-21 19:31:18
 cover: /assets/posts/Relife_Cast.webp
 banner: /assets/posts/Relife_Cast.webp
