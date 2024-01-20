@@ -13,6 +13,6 @@ beaudar:
 
 {% quot 来自GitHub的朋友 el:h2 %}
 
-可以去[友链](https://github.com/Whbbit1999/wxw-blog-friends/issues/new/choose)自助添加
+可以去[友链](https://github.com/Whbbit1999/friends/issues/new/choose)自助添加
 
 {% friends api:https://raw.githubusercontent.com/Whbbit1999/friends/output/v2/data.json %}
