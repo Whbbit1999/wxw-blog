@@ -25,7 +25,7 @@ site_tree:
   #### 自动生成的页面 ####
   # 主页
   home:
-    sidebar: search, welcome, recent, ad,support, tagcloud, timeline # for home
+    sidebar: search, welcome, recent, ad, support, tagcloud, timeline # for home
   # 博客索引页
   blog_index:
     sidebar: search_blog, recent, ad,support, timeline # for categories/tags/archives
@@ -38,10 +38,10 @@ site_tree:
   #### 手动创建的页面 ####
   # 文章内页
   post:
-    sidebar: toc, ghrepo, search, ghissues, ad,support # for pages using 'layout:post'
+    sidebar: toc, ghrepo, search, ghissues, ad, support # for pages using 'layout:post'
   # 文档内页
   wiki:
-    sidebar: search, ghrepo, toc, ad,support, ghissues, related # for pages using 'layout:wiki'
+    sidebar: search, toc, ghrepo, ad, support, ghissues, related # for pages using 'layout:wiki'
   # 其它 layout:page 的页面
   page:
     sidebar: welcome, toc, ad,support # for custom pages using 'layout:page'
@@ -57,7 +57,7 @@ search:
 # 开启图片点击放大功能 {% image %}
 tag_plugins:
   image:
-    fancybox: true
+    fancybox: false
 
 # 是否自动生成文章预览图
 article:
@@ -66,9 +66,9 @@ article:
   share: [wechat, weibo, email, link]
   type: tech # tech/story
   # auto_excerpt: 200 # 文章摘要
-  related_posts:
-    enable: true
-    title: 您可能感兴趣的文章
+  # related_posts:
+  #   enable: true
+  #   title: 您可能感兴趣的文章
 
 inject:
   head:
@@ -132,9 +132,9 @@ footer:
         </script>
     </div>
 style:
-  sidebar:
-    background: "#abc3"
-    blur: false
+  # sidebar:
+  #   background: "#abc3"
+  #   blur: false
   font-family:
     logo: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
@@ -154,24 +154,24 @@ style:
     hover: "hsl(14 100% 57%)" # 按钮高亮颜色
 
 # comments
-comments:
-  service: giscus
-  # giscus
-  # https://giscus.app/zh-CN
-  giscus:
-    data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
-    data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
-    data-category: General # [在此输入分类名]
-    data-category-id: DIC_kwDOI34URs4CT54G
-    data-mapping: title
-    data-strict: 0
-    data-reactions-enabled: 1
-    data-emit-metadata: 0
-    data-input-position: top # top, bottom
-    data-theme: preferred_color_scheme
-    data-lang: zh-CN
-    data-loading: lazy
-    crossorigin: anonymous
+# comments:
+#   service: giscus
+#   # giscus
+#   # https://giscus.app/zh-CN
+#   giscus:
+#     data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
+#     data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
+#     data-category: General # [在此输入分类名]
+#     data-category-id: DIC_kwDOI34URs4CT54G
+#     data-mapping: title
+#     data-strict: 0
+#     data-reactions-enabled: 1
+#     data-emit-metadata: 0
+#     data-input-position: top # top, bottom
+#     data-theme: preferred_color_scheme
+#     data-lang: zh-CN
+#     data-loading: lazy
+#     crossorigin: anonymous
 
 copycode:
   enable: true
