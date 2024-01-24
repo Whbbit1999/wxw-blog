@@ -2,6 +2,7 @@
 menu_id: more
 sidebar: [ghuser]
 header: false
+breadcrumb: false
 beaudar:
   "issue-term": "留言板"
 ---

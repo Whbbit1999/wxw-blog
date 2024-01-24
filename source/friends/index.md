@@ -1,5 +1,6 @@
 ---
 menu_id: friends
+breadcrumb: false
 beaudar:
   "issue-term": "友链"
 ---

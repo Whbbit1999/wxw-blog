@@ -1,9 +1,25 @@
 # 侧边栏配置
-menu:
-  post: "[btn.blog](/)"
-  wiki: "[专栏](/wiki/)"
-  friends: "[友链](/friends/)"
-  more: "[关于](/about/)"
+menubar:
+  columns: 4
+  items:
+    - id: post
+      title: 文章
+      url: /
+      # icon: solar:documents-bold-duotone
+      # theme: "#1BCDFC"
+    - id: wiki
+      title: 专栏
+      url: "/wiki/"
+    - id: friends
+      title: 友链
+      url: "/friends/"
+    - id: more
+      title: 关于
+      url: "/about/"
+    # post: "[btn.blog](/)"
+    # wiki: "[专栏](/wiki/)"
+    # friends: "[友链](/friends/)"
+    # more: "[关于](/about/)"
 
 site_tree:
   #### 自动生成的页面 ####
@@ -48,6 +64,11 @@ article:
   # auto_cover: true
   # auto_banner: true
   share: [wechat, weibo, email, link]
+  type: tech # tech/story
+  # auto_excerpt: 200 # 文章摘要
+  related_posts:
+    enable: true
+    title: 您可能感兴趣的文章
 
 inject:
   head:
@@ -111,6 +132,9 @@ footer:
         </script>
     </div>
 style:
+  sidebar:
+    background: "#abc3"
+    blur: false
   font-family:
     logo: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
