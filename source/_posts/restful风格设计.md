@@ -8,7 +8,7 @@ poster:
   # topic: 标题上方的小字
   headline: "restful风格设计"
   # caption: 标题下方的小字
-  # color: red
+  color: #fff
 references:
   - "[RESTful API](https://restfulapi.cn/)"
 date: 2024-01-20 22:56:21
