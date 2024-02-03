@@ -4,6 +4,7 @@ sidebar: [ghuser]
 header: false
 breadcrumb: false
 beaudar:
+  repo: Whbbit1999/wxw-blog-comments
   "issue-term": "留言板"
 ---
 

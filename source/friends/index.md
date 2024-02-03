@@ -2,7 +2,8 @@
 menu_id: friends
 breadcrumb: false
 beaudar:
-  "issue-term": "友链"
+  repo: Whbbit1999/wxw-blog-comments
+  "issue-term": "friends"
 ---
 
 {% banner 赛博好友 bg:/assets/more/friends-banner.jpg %}

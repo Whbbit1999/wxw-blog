@@ -158,23 +158,27 @@ style:
 
 # comments
 comments:
-  service: giscus
-  # giscus
-  # https://giscus.app/zh-CN
-  giscus:
-    data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
-    data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
-    data-category: General # [在此输入分类名]
-    data-category-id: DIC_kwDOI34URs4CT54G
-    data-mapping: title
-    data-strict: 0
-    data-reactions-enabled: 1
-    data-emit-metadata: 0
-    data-input-position: top # top, bottom
-    data-theme: preferred_color_scheme
-    data-lang: zh-CN
-    data-loading: lazy
-    crossorigin: anonymous
+  service: beaudar
+  beaudar:
+    repo: Whbbit1999/wxw-blog-comments
+# comments:
+#   service: giscus
+#   # giscus
+#   # https://giscus.app/zh-CN
+#   giscus:
+#     data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
+#     data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
+#     data-category: General # [在此输入分类名]
+#     data-category-id: DIC_kwDOI34URs4CT54G
+#     data-mapping: title
+#     data-strict: 0
+#     data-reactions-enabled: 1
+#     data-emit-metadata: 0
+#     data-input-position: top # top, bottom
+#     data-theme: preferred_color_scheme
+#     data-lang: zh-CN
+#     data-loading: lazy
+#     crossorigin: anonymous
 
 copycode:
   enable: true
