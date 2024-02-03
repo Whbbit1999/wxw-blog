@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 
 // 百度统计和google 统计
 hexo.extend.injector.register("body_end", function () {
@@ -10,5 +10,5 @@ hexo.extend.injector.register("body_end", function () {
     gtag('js', new Date());
     gtag('config', 'G-FTR5YKFFCM');
   </script>
-  `;
-});
+  `
+})

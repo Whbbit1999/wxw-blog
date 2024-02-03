@@ -62,7 +62,7 @@ article:
   # auto_cover: true
   # auto_banner: true
   share: [wechat, weibo, email, link]
-  type: story # tech/story
+  type: tech # tech/story
   # auto_excerpt: 200 # 文章摘要
   # related_posts:
   #   enable: true
@@ -133,6 +133,11 @@ style:
   # sidebar:
   #   background: "#abc3"
   #   blur: false
+  # site:
+  #   background-image: url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.14/image/site-bg1@small.webp)' # 未完全适配，慎用
+  #   blur-px: 100px
+  #   blur-bg: var(--alpha75)
+  darkmode: auto
   font-family:
     logo: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
@@ -152,24 +157,24 @@ style:
     hover: "hsl(14 100% 57%)" # 按钮高亮颜色
 
 # comments
-# comments:
-#   service: giscus
-#   # giscus
-#   # https://giscus.app/zh-CN
-#   giscus:
-#     data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
-#     data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
-#     data-category: General # [在此输入分类名]
-#     data-category-id: DIC_kwDOI34URs4CT54G
-#     data-mapping: title
-#     data-strict: 0
-#     data-reactions-enabled: 1
-#     data-emit-metadata: 0
-#     data-input-position: top # top, bottom
-#     data-theme: preferred_color_scheme
-#     data-lang: zh-CN
-#     data-loading: lazy
-#     crossorigin: anonymous
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
+    data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
+    data-category: General # [在此输入分类名]
+    data-category-id: DIC_kwDOI34URs4CT54G
+    data-mapping: title
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
 
 copycode:
   enable: true
