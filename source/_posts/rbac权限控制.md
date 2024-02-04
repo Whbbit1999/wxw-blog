@@ -1,5 +1,5 @@
 ---
-title: RBAC权限控制
+title: RBAC权限控制简述
 tags: []
 categories: []
 poster:
@@ -12,6 +12,7 @@ description:
 cover:
 banner:
 references:
+  - "[oracle rbac](https://docs.oracle.com/cd/E19253-01/819-7061/rbac-38/index.html)"
 ---
 
 RBAC —— 基于角色的访问控制
