@@ -1,0 +1,20 @@
+- title: dribbble
+  url: https://dribbble.com/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: lordicon 动态icon
+  url: https://lordicon.com/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: d.design 堆友
+  url: https://d.design/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: yesicon
+  url: https://yesicon.app/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description: 快速查询ICON

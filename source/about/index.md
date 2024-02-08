@@ -47,12 +47,12 @@ beaudar:
 
 vue-devui {% hashtag Vue3 %} {% hashtag 组件库 %}
 
-{% ghcard DevCloudFE/vue-devui theme:dark %}
+{% ghcard DevCloudFE/vue-devui %}
 
 licht {% hashtag React %} {% hashtag 组件库 %}
 
-{% ghcard Ningstyle/mzlui-react theme:dark %}
+{% ghcard Ningstyle/mzlui-react %}
 
 sable admin {% hashtag 中后台管理前端脚手架 %}
 
-{% ghcard Whbbit1999/sable theme:dark %}
+{% ghcard Whbbit1999/sable %}

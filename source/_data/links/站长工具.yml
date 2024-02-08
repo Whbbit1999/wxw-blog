@@ -1,0 +1,10 @@
+- title: 百度统计
+  url: https://tongji.baidu.com/web/
+  screenshot: /assets/sites/tongji.baidu.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: 网站访问次数统计
+- title: 谷歌统计
+  url: https://analytics.google.com/analytics/web/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description: 谷歌网站统计

@@ -1,0 +1,65 @@
+- title: Flutter实战·第二版
+  url: https://book.flutterchina.club/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Axios
+  url: https://axios-http.com/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Socket.IO
+  url: https://socket.io/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Rust 程序设计语言 中文版
+  url: https://rustwiki.org/zh-CN/book/title-page.html
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 语义化版本
+  url: https://semver.org/lang/zh-CN/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: labuladong 的算法小抄
+  url: https://github.com/labuladong/fucking-algorithm
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: HTTPS的工作原理
+  url: https://howhttps.works/zh/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 中医古籍
+  url: http://www.mst1739.com/yidao/yuedu.php
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 编程相关书籍
+  url: https://github.com/justjavac/free-programming-books-zh_CN
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 移动端开发啊
+  url: https://github.com/hoosin/mobile-web-favorites
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 程序员编程技艺
+  url: https://github.com/julycoding/The-Art-Of-Programming-By-July-2nd
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 腾讯前端代码编写规范
+  url: http://alloyteam.github.io/CodeGuide/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: 逐行剖析vuejs源码
+  url: https://nlrx-wjc.github.io/Learn-Vue-Source-Code/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:

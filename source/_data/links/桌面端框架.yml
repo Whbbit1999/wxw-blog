@@ -1,0 +1,25 @@
+- title: tauri
+  url: https://tauri.app/
+  screenshot: /assets/sites/tauri.app.png
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Wails
+  url: https://wails.io/
+  screenshot: /assets/sites/wails.io.png
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Electron
+  url: https://www.electronjs.org/
+  screenshot: /assets/sites/www.electronjs.org.png
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Nw.js
+  url: https://nwjs.io/
+  screenshot: /assets/sites/nwjs.io.png
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Flutter for Desktop
+  url: https://flutter.dev/multi-platform/desktop
+  screenshot: /assets/sites/flutter.dev.png
+  avatar: /assets/sites/default-logo.svg
+  description:

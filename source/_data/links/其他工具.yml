@@ -1,0 +1,60 @@
+- title: npm
+  url: https://www.npmjs.com/
+  screenshot: /assets/sites/www.npmjs.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: npm
+- title: mdn
+  url: https://developer.mozilla.org/zh-CN/
+  screenshot: /assets/sites/developer.mozilla.org.png
+  avatar: /assets/sites/default-logo.svg
+  description: mdn
+- title: 字体下载
+  url: https://www.nerdfonts.com/font-downloads
+  screenshot: /assets/sites/www.nerdfonts.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: 编程字体下载网站
+- title: 百度翻译
+  url: https://fanyi.baidu.com/
+  screenshot: /assets/sites/fanyi.baidu.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: 百度翻译
+- title: 谷歌翻译
+  url: https://translate.google.com/?hl=zh-CN&tab=TT
+  screenshot: /assets/sites/translate.google.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: 谷歌翻译
+- title: Vue3项目初始模板
+  url: https://github.com/antfu/vitesse-lite
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description: antfu的Vue3项目初始模板
+- title: vxe-table 高性能表格组件
+  url: https://vxetable.cn/
+  screenshot: /assets/sites/vxetable.cn.png
+  avatar: /assets/sites/default-logo.svg
+  description: 高性能表格，可以代替 antd-vue 的表格组建
+- title: 精灵图切图
+  url: http://www.spritecow.com/
+  screenshot: /assets/sites/www.spritecow.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: 自动精灵图切图
+- title: 在线nginx配置
+  url: https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN
+  screenshot: /assets/sites/www.digitalocean.com.png
+  avatar: /assets/sites/default-logo.svg
+  description: 在线nginx配置网站
+- title: Puppeteer
+  url: https://pptr.dev/
+  screenshot: /assets/sites/pptr.dev.png
+  avatar: /assets/sites/default-logo.svg
+  description: 无头浏览器
+- title: jsont 在线JSON验证和编辑
+  url: https://www.jsont.run/
+  screenshot: /assets/sites/www.jsont.run.png
+  avatar: /assets/sites/default-logo.svg
+  description: 在线JSON验证和编辑
+- title: electron-vite
+  url: https://cn.electron-vite.org/
+  screenshot:
+  avatar: /assets/sites/default-logo.svg
+  description:

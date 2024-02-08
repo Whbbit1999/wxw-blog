@@ -1,0 +1,20 @@
+- title: CSS Loading效果
+  url: https://loading.io/css/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: Tailwidcss
+  url: https://tailwindcss.com/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: loading
+  url: https://cssloaders.github.io/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
+- title: daisyui
+  url: https://daisyui.com/
+  screenshot: /assets/sites/default-cover.svg
+  avatar: /assets/sites/default-logo.svg
+  description:
