@@ -1,16 +1,18 @@
 ---
+
+topic: miniprogram
 title: 扫码获取微信抬头
 tags: [uniapp, server, 公众号, 小程序]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: 扫码获取微信抬头
+  caption:
+  color: #fff
 date: 2022-12-04 15:29:48
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 [官方文档地址](https://developers.weixin.qq.com/doc/offiaccount/WeChat_Invoice/Quick_issuing/Interface_Instructions.html)
@@ -62,37 +64,36 @@ const sancode = () => {
 > 这里的 APPID 和 SECRET 需要在公众号中获取
 
 ```js
-import axios from "axios";
-import Fastify from "fastify";
+import axios from "axios"
+import Fastify from "fastify"
 
-import { APPID, SECRET } from "./config";
+import { APPID, SECRET } from "./config"
 
-const fastify = Fastify({ logger: true });
+const fastify = Fastify({ logger: true })
 
 fastify.post("/api/getInvoiceTitle", async (req, res) => {
-  const { link } = req.body;
-  const access_token = await getAccessToken();
-  const data = await getInvoiceTitle(link, access_token);
-  return { data };
-});
+  const { link } = req.body
+  const access_token = await getAccessToken()
+  const data = await getInvoiceTitle(link, access_token)
+  return { data }
+})
 
 async function getAccessToken() {
   const res = await axios.get(
     `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${APPID}&secret=${SECRET}`
-  );
-  const { access_token } = res.data;
-  return access_token;
+  )
+  const { access_token } = res.data
+  return access_token
 }
 async function getInvoiceTitle(link, access_token) {
-  const res = await axios.post(
-    `https://api.weixin.qq.com/card/invoice/scantitle?access_token=${access_token}`,
-    { scan_text: link }
-  );
-  const { data } = res;
-  return data;
+  const res = await axios.post(`https://api.weixin.qq.com/card/invoice/scantitle?access_token=${access_token}`, {
+    scan_text: link,
+  })
+  const { data } = res
+  return data
 }
 
 fastify.listen({ port: 3020 }, (err, address) => {
-  console.log("http://localhost:3020");
-});
+  console.log("http://localhost:3020")
+})
 ```

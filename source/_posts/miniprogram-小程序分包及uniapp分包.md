@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: 小程序分包及uniapp分包
 tags: [小程序, uniapp]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: 小程序分包及uniapp分包
+  caption:
+  color: #fff
 date: 2022-12-04 15:35:30
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 分包是什么？我们为什么要进行分包？

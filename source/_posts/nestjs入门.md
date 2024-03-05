@@ -1,17 +1,18 @@
 ---
+topic: nest
 title: nestjs入门
 tags: [nest, node, 服务端]
 categories: [代码人生, 后端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: nestjs入门
+  caption: 常用模块安装和使用
+  color: #fff
 references:
 date: 2022-12-12 15:23:45
 description:
-cover:
-banner:
+cover: /assets/posts/nest-cover.png
+banner: /assets/posts/nest-topic-cover.png
 ---
 
 nestjs 开发手册

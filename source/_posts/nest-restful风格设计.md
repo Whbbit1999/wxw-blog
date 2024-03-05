@@ -1,5 +1,4 @@
 ---
-layout: topic
 topic: nest
 title: restful风格设计
 tags: []
@@ -14,7 +13,7 @@ references:
 date: 2024-01-20 22:56:21
 description:
 cover: /assets/posts/nest-cover.png
-banner:
+banner: /assets/posts/nest-topic-cover.png
 ---
 
 {% quot 为什么要使用 RESTful 架构？ el:h2%}

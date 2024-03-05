@@ -1,16 +1,17 @@
 ---
+topic: nest
 title: RBAC权限控制简述
 tags: []
 categories: []
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: RBAC权限控制简述
+  caption:
+  color: #fff
 date: 2024-02-04 21:47:35
 description:
-cover:
-banner:
+cover: /assets/posts/nest-cover.png
+banner: /assets/posts/nest-topic-cover.png
 references:
   - "[oracle rbac](https://docs.oracle.com/cd/E19253-01/819-7061/rbac-38/index.html)"
 ---

@@ -43,6 +43,14 @@ beaudar:
 
 <!-- > 曾经短暂在钢厂工作过的我感触颇深 -->
 
+## 在听的音乐
+
+{% albums like-music %}
+
+## 在玩的游戏
+
+{% posters like-games %}
+
 {% quot 参与项目  el:h2 %}
 
 vue-devui {% hashtag Vue3 %} {% hashtag 组件库 %}
@@ -56,3 +64,7 @@ licht {% hashtag React %} {% hashtag 组件库 %}
 sable admin {% hashtag 中后台管理前端脚手架 %}
 
 {% ghcard Whbbit1999/sable %}
+
+SableChat UI {% hashtag React 组件库 %}
+
+{% ghcard Whbbit1999/sable-chat-ui %}

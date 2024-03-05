@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: uniapp中使用pinia
 tags: [uniapp, 小程序, pinia]
 categories: [代码人生, 前端技术]
-# poster:
-#   topic: 标题上方的小字
-#   headline: 大标题
-#   caption: 标题下方的小字
-#   color: 标题颜色
+poster:
+  topic:
+  headline: uniapp中使用pinia
+  caption:
+  color: #fff
 date: 2022-12-04 15:34:35
 description:
-cover: /assets/posts/pinia&uniapp.jpg
-banner: /assets/posts/pinia&uniapp.jpg
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 ## 在小程序中使用 pinia
@@ -29,39 +30,39 @@ npm install pinia
 
 ```js store/index.js
 // store/index.js
-import { createPinia } from "pinia";
+import { createPinia } from "pinia"
 
-const store = createPinia();
-export default store;
+const store = createPinia()
+export default store
 ```
 
 在 mian.js 中引入 pinia
 
 ```js main.js
 // #ifndef VUE3
-import Vue from "vue";
-import App from "./App";
+import Vue from "vue"
+import App from "./App"
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
-App.mpType = "app";
+App.mpType = "app"
 
 const app = new Vue({
   ...App,
-});
-app.$mount();
+})
+app.$mount()
 // #endif
 
 // #ifdef VUE3
-import { createSSRApp } from "vue";
-import pinia from "./store/index.js";
-import App from "./App.vue";
+import { createSSRApp } from "vue"
+import pinia from "./store/index.js"
+import App from "./App.vue"
 export function createApp() {
-  const app = createSSRApp(App);
-  app.use(pinia);
+  const app = createSSRApp(App)
+  app.use(pinia)
   return {
     app,
-  };
+  }
 }
 // #endif
 ```
@@ -83,28 +84,28 @@ export default {
   // 获取本地缓存中的数据
   get(key) {
     try {
-      return uni.getStorageSync(key);
+      return uni.getStorageSync(key)
     } catch (e) {
-      console.error(e);
+      console.error(e)
     }
   },
   // 数据持久化存储
   set(key, value) {
     try {
-      uni.setStorageSync(key, value);
+      uni.setStorageSync(key, value)
     } catch (e) {
-      console.error(e);
+      console.error(e)
     }
   },
   // 移除本地存储中的数据
   remove(key) {
     try {
-      uni.removeStorageSync(key);
+      uni.removeStorageSync(key)
     } catch (e) {
-      console.error(e);
+      console.error(e)
     }
   },
-};
+}
 ```
 
 ### 存储数据键值对的封装
@@ -115,7 +116,7 @@ export default {
 export default {
   TOKEN: "TOKEN",
   USER_INFO: "USER_INFO",
-};
+}
 ```
 
 此时，我们存入本地存储的 key 为 TOKEN 和 USER_INFO， 如果我们想将 TOKEN 更改为 USER_TOKEN 的话，也只需要改动该文件即可
@@ -124,7 +125,7 @@ export default {
 export default {
   TOKEN: "USER_TOKEN",
   USER_INFO: "USER_INFO",
-};
+}
 ```
 
 ### 在对应仓库中使用
@@ -132,28 +133,28 @@ export default {
 > 这里用 useUserStore 举例
 
 ```js
-import { defineStore } from "pinia";
+import { defineStore } from "pinia"
 
-import Enmu from "@/enmu/index.js";
-import PerStorage from "@/utils/PerStorage.js";
+import Enmu from "@/enmu/index.js"
+import PerStorage from "@/utils/PerStorage.js"
 
 export const useUserStore = defineStore("user", {
   state: () => {
     return {
       userInfo: null,
       token: "",
-    };
+    }
   },
   getters: {
     getUserInfo() {
-      return this.userInfo || PerStorage.get(Enmu.USER_INFO) || {};
+      return this.userInfo || PerStorage.get(Enmu.USER_INFO) || {}
     },
   },
   actions: {
     setUserInfo(userInfo) {
-      this.userInfo = userInfo;
-      PerStorage.set(Enmu.USER_INFO, userInfo);
+      this.userInfo = userInfo
+      PerStorage.set(Enmu.USER_INFO, userInfo)
     },
   },
-});
+})
 ```

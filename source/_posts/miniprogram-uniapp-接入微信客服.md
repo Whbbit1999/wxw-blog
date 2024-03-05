@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: uniapp 接入微信客服
 tags: [小程序, uniapp]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: uniapp 接入微信客服
+  caption:
+  color: #fff
 date: 2022-12-04 15:28:06
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 {%note color:red 注意
@@ -27,7 +28,7 @@ wx.openCustomerServiceChat({
   corpId: "",
   success(res) {},
   fail(error) {},
-});
+})
 ```
 
 ---

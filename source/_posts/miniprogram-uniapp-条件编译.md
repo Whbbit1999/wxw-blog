@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: uniapp 条件编译
 tags: [uniapp, 小程序]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: uniapp 条件编译
+  caption:
+  color: #fff
 date: 2022-12-04 15:26:54
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 ## 写法

@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: showToast 在真机会闪退的问题及解决方案
 tags: [小程序, uniapp]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
+  topic:
   headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  caption: showToast 在真机会闪退的问题及解决方案
+  color: #fff
 date: 2022-12-04 15:33:29
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 当你在 uni-app 中使用 showLoading 进行加载状态的实现，然后数据返回后进行其他文字提示。你可能会遇到以下问题：
@@ -26,7 +27,7 @@ uni.showToast({
   icon: "loading",
   duration: 300000,
   mask: true,
-});
+})
 ```
 
 这里的 icon 为 loading 是，就和 showLoading 现实的状态是一致的。这里的延时`duration`我们尽可能的设置长一些，尽量达到接口超时时间，这样，就不必担心数据还未返回，loading 状态就消失不见了。下面是一个简单的示例：
@@ -38,16 +39,16 @@ async function getUserList() {
       icon: "loading",
       duration: 300000,
       mask: true,
-    });
-    const { code, data, message } = await getUserListApi();
-    uni.hideToast();
+    })
+    const { code, data, message } = await getUserListApi()
+    uni.hideToast()
 
     uni.showToast({
       icon: "none",
       title: message,
-    });
+    })
   } catch (error) {
-    hideToast();
+    hideToast()
   } finally {
   }
 }

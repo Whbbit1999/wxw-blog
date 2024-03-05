@@ -1,16 +1,17 @@
 ---
+topic: nest
 title: nest 拦截器
 tags: [node, nest, 服务端]
 categories: [代码人生, 后端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: nest 拦截器
+  caption: 实现几个常用的 nest 拦截器
+  color: #fff
 date: 2022-12-04 16:14:54
 description:
-cover:
-banner:
+cover: /assets/posts/nest-cover.png
+banner: /assets/posts/nest-topic-cover.png
 ---
 
 实现几个常用的 nest 拦截器

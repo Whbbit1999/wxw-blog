@@ -1,5 +1,4 @@
 ---
-layout: topic
 topic: vite
 title: vite插件
 tags: []

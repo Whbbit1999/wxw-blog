@@ -1,5 +1,5 @@
-name: 重学nest笔记 # 在面包屑导航上会显示较短的名字
-title: 重学nest笔记 # 在列表页会显示完整的专栏标题
+name: 从nest入手服务端 # 在面包屑导航上会显示较短的名字
+title: 从nest入手服务端 # 在列表页会显示完整的专栏标题
 description: nest学习笔记
 icon: /assets/logos/nest.svg
 order_by: -date # 默认是按发布日期倒序排序

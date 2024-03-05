@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: app打包上线要注意的部分
 tags: [app, uniapp, 项目打包]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: app打包上线要注意的部分
+  caption:
+  color: #fff
 date: 2022-12-04 15:17:52
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 references:
   - '["华为 APP 常见个人信息保护问题 FAQ"](https://developer.huawei.com/consumer/cn/doc/distribution/app/FAQ-faq#h2-1628486431553-2)'
   - '["隐私政策参考（CSDN 隐私政策）"](https://marketing.csdn.net/p/016dc84c68432f7ced83bd6d0bc43d1d?external=true)'

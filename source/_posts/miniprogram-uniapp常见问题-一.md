@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: uniapp常见问题(一)
 tags: [uniapp, 小程序]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic:
+  headline: uniapp常见问题(一)
+  caption:
+  color: #fff
 date: 2022-12-04 15:25:34
 description:
-cover:
-banner:
+cover: /assets/posts/miniprogram-cover.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 ## 使用 pinia 后报错
@@ -18,26 +19,26 @@ banner:
 解决方式：实例化 store 时需要放置于 composable 函数内
 
 ```js
-import { useLoginStore } from "@/store/login";
-const { loginStore } = useLoginStore();
+import { useLoginStore } from "@/store/login"
+const { loginStore } = useLoginStore()
 function useIsLogin() {
   function isLogin() {
-    xxx; //逻辑代码
+    xxx //逻辑代码
   }
-  return { isLogin };
+  return { isLogin }
 }
 ```
 
 上面的写法打成 app 包时会导致页面白屏。更改成下面的写法就解决了
 
 ```js
-import { useLoginStore } from "@/store/login";
+import { useLoginStore } from "@/store/login"
 function useIsLogin() {
   function isLogin() {
-    const { loginStore } = useLoginStore();
-    xxx; //逻辑代码
+    const { loginStore } = useLoginStore()
+    xxx //逻辑代码
   }
-  return { isLogin };
+  return { isLogin }
 }
 ```
 
@@ -60,7 +61,7 @@ uni.share({
   openCustomerServiceChat: true,
   corpid: WX_CORP_ID, // 客服ID
   customerUrl: WX_SERVICE_CHAT_URL, // 客服的页面路径
-});
+})
 ```
 
 > 可能会遇到调用微信客服报错 (bad_param)的问题，需要在微信开放平台中创建一个移动应用。并在 hbuilderx 中配置微信分享的 appid（开放平台中移动应用的 appid）
@@ -92,8 +93,5 @@ uni.share({
 uniapp 中的写法
 
 ```html
-<official-account
-  @error="officalAccountError"
-  @load="officalAccountErrorLoad"
-/>
+<official-account @error="officalAccountError" @load="officalAccountErrorLoad" />
 ```

@@ -4,10 +4,11 @@ subtitle: "Sable Admin 中后台脚手架文档 | Create By Whbbit1999"
 tags: Vue
 icon: /assets/wiki/sable/logo.svg
 cover: /assets/wiki/sable/logo.svg
+# banner: /assets/sable_cover.png
 coverpage: true # 默认是 true
 description: 使用Vue3 + Pinia + typescript + unocss + Naive UI 开发，集成了一些常用的自定义组件。
+repo: "Whbbit1999/sable"
 beaudar:
-  repo: Whbbit1999/wxw-blog-comments
   "issue-term": "sable-admin"
 sidebar:
   - search:

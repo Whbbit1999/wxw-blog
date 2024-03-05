@@ -1,16 +1,17 @@
 ---
+topic: miniprogram
 title: 微信短链 URL Link
 tags: [微信接口]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: " "
+  headline: 微信短链 URL Link
+  caption:
+  color: #fff
 date: 2022-12-04 15:35:50
 description:
-cover:
-banner:
+cover: /assets/posts/微信短链.png
+banner: /assets/posts/miniprogram-banner.png
 ---
 
 我们可以使用微信提供的接口来生成一个短链，可以在微信外直接跳转至指定小程序界面
