@@ -1,19 +1,17 @@
 ---
-title: 垃圾话
-tags: []
-categories: [生活剪影, 垃圾话]
-date: 2023-10-22 01:21:19
-description:
-cover: /assets/posts/垃圾话.webp
-banner: /assets/posts/垃圾话.webp
-pin: true
+menu_id: more
+sidebar: [ghuser]
+header: false
+breadcrumb: false
 ---
 
-垃圾话时间
-
-<!-- more -->
+发不完牢骚，漂泊不定的人
 
 {% timeline %}
+
+<!-- node 2024 年 3 月 5 日 -->
+
+最近每晚都睡不好，每天半夜都会惊醒一次。梦境和生活开始变得极为相似。我大概是病了吧
 
 <!-- node 2024 年 1 月 6 日 14:08 -->
 

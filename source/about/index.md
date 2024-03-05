@@ -9,7 +9,7 @@ beaudar:
 ---
 
 {% banner WxW 无名小卒，为生活奔波 avatar:/assets/codelogo-fill.png bg:/assets/about-cover-bg.jpg %}
-{% navbar active:/about/ [个人介绍](/about/) [赞助列表](/about/sponsor.html) [大事记](/about/timeline.html) [留言](#comments)%}
+{% navbar active:/about/ [个人介绍](/about/) [赞助列表](/about/sponsor.html) [大事记](/about/timeline.html) [牢骚](/about/sao.html) [留言](#comments)%}
 {% endbanner %}
 
 <!--
