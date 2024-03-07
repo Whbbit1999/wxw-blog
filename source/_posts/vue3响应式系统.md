@@ -24,69 +24,69 @@ banner:
 ## 响应式
 
 ```js
-let activeEffect;
+let activeEffect
 class Dep {
-  subscribers = new Set();
+  subscribers = new Set()
 
   define() {
     if (activeEffect) {
-      this.subscribers.add(activeEffect);
+      this.subscribers.add(activeEffect)
     }
   }
 
   notify() {
     this.subscribers.forEach((effect) => {
-      effect();
-    });
+      effect()
+    })
   }
 }
 
 function watchEffect(effect) {
-  activeEffect = effect;
-  effect();
-  activeEffect = null;
+  activeEffect = effect
+  effect()
+  activeEffect = null
 }
 
-let targetMap = new WeakMap();
+let targetMap = new WeakMap()
 function getDep(target, key) {
-  let depsMap = targetMap.get(target);
+  let depsMap = targetMap.get(target)
   if (!depsMap) {
-    depsMap = new Map();
-    targetMap.set(target, depsMap);
+    depsMap = new Map()
+    targetMap.set(target, depsMap)
   }
 
-  let dep = depsMap.get(key);
+  let dep = depsMap.get(key)
   if (!dep) {
-    dep = new Dep();
-    depsMap.set(key, dep);
+    dep = new Dep()
+    depsMap.set(key, dep)
   }
-  return dep;
+  return dep
 }
 const reactiveHandlers = {
   get(target, key, receiver) {
-    const dep = getDep(target, key);
-    dep.define();
-    return Reflect.get(target, key, receiver);
+    const dep = getDep(target, key)
+    dep.define()
+    return Reflect.get(target, key, receiver)
   },
   set(target, key, value, receiver) {
-    const dep = getDep(target, key);
-    const result = Reflect.set(target, key, value, receiver);
-    dep.notify();
-    return result;
+    const dep = getDep(target, key)
+    const result = Reflect.set(target, key, value, receiver)
+    dep.notify()
+    return result
   },
-};
+}
 function reactive(raw) {
-  return new Proxy(raw, reactiveHandlers);
+  return new Proxy(raw, reactiveHandlers)
 }
 
 // 使用
 const state = reactive({
   count: 0,
-});
+})
 watchEffect(() => {
-  console.log(state.count);
-});
-state.count++;
+  console.log(state.count)
+})
+state.count++
 ```
 
 ## 虚拟 dom / 渲染
@@ -105,89 +105,87 @@ state.count++;
 
 <script>
   function h(tag, props, children) {
-    return { tag, props, children };
+    return { tag, props, children }
   }
 
   function mount(vnode, container) {
-    const el = (vnode.el = document.createElement(vnode.tag));
+    const el = (vnode.el = document.createElement(vnode.tag))
     // props
     if (vnode.props) {
       for (const key in vnode.props) {
-        const value = vnode.props[key];
-        el.setAttribute(key, value);
+        const value = vnode.props[key]
+        el.setAttribute(key, value)
       }
     }
     // children
     if (vnode.children) {
       if (typeof vnode.children === "string") {
-        el.textContent = vnode.children;
+        el.textContent = vnode.children
       } else {
         vnode.children.forEach((child) => {
-          mount(child, el);
-        });
+          mount(child, el)
+        })
       }
     }
-    container.appendChild(el);
+    container.appendChild(el)
   }
 
-  const vdom = h("div", { id: "hello", class: "red" }, [
-    h("span", null, "hello"),
-  ]);
+  const vdom = h("div", { id: "hello", class: "red" }, [h("span", null, "hello")])
 
-  mount(vdom, document.getElementById("app"));
+  mount(vdom, document.getElementById("app"))
 
   function patch(n1, n2) {
     if (n1.tag === n2.tag) {
-      const el = (n2.el = n1.el);
+      const el = (n2.el = n1.el)
       // props
-      const oldProps = n1.props || {};
-      const newProps = n2.props || {};
+      const oldProps = n1.props || {}
+      const newProps = n2.props || {}
 
       for (const key in newProps) {
-        const oldVal = oldProps[key];
-        const newVal = newProps[key];
+        const oldVal = oldProps[key]
+        const newVal = newProps[key]
         if (newVal !== oldVal) {
-          el.setAttribute(key, newVal);
+          el.setAttribute(key, newVal)
         }
       }
 
       for (const key in oldProps) {
         if (!(key in newProps)) {
-          el.removeAttribute(key);
+          el.removeAttribute(key)
         }
       }
 
       // children
-      const oldChildren = n1.children;
-      const newChildren = n2.children;
+      const oldChildren = n1.children
+      const newChildren = n2.children
       if (typeof newChildren === "string") {
         if (typeof oldChildren === "string") {
           if (newChildren !== oldChildren) {
-            el.textContent = newChildren;
+            el.textContent = newChildren
           }
         } else {
-          el.textContent = newChildren;
+          el.textContent = newChildren
         }
       } else {
         if (typeof oldChildren === "string") {
-          el.innerHTML = "";
+          el.innerHTML = ""
           newChildren.forEach((child) => {
-            mount(child, el);
-          });
+            mount(child, el)
+          })
         } else {
-          const commonLength = Math.min(oldChildren.length, newChildren.length);
+          const commonLength = Math.min(oldChildren.length, newChildren.length)
           for (let i = 0; i < commonLength; i++) {
-            patch(oldChildren[i], newChildren[i]);
+            patch(oldChildren[i], newChildren[i])
           }
           if (newChildren.length > oldChildren.length) {
             newChildren.slice(oldChildren.length).forEach((child) => {
-              mount(child, el);
-            });
+              mount(child, el)
+            })
           }
           if (newChildren.length < oldChildren.length) {
             oldChildren.slice(newChildren.length).forEach((child) => {
-              el.removeChild(child.el);
-            });
+              el.removeChild(child.el)
+            })
           }
         }
       }
@@ -196,10 +194,8 @@ state.count++;
     }
   }
 
-  const vdom2 = h("div", { id: "hello", class: "green" }, [
-    h("span", null, "change!"),
-  ]);
-  patch(vdom, vdom2);
+  const vdom2 = h("div", { id: "hello", class: "green" }, [h("span", null, "change!")])
+  patch(vdom, vdom2)
 </script>
 ```
 
@@ -210,87 +206,87 @@ state.count++;
 
 <script>
   function h(tag, props, children) {
-    return { tag, props, children };
+    return { tag, props, children }
   }
 
   function mount(vnode, container) {
-    const el = (vnode.el = document.createElement(vnode.tag));
+    const el = (vnode.el = document.createElement(vnode.tag))
     // props
     if (vnode.props) {
       for (const key in vnode.props) {
-        const value = vnode.props[key];
+        const value = vnode.props[key]
         if (key.startsWith("on")) {
-          el.addEventListener(key.slice(2).toLowerCase(), value);
+          el.addEventListener(key.slice(2).toLowerCase(), value)
         } else {
-          el.setAttribute(key, value);
+          el.setAttribute(key, value)
         }
       }
     }
     // children
     if (vnode.children) {
       if (typeof vnode.children === "string") {
-        el.textContent = vnode.children;
+        el.textContent = vnode.children
       } else {
         vnode.children.forEach((child) => {
-          mount(child, el);
-        });
+          mount(child, el)
+        })
       }
     }
-    container.appendChild(el);
+    container.appendChild(el)
   }
 
   function patch(n1, n2) {
     if (n1.tag === n2.tag) {
-      const el = (n2.el = n1.el);
+      const el = (n2.el = n1.el)
       // props
-      const oldProps = n1.props || {};
-      const newProps = n2.props || {};
+      const oldProps = n1.props || {}
+      const newProps = n2.props || {}
 
       for (const key in newProps) {
-        const oldVal = oldProps[key];
-        const newVal = newProps[key];
+        const oldVal = oldProps[key]
+        const newVal = newProps[key]
         if (newVal !== oldVal) {
-          el.setAttribute(key, newVal);
+          el.setAttribute(key, newVal)
         }
       }
 
       for (const key in oldProps) {
         if (!(key in newProps)) {
-          el.removeAttribute(key);
+          el.removeAttribute(key)
         }
       }
 
       // children
-      const oldChildren = n1.children;
-      const newChildren = n2.children;
+      const oldChildren = n1.children
+      const newChildren = n2.children
       if (typeof newChildren === "string") {
         if (typeof oldChildren === "string") {
           if (newChildren !== oldChildren) {
-            el.textContent = newChildren;
+            el.textContent = newChildren
           }
         } else {
-          el.textContent = newChildren;
+          el.textContent = newChildren
         }
       } else {
         if (typeof oldChildren === "string") {
-          el.innerHTML = "";
+          el.innerHTML = ""
           newChildren.forEach((child) => {
-            mount(child, el);
-          });
+            mount(child, el)
+          })
         } else {
-          const commonLength = Math.min(oldChildren.length, newChildren.length);
+          const commonLength = Math.min(oldChildren.length, newChildren.length)
           for (let i = 0; i < commonLength; i++) {
-            patch(oldChildren[i], newChildren[i]);
+            patch(oldChildren[i], newChildren[i])
           }
           if (newChildren.length > oldChildren.length) {
             newChildren.slice(oldChildren.length).forEach((child) => {
-              mount(child, el);
-            });
+              mount(child, el)
+            })
           }
           if (newChildren.length < oldChildren.length) {
             oldChildren.slice(newChildren.length).forEach((child) => {
-              el.removeChild(child.el);
-            });
+              el.removeChild(child.el)
+            })
           }
         }
       }
@@ -300,59 +296,59 @@ state.count++;
   }
 
   // reactive
-  let activeEffect;
+  let activeEffect
   class Dep {
-    subscribers = new Set();
+    subscribers = new Set()
 
     depend() {
       if (activeEffect) {
-        this.subscribers.add(activeEffect);
+        this.subscribers.add(activeEffect)
       }
     }
 
     notify() {
       this.subscribers.forEach((effect) => {
-        effect();
-      });
+        effect()
+      })
     }
   }
 
   function watchEffect(effect) {
-    activeEffect = effect;
-    effect();
-    activeEffect = null;
+    activeEffect = effect
+    effect()
+    activeEffect = null
   }
 
-  const targetMap = new WeakMap();
+  const targetMap = new WeakMap()
   function getDep(target, key) {
-    let depsMap = targetMap.get(target);
+    let depsMap = targetMap.get(target)
     if (!depsMap) {
-      depsMap = new Map();
-      targetMap.set(target, depsMap);
+      depsMap = new Map()
+      targetMap.set(target, depsMap)
     }
 
-    let dep = depsMap.get(key);
+    let dep = depsMap.get(key)
     if (!dep) {
-      dep = new Dep();
-      depsMap.set(key, dep);
+      dep = new Dep()
+      depsMap.set(key, dep)
     }
-    return dep;
+    return dep
   }
   const reactiveHandlers = {
     get(target, key, receiver) {
-      const dep = getDep(target, key);
-      dep.depend();
-      return Reflect.get(target, key, receiver);
+      const dep = getDep(target, key)
+      dep.depend()
+      return Reflect.get(target, key, receiver)
     },
     set(target, key, value, receiver) {
-      const dep = getDep(target, key);
-      const result = Reflect.set(target, key, value, receiver);
-      dep.notify();
-      return result;
+      const dep = getDep(target, key)
+      const result = Reflect.set(target, key, value, receiver)
+      dep.notify()
+      return result
     },
-  };
+  }
   function reactive(raw) {
-    return new Proxy(raw, reactiveHandlers);
+    return new Proxy(raw, reactiveHandlers)
   }
 
   const App = {
@@ -364,28 +360,28 @@ state.count++;
         "div",
         {
           onClick: () => {
-            this.data.count++;
+            this.data.count++
           },
         },
         String(this.data.count)
-      );
+      )
     },
-  };
+  }
   function mountApp(component, container) {
-    let isMounted = false;
-    let prevVdom;
+    let isMounted = false
+    let prevVdom
     watchEffect(() => {
       if (!isMounted) {
-        prevVdom = component.render();
-        mount(prevVdom, container);
-        isMounted = true;
+        prevVdom = component.render()
+        mount(prevVdom, container)
+        isMounted = true
       } else {
-        const newVdom = component.render();
-        patch(prevVdom, newVdom);
-        prevVdom = newVdom;
+        const newVdom = component.render()
+        patch(prevVdom, newVdom)
+        prevVdom = newVdom
       }
-    });
+    })
   }
-  mountApp(App, document.getElementById("app"));
+  mountApp(App, document.getElementById("app"))
 </script>
 ```
