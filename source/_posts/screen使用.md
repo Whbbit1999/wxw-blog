@@ -4,14 +4,14 @@ tags: []
 categories: []
 poster:
   # topic: 标题上方的小字
-  # headline: 大标题
-  # caption: 标题下方的小字
+  headline: screen使用 #大标题
+  caption: 我的世界服务器 #标题下方的小字
   # color: 标题颜色
 references:
 date: 2023-03-31 19:44:20
 description:
-cover:
-banner:
+cover: /assets/posts/minecraft.jpg
+banner: /assets/posts/minecraft.jpg
 ---
 
 对于 使用 frp 将本地 mc 服务器映射到公网 文章中使用 screen 的说明和 screen 的简单使用

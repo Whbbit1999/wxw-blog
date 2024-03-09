@@ -4,9 +4,9 @@ tags: [flutter]
 categories: [代码人生, 前端技术]
 poster:
   topic: #标题上方的小字
-  headline: #大标题
+  headline: Flutter 抓虫记 #大标题
   caption: #标题下方的小字
-  color: #标题颜色
+  color: #000 #标题颜色
 date: 2023-04-06 20:49:38
 description:
 cover: /assets/posts/flutter抓虫记.jpg

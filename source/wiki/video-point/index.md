@@ -2,6 +2,7 @@
 layout: wiki
 wiki: video-point
 title: 为什么要做技术视频
+# type: story # tech/story
 ---
 
 为什么要做技术视频？

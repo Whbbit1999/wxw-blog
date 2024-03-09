@@ -3,18 +3,18 @@ title: blob
 tags: [js, blob]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: blob #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2022-12-04 16:12:29
 references:
   - "[Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)"
   - "[MIME 类型](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types)"
   - "[Blob 和 Base64 互相转换](https://www.cnblogs.com/dcb3688/p/4608062.html)"
 description:
-cover:
-banner:
+cover: /assets/posts/js.jpeg
+banner: /assets/posts/js.jpeg
 ---
 
 流文件常见类型概览及前端 blob 文件下载简易封装

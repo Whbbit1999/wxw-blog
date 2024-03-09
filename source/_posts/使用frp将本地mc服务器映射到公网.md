@@ -3,9 +3,9 @@ title: 使用frp将本地mc服务器映射到公网
 tags: []
 categories: []
 poster:
-  # topic: 标题上方的小字
-  # headline: 大标题
-  # caption: 标题下方的小字
+  topic: #标题上方的小字
+  headline: 使用frp将本地mc服务器映射到公网 #大标题
+  caption: 我的世界服务器 #标题下方的小字
   # color: 标题颜色
 references:
 date: 2023-03-31 18:42:55

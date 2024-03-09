@@ -3,15 +3,15 @@ title: macos使用
 tags: []
 categories: []
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: macos使用 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
 date: 2023-04-17 12:58:58
 description:
-cover:
-banner:
+cover: /assets/posts/mac.jpg
+banner: /assets/posts/mac.jpg
 ---
 
 ## 关闭指定端口

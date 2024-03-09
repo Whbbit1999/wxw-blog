@@ -3,14 +3,14 @@ title: vue3响应式系统
 tags: []
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: vue3响应式系统 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2022-12-04 15:43:03
 description:
-cover:
-banner:
+cover: /assets/posts/vue-cover.png
+banner: /assets/posts/vue-cover.png
 ---
 
 跟着尤大实现一下 vue3 的响应式系统

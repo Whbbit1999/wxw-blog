@@ -3,14 +3,14 @@ title: rest client插件使用
 tags: [vscode, 插件]
 categories: [代码人生, 编码工具]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: rest client插件使用 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2023-01-03 20:13:52
 description:
-cover:
-banner:
+cover: /assets/posts/vscode.png
+banner: /assets/posts/vscode.png
 ---
 
 rest client 是 vscode 中类似 Postman 的 api 接口请求利器。

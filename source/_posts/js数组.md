@@ -3,16 +3,16 @@ title: js数组
 tags: [js]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: js数组 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
   - "[后盾人文档库/后盾人网站](www.hodunren.com)"
 date: 2022-12-07 14:01:02
 description:
-cover:
-banner:
+cover: /assets/posts/js.jpeg
+banner: /assets/posts/js.jpeg
 ---
 
 js 数组的基础知识

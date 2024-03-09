@@ -3,14 +3,14 @@ title: git统计代码提交数量
 tags: [git]
 categories: [代码人生, Linux/运维]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: git统计代码提交数量 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2022-12-04 16:01:16
 description:
-cover:
-banner:
+cover: /assets/posts/git.jpg
+banner: /assets/posts/git.jpg
 ---
 
 查看项目中的每个人代码提交量，看看谁在摸鱼吧

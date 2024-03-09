@@ -3,14 +3,14 @@ title: vite开发时问题及解决方案
 tags: []
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: vite开发时问题及解决方案 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2022-12-04 15:58:34
 description:
-cover:
-banner:
+cover: /assets/posts/vite.jpeg
+banner: /assets/posts/vite.jpeg
 ---
 
 使用 vite 开发时可能会遇到的问题及解决方案

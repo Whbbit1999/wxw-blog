@@ -3,15 +3,15 @@ title: ts 枚举
 tags: [ts]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: ts 枚举 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
 date: 2022-12-05 16:32:15
 description:
-cover:
-banner:
+cover: /assets/posts/ts.jpeg
+banner: /assets/posts/ts.jpeg
 ---
 
 ts 的枚举类型

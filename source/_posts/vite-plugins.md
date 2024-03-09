@@ -10,8 +10,8 @@ poster:
   color: #fff
 date: 2024-02-14 16:35:14
 description:
-cover: /assets/posts/vite-topic-cover.png
-banner: /assets/posts/vite-topic-cover.png
+cover: /assets/posts/vite.jpeg
+banner: /assets/posts/vite.jpeg
 references:
 ---
 

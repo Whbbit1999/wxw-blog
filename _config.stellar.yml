@@ -6,7 +6,7 @@ menubar:
       title: 文章
       url: /
     - id: wiki
-      title: 专栏
+      title: 项目
       url: "/wiki/"
     - id: friends
       title: 友链
@@ -173,7 +173,7 @@ style:
   # leftbar:
   #   background-image: url('')
   #   blur: true
-  darkmode: auto # auto true false
+  darkmode: "auto" # auto true false
   font-family:
     logo: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'

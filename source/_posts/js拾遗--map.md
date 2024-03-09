@@ -3,15 +3,15 @@ title: js拾遗--map
 tags: [js]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: js拾遗--map #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
 date: 2023-03-01 11:13:48
 description:
-cover:
-banner:
+cover: /assets/posts/js.jpeg
+banner: /assets/posts/js.jpeg
 ---
 
 ## map 函数的第二个参数

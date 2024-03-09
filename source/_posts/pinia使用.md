@@ -4,13 +4,13 @@ tags: [pinia]
 categories: [代码人生, 前端技术]
 poster:
   # topic: 标题上方的小字
-  # headline: 大标题
+  headline: pinia使用 #大标题
   # caption: 标题下方的小字
   # color: 标题颜色
 date: 2022-12-04 15:42:19
 description:
-cover: /assets/posts/pinia使用.jpg
-banner: /assets/posts/pinia使用.jpg
+cover: /assets/posts/pinia.jpeg
+banner: /assets/posts/pinia.jpeg
 ---
 
 pinia 简易入门指南
@@ -42,13 +42,13 @@ pnpm i pinia
 ## 在 vue 中使用
 
 ```ts
-import { createApp } from "vue";
-import { createPinia } from "pinia";
+import { createApp } from "vue"
+import { createPinia } from "pinia"
 
-const app = createApp();
-const pinia = createPinia();
-app.use(pinia);
-app.mount("#app");
+const app = createApp()
+const pinia = createPinia()
+app.use(pinia)
+app.mount("#app")
 ```
 
 ## 定义一个 Store
@@ -56,17 +56,17 @@ app.mount("#app");
 > 导出的 store 函数名一般使用 use 开头
 
 ```ts
-import { defineStore } from "pinia";
+import { defineStore } from "pinia"
 // 第一个参数在全局store中的唯一id
-export const useUserStore = defineStore("user", {});
+export const useUserStore = defineStore("user", {})
 ```
 
 在页面中使用 store
 
 ```vue
 <script lang="ts" setup>
-import { useUserStore } from "@/store/model/userStore";
-const userStore = useUserStore();
+import { useUserStore } from "@/store/model/userStore"
+const userStore = useUserStore()
 // 可以使用userStore.xx来访问store中的内容
 </script>
 ```
@@ -75,24 +75,24 @@ or
 
 ```vue
 <script lang="ts" setup>
-import { storeToRefs } from "pinia";
-import { useUserStore } from "@/store/model/userStore";
-const userStore = useUserStore();
-const { userInfo } = storeToRefs(userStore);
+import { storeToRefs } from "pinia"
+import { useUserStore } from "@/store/model/userStore"
+const userStore = useUserStore()
+const { userInfo } = storeToRefs(userStore)
 </script>
 ```
 
 ## State
 
 ```ts
-import { defineStore } from "pinia";
+import { defineStore } from "pinia"
 export const useUserStore = defineStore("user", {
   state: () => {
     return {
       userInfo: null,
-    };
+    }
   },
-});
+})
 ```
 
 在页面中访问 state
@@ -100,18 +100,18 @@ export const useUserStore = defineStore("user", {
 > 可以直接写入/读取状态
 
 ```js
-import { useUserStore } from "@/store/model/userStore";
-const userStore = useUserStore();
-userStore.userInfo = { name: "wxw", age: 23 };
-console.log(userStore.userInfo);
+import { useUserStore } from "@/store/model/userStore"
+const userStore = useUserStore()
+userStore.userInfo = { name: "wxw", age: 23 }
+console.log(userStore.userInfo)
 ```
 
 重置状态
 
 ```js
-import { useUserStore } from "@/store/model/userStore";
-const userStore = useUserStore();
-userStore.$reset();
+import { useUserStore } from "@/store/model/userStore"
+const userStore = useUserStore()
+userStore.$reset()
 ```
 
 ## Getters
@@ -119,19 +119,19 @@ userStore.$reset();
 > 可以等同于 vue 中的计算属性
 
 ```ts
-import { defineStore } from "pinia";
+import { defineStore } from "pinia"
 export const useUserStore = defineStore("user", {
   state: () => {
     return {
       userInfo: null,
-    };
+    }
   },
   getters: {
     getUserInfo() {
-      return this.userInfo;
+      return this.userInfo
     },
   },
-});
+})
 ```
 
 在页面中使用 getter
@@ -140,12 +140,12 @@ export const useUserStore = defineStore("user", {
 
 ```vue
 <script lang="ts" setup>
-import { useUserStore } from "@/store/model/userStore";
-const userStore = useUserStore();
+import { useUserStore } from "@/store/model/userStore"
+const userStore = useUserStore()
 
 setTimeout(() => {
-  userStore.userInfo = { name: "wxw", age: 23 };
-}, 3000);
+  userStore.userInfo = { name: "wxw", age: 23 }
+}, 3000)
 </script>
 
 <template>
@@ -158,43 +158,43 @@ setTimeout(() => {
 > 相当于组件的方法（vue2 中的 methods）
 
 ```ts
-import { defineStore } from "pinia";
+import { defineStore } from "pinia"
 export const useUserStore = defineStore("user", {
   state: () => {
     return {
       userInfo: null,
-    };
+    }
   },
   getters: {
     getUserInfo() {
-      return this.userInfo;
+      return this.userInfo
     },
   },
   actions: {
     setUserInfo(userInfo) {
-      this.userInfo = userInfo;
+      this.userInfo = userInfo
     },
     // 也支持异步方法
     async setAdmin(userInfo) {
       try {
-        const { code, data, message } = await setUserApi(userInfo);
+        const { code, data, message } = await setUserApi(userInfo)
       } catch (error) {
-        throw error;
+        throw error
       }
     },
   },
-});
+})
 ```
 
 在组件中使用
 
 ```vue
 <script lang="ts" setup>
-import { useUserStore } from "@/store/model/userStore";
-const userStore = useUserStore();
+import { useUserStore } from "@/store/model/userStore"
+const userStore = useUserStore()
 const setUser = () => {
-  userStore.setUserInfo({ name: "wxw", age: 23 });
-};
+  userStore.setUserInfo({ name: "wxw", age: 23 })
+}
 </script>
 
 <template>

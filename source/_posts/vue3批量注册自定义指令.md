@@ -3,14 +3,14 @@ title: vue3批量注册自定义指令
 tags: []
 categories: []
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: vue3批量注册自定义指令 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2024-03-07 20:23:27
 description:
-cover:
-banner:
+cover: /assets/posts/vue-cover.png
+banner: /assets/posts/vue-cover.png
 references:
   - "[自定义指令](https://cn.vuejs.org/guide/reusability/custom-directives.html)"
 ---

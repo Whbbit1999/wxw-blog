@@ -3,18 +3,18 @@ title: vue项目权限控制
 tags: []
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: vue项目权限控制 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
   - "[vue动态路由权限控制](https://www.bilibili.com/video/BV1gR4y1f7tb/?vd_source=6e32730b05dc719c9f21598867bef69d)"
   - "[addRoute](https://router.vuejs.org/zh/api/#addroute)"
   - "[hasRoute](https://router.vuejs.org/zh/api/#hasroute)"
 date: 2023-01-03 22:25:15
 description:
-cover:
-banner:
+cover: /assets/posts/vue-cover.png
+banner: /assets/posts/vue-cover.png
 ---
 
 实现 vue 动态路由的测试，登录 user 和 admin 可以访问不同的菜单

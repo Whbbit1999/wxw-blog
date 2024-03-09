@@ -10,8 +10,8 @@ poster:
 references:
 date: 2023-01-22 21:58:46
 description: false
-cover:
-banner:
+cover: /assets/posts/git.jpg
+banner: /assets/posts/git.jpg
 ---
 
 美化一下 GitHub 主页。或者在其他项目中添加一些 GitHub 仓库的信息。

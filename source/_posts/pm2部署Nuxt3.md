@@ -4,8 +4,13 @@ tags: []
 categories: []
 date: 2023-12-05 18:02:30
 description:
-cover:
-banner:
+cover: /assets/posts/nuxt.jpg
+banner: /assets/posts/nuxt.jpg
+poster:
+  # topic: 标题上方的小字
+  headline: "pm2部署Nuxt3"
+  # caption: 标题下方的小字
+  # color: #fff
 ---
 
 1. 使用 `pnpm run build` 打包，默认会在项目根目录中生成一个 `.output` 文件夹。

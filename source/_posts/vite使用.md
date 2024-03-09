@@ -3,14 +3,14 @@ title: vite使用
 tags: [vite, 前端工程化]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: vite使用 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 date: 2022-12-04 15:41:11
 description:
-cover:
-banner:
+cover: /assets/posts/vite.jpeg
+banner: /assets/posts/vite.jpeg
 ---
 
 vite 简易使用指南
@@ -48,17 +48,17 @@ pnpm i -D @type/node
 将 `@` 指向 `src` 文件
 
 ```js
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
+import { defineConfig } from "vite"
+import vue from "@vitejs/plugin-vue"
 
-import path from "path";
+import path from "path"
 
 export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: { "@": path.resolve(__dirname, "src") },
   },
-});
+})
 ```
 
 ## 配置代理
@@ -96,7 +96,7 @@ export default defineConfig({
       },
     },
   },
-});
+})
 ```
 
 ## 配置项目端口及自动启动
@@ -107,7 +107,7 @@ export default defineConfig({
     port: 3030, // 服务启动端口
     open: true, // 服务启动自动打开默认浏览器
   },
-});
+})
 ```
 
 ## 配置插件
@@ -119,11 +119,11 @@ pnpm i -D @vitejs/plugin-vue-jsx
 ```
 
 ```js
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-import vueJsx from "@vitejs/plugin-vue-jsx";
+import { defineConfig } from "vite"
+import vue from "@vitejs/plugin-vue"
+import vueJsx from "@vitejs/plugin-vue-jsx"
 
 export default defineConfig({
   plugins: [vue(), vueJsx()],
-});
+})
 ```

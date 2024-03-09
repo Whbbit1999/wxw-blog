@@ -3,15 +3,15 @@ title: vue3自动引入图标
 tags: [vite使用]
 categories: [代码人生, 前端技术]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: vue3自动引入图标 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
 date: 2023-02-05 12:27:31
 description:
-cover:
-banner:
+cover: /assets/posts/vue-cover.png
+banner: /assets/posts/vue-cover.png
 ---
 
 使用插件自动引入 svg 图标
