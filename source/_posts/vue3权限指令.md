@@ -109,3 +109,7 @@ permission.vue
 
 <style></style>
 ```
+
+## 效果
+
+![vue permission](/assets/posts/vue-permission.gif)
