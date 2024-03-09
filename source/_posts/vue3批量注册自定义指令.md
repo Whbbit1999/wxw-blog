@@ -47,9 +47,8 @@ export default {
 
     watchEffect(() => {
       visible.value = hasIntersection(userPermission, buttonPermission)
+      el.style.display = visible.value ? "" : "none"
     })
-
-    el.style.display = visible.value ? "" : "none"
   },
 } as Directive
 ```

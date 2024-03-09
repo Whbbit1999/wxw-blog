@@ -1,5 +1,5 @@
 name: 生活 # 在面包屑导航上会显示较短的名字
 title: 支离破碎的生活 # 在列表页会显示完整的专栏标题
-description: vite生态相关内容学习笔记
+description:
 icon: /assets/logos/life.svg
 order_by: -date # 默认是按发布日期倒序排序
