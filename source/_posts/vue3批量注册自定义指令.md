@@ -9,8 +9,8 @@ poster:
   color: #标题颜色
 date: 2024-03-07 20:23:27
 description:
-cover: /assets/posts/vue-cover.png
-banner: /assets/posts/vue-cover.png
+cover: /assets/posts/vue-cover.jpg
+banner: /assets/posts/vue-cover.jpg
 references:
   - "[自定义指令](https://cn.vuejs.org/guide/reusability/custom-directives.html)"
 ---

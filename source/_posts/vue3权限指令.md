@@ -9,8 +9,8 @@ poster:
   color: #标题颜色
 date: 2024-03-09 23:23:27
 description:
-cover: /assets/posts/vue-cover.png
-banner: /assets/posts/vue-cover.png
+cover: /assets/posts/vue-cover.jpg
+banner: /assets/posts/vue-cover.jpg
 references:
 ---
 

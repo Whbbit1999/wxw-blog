@@ -13,8 +13,8 @@ references:
   - "[hasRoute](https://router.vuejs.org/zh/api/#hasroute)"
 date: 2023-01-03 22:25:15
 description:
-cover: /assets/posts/vue-cover.png
-banner: /assets/posts/vue-cover.png
+cover: /assets/posts/vue-cover.jpg
+banner: /assets/posts/vue-cover.jpg
 ---
 
 实现 vue 动态路由的测试，登录 user 和 admin 可以访问不同的菜单

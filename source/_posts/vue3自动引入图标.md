@@ -10,8 +10,8 @@ poster:
 references:
 date: 2023-02-05 12:27:31
 description:
-cover: /assets/posts/vue-cover.png
-banner: /assets/posts/vue-cover.png
+cover: /assets/posts/vue-cover.jpg
+banner: /assets/posts/vue-cover.jpg
 ---
 
 使用插件自动引入 svg 图标

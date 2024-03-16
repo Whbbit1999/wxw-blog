@@ -9,8 +9,8 @@ poster:
   color: #标题颜色
 date: 2022-12-04 15:43:03
 description:
-cover: /assets/posts/vue-cover.png
-banner: /assets/posts/vue-cover.png
+cover: /assets/posts/vue-cover.jpg
+banner: /assets/posts/vue-cover.jpg
 ---
 
 跟着尤大实现一下 vue3 的响应式系统
