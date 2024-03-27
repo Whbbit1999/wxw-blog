@@ -22,7 +22,7 @@ menubar:
 # 站点主结构树
 site_tree:
   home:
-    leftbar: welcome, TenYearAgreement, recent
+    leftbar: welcome, TenYearAgreement,linklist, recent
     rightbar: timeline, tagcloud, ghuser, ad, support
   # -- 内容类页面 -- #
   # 博客文章内页配置
