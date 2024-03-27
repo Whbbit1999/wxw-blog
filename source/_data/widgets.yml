@@ -4,6 +4,12 @@ welcome:
   content: |
     本站是Whbbit1999的知识和个人博客集合站，希望您在这里玩的开心。
 
+TenYearAgreement:
+  layout: markdown
+  title: 十年之约
+  content: |
+    本站于2024年03月26日正式成为十年之约的成员。欢迎通过[虫洞](https://foreverblog.cn/go.html)穿梭十年之约！
+
 lucky:
   layout: markdown
   title: 2024 开心每一天
