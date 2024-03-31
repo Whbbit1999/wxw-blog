@@ -3,10 +3,10 @@ title: GitHub status 获取GitHub项目信息
 tags: []
 categories: [代码人生, 其他]
 poster:
-  topic: 标题上方的小字
-  headline: 大标题
-  caption: 标题下方的小字
-  color: 标题颜色
+  topic: #标题上方的小字
+  headline: GitHub status 获取GitHub项目信息 #大标题
+  caption: #标题下方的小字
+  color: #标题颜色
 references:
 date: 2023-01-22 21:58:46
 description: false
