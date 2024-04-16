@@ -18,7 +18,22 @@ references:
 
 ## 封装 ECharts 容器组件
 
-容器组件代码如下：
+**监听图表大小变化使用了 ResizeObserver 函数监听容器大小变化，变化时调用 chart.resize() 重新渲染图表。**
+
+{% folding child:codeblock open:true color:green 监听图表大小变化的代码 %}
+
+```js
+// 监听容器大小变化，实现图表自适应
+const resizeObserver = new ResizeObserver((entries) => {
+  console.log(entries, "容器大小变化")
+  this.chart.resize()
+})
+resizeObserver.observe(this.$refs.container)
+```
+
+{% endfolding %}
+
+{% folding child:codeblock open:false color:blue 容器组件完整代码 %}
 
 ```html ChartContainer.vue
 <template>
@@ -87,11 +102,13 @@ references:
 </style>
 ```
 
+{% endfolding %}
+
 ## 使用 ECharts 容器组件
 
 组件内部监听外部传入数据变化，变化后使用 watch 更新 options。
 
-圆环图表示例代码如下：
+{% folding child:codeblock open:false color:blue 圆环图表示例代码 %}
 
 ```html
 <template>
@@ -160,3 +177,5 @@ references:
   }
 </script>
 ```
+
+{% endfolding %}
