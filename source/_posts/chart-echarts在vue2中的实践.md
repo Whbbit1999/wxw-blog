@@ -35,6 +35,44 @@ resizeObserver.observe(this.$refs.container)
 
 {% folding child:codeblock open:false color:blue 容器组件完整代码 %}
 
+防抖节流函数
+
+```js DebounceThrottle.js
+// 函数防抖
+function debounce(fn, wait = 500) {
+  let timeout = null
+  return function () {
+    var args = arguments
+    if (timeout !== null) clearTimeout(timeout)
+    timeout = setTimeout(() => {
+      fn.apply(this, args)
+    }, wait)
+  }
+}
+
+// 函数节流
+function throttle(fn, delay = 500) {
+  var lastTime
+  var timer
+  return function () {
+    var args = arguments
+    // 记录当前函数触发的时间
+    var nowTime = Date.now()
+    if (lastTime && nowTime - lastTime < delay) {
+      clearTimeout(timer)
+      timer = setTimeout(() => {
+        // 记录上一次函数触发的时间
+        lastTime = nowTime
+      }, delay)
+    } else {
+      lastTime = nowTime
+      fn.apply(this, args)
+    }
+  }
+}
+export { debounce, throttle }
+```
+
 ```html ChartContainer.vue
 <template>
   <div class="container" ref="container"></div>
@@ -43,12 +81,15 @@ resizeObserver.observe(this.$refs.container)
 <script>
   import * as echarts from "echarts"
   import { SVGRenderer, CanvasRenderer } from "echarts/renderers"
+  import { debounce } from "./utils/DebounceThrottle.js"
+
   echarts.use([SVGRenderer, CanvasRenderer])
 
   export default {
     data() {
       return {
         chart: null,
+        resizeObserver: null,
       }
     },
     props: {
@@ -85,11 +126,24 @@ resizeObserver.observe(this.$refs.container)
       this.chart.setOption(this.options)
 
       // 监听容器大小变化，实现图表自适应
-      const resizeObserver = new ResizeObserver((entries) => {
-        console.log(entries, "容器大小变化")
-        this.chart.resize()
-      })
-      resizeObserver.observe(this.$refs.container)
+      if (window.ResizeObserver) {
+        this.resizeObserver = new ResizeObserver(
+          debounce((entries) => {
+            console.log(entries, "容器大小变化")
+            this.chart.resize()
+          })
+        )
+        this.resizeObserver.observe(this.$refs.container)
+      }
+    },
+    beforeDestroy() {
+      console.log("销毁")
+      if (this.chart) {
+        this.chart.dispose()
+      }
+      if (window.ResizeObserver && this.resizeObserver) {
+        this.resizeObserver.unobserve(this.$refs.container)
+      }
     },
   }
 </script>
