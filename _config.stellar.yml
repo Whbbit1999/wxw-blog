@@ -173,10 +173,14 @@ footer:
         </script>
     </div>
 style:
-  # leftbar:
-  #   background-image: url('')
-  #   blur: true
-  darkmode: "auto" # auto true false
+  site:
+    background-image: url(/assets/about-cover-bg.jpg) # 未完全适配，慎用
+    blur-px: 100px
+    blur-bg: var(--alpha75)
+  leftbar:
+    background-image: url(/assets/about-cover-bg.jpg)
+    blur: true
+  darkmode: true # auto true false
   font-family:
     logo: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
@@ -200,7 +204,7 @@ services:
   siteinfo:
     # 设置 api 可以自动提取网页标题、图标，服务部署方法：https://github.com/xaoxuu/site-info-api/
     # 接口测试通过后，把按钮的 href 部分替换成 ${href} 之后填写到下方，例如：https://api.vlts.cc/site_info/v1?url=${href}
-    api: https://api.vlts.cc/site_info/api/v1?url=https://whbbit.cn
+    api: https://site-info-api-8paq-jxe4nxdob-whbbit1999s-projects.vercel.app/api/v1?url=${href}
 
 # comments
 comments:
