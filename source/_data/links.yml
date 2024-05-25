@@ -324,6 +324,8 @@
     screenshot: /assets/sites/default-cover.svg
     avatar: /assets/sites/default-logo.svg
     description:
+  - title: vue3-marquee-component
+    url: https://vue3-marquee-component.vercel.app/
 
 "react":
   - title: MUI

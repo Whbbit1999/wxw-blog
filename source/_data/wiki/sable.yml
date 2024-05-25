@@ -1,26 +1,35 @@
 name: Sable Admin 文档
 title: Sable Admin 中后台脚手架文档
 subtitle: "Sable Admin 中后台脚手架文档 | Create By Whbbit1999"
-tags: Vue
+tags: [vue, 开源项目文档]
 icon: /assets/wiki/sable/logo.svg
 cover: /assets/wiki/sable/logo.svg
-# banner: /assets/sable_cover.png
 coverpage: true # 默认是 true
 description: 使用Vue3 + Pinia + typescript + unocss + Naive UI 开发，集成了一些常用的自定义组件。
+
 repo: "Whbbit1999/sable"
-beaudar:
-  "issue-term": "sable-admin"
-sidebar:
-  - search:
-    override: search
-    filter: /wiki/sable/
-    placeholder: 搜索...
+comment_title: "评论区尽供交流，有问题请提 [issue](https://github.com/Whbbit1999/sable/issues) 反馈。"
+comments:
+  beaudar:
+    "issue-term": "sable-admin"
+
+share: true
+license: true
+
+# banner: /assets/sable_cover.png
+search:
+  override: search
+  filter: /wiki/sable/
+  placeholder: 搜索...
+
+base_dir: /wiki/sable/
+leftbar:
+  - tree
+rightbar:
   - toc
   - ad
   - support
-path: /wiki/sable/
-share: true
-toc:
+tree:
   "快速开始":
     - index
     - 项目配置
@@ -31,9 +40,10 @@ toc:
     - 布局设置
     - 路由设置
     - 路由守卫
+  "自定义组件使用指南":
+    - 自定义表格
   "代码精简":
     - 代码精简
-  # "常见问题":
   "其他":
     - 项目优化
     - TODO

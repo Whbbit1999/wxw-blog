@@ -103,6 +103,8 @@ article:
   # related_posts:
   #   enable: true
   #   title: 您可能感兴趣的文章
+  category_color:
+    "vue": "#41B883"
 
 inject:
   head:
