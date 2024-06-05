@@ -12,6 +12,9 @@ description:
 cover: /assets/posts/nuxt3.jpg
 banner: /assets/posts/nuxt3.jpg
 references:
+  - "[A Better Approach To Data Fetching In Nuxt?](https://www.youtube.com/watch?v=HiFV027dEzk)"
+  - "[useFetch](https://nuxt.com/docs/api/composables/use-fetch)"
+  - "[useLazyFetch](https://nuxt.com/docs/api/composables/use-lazy-fetch)"
 ---
 
 ## 问题描述
