@@ -1,4 +1,5 @@
 ---
+topic: nuxt
 title: nuxt3 请求数据
 tags: []
 categories: []
@@ -64,3 +65,7 @@ const { pending, data } = await useLazyFetch("/api/data")
 ```
 
 > 注意： 这里是否有 await 都不影响数据的懒加载
+
+---
+
+后续我会通过一个 `宝可梦图鉴` 的项目，来讲述如何使用 useFetch 和 useLazyFetch 来优化数据请求的体验。
