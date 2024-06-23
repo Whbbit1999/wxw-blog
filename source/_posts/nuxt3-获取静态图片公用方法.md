@@ -19,16 +19,17 @@ references:
 
 ```ts
 // 动态获取图片
-function getAssetsImage(src: string | undefined, dirName: string = "image"): string {
-  if (!src) {
-    return ""
-  }
-
-  const assets = import.meta.glob(`~/assets/${dirName}/**/*`, { eager: true, import: "default" })
+export function getAssetsImage(src: string | undefined): string {
+  if (!src) return ""
+  const assets = import.meta.glob("~/assets/image/**/*", { eager: true, import: "default" })
   return assets[`/assets/image/${src}`] as string
 }
 
-export default getAssetsImage
+export function getAssetsIcon(src: string | undefined): string {
+  if (!src) return ""
+  const assets = import.meta.glob("~/assets/icons/**/*", { eager: true, import: "default" })
+  return assets[`/assets/icons/${src}`] as string
+}
 ```
 
 使用
