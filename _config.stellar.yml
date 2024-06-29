@@ -105,6 +105,7 @@ article:
   #   title: 您可能感兴趣的文章
   category_color:
     "vue": "#41B883"
+    "nuxt": "#41B883"
 
 inject:
   head:
@@ -178,13 +179,13 @@ footer:
     </div>
 style:
   site:
-    background-image: url(/assets/about-cover-bg.jpg) # 未完全适配，慎用
-    blur-px: 100px
-    blur-bg: var(--alpha75)
+    # background-image: url(/assets/about-cover-bg.jpg) # 未完全适配，慎用
+    # blur-px: 100px
+    # blur-bg: var(--alpha75)
   leftbar:
     background-image: url(/assets/about-cover-bg.jpg)
     blur: true
-  darkmode: true # auto true false
+  darkmode: false # auto true false
   font-family:
     logo: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
     body: '"LXGW WenKai Screen",system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
