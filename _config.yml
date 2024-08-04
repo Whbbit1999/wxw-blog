@@ -110,3 +110,8 @@ deploy:
   type: ""
 
 wiki_dir: wiki
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
