@@ -112,6 +112,7 @@ inject:
     # - <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
     - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7949385915241566"
       crossorigin="anonymous"></script>
+    - <script type="text/javascript" src="//js.users.51.la/21923731.js"></script>
 
 # footer
 footer:
