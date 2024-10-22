@@ -70,4 +70,10 @@ Content-Type: application/json;charset=UTF-8
 
 ###
 DELETE {{uri}}/posts/1
+
+### form表单传值
+POST  {{uri}}/file
+Content-Type: application/x-www-form-urlencoded
+
+fileName=helloHono&fileSize=1024
 ```
