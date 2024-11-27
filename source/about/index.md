@@ -48,6 +48,45 @@ beaudar:
 
 ---
 
+## 我用的设备
+
+{% grid bg:box c:3 %}
+
+<!-- cell -->
+
+Macbook Pro M1
+
+![mac-book-pro](/assets/more/mac-book-pro.jpg)
+
+<!-- cell -->
+
+IQUNIX OG80
+![IQUNIX-OG80.webp](/assets/more/IQUNIX-OG80.webp)
+
+<!-- cell -->
+
+Razer Basilisk V3 X HyperSpeed
+![Razer-Basilisk-V3-X-HyperSpeed.jpg](/assets/more/Razer-Basilisk-V3-X-HyperSpeed.jpg)
+
+<!-- cell -->
+
+Redmi k50
+![Redmi-k50.png](/assets/more/Redmi-k50.png)
+
+<!-- cell -->
+
+HUAWEI Free Buds 5
+
+![HUAWEI-Freebuds-5.png](/assets/more/HUAWEI-Freebuds-5.png)
+
+<!-- cell -->
+
+HUAWEI Watch GT 4
+
+![HUAWEI-watch-GT4.png](/assets/more/HUAWEI-watch-GT4.png)
+
+{% endgrid %}
+
 {% quot 参与项目  el:h2 %}
 
 {% grid bg:box c:2 %}
