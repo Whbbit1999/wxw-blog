@@ -25,12 +25,14 @@ lucky:
 
 ad:
   layout: markdown
-  title: 可能是广告位吧🤨
+  title: 我的项目🤨
 
   # 广告位招租😁
 
   content: |
     [![sable-admin-ad.jpg](/assets/sable_cover.png)](https://github.com/Whbbit1999/sable)
+    <br />
+    [![shadcn-vue-admin](/assets/shadcn-vue-admin.png)](https://shadcn-vue-admin.netlify.app/)
 
 support:
   layout: markdown
