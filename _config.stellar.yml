@@ -14,10 +14,6 @@ menubar:
     - id: more
       title: 关于
       url: "/about/"
-    # post: "[btn.blog](/)"
-    # wiki: "[专栏](/wiki/)"
-    # friends: "[友链](/friends/)"
-    # more: "[关于](/about/)"
 
 # 站点主结构树
 site_tree:
@@ -55,31 +51,6 @@ site_tree:
     leftbar: recent
     rightbar: toc, timeline, ghuser, ad, support
 
-# site_tree:
-#   #### 自动生成的页面 ####
-#   # 主页
-#   home:
-#     sidebar: lucky,search,welcome, recent, ad, support, tagcloud, timeline # for home
-#   # 博客索引页
-#   blog_index:
-#     sidebar: search_blog, recent, ad, support, timeline # for categories/tags/archives
-#   # 文档索引页
-#   wiki_index:
-#     sidebar: search_docs, recent, ad, support, timeline # for wiki
-#   # 其它（404）
-#   others:
-#     sidebar: search, welcome, recent, timeline # for 404 and ...
-#   #### 手动创建的页面 ####
-#   # 文章内页
-#   post:
-#     sidebar: toc, ghrepo, search, ghissues, ad, support # for pages using 'layout:post'
-#   # 文档内页
-#   wiki:
-#     sidebar: search, toc, ghrepo, ad, support, ghissues, related # for pages using 'layout:wiki'
-#   # 其它 layout:page 的页面
-#   page:
-#     sidebar: welcome, toc, ad, support # for custom pages using 'layout:page'
-
 search:
   service: local_search # local_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
@@ -112,7 +83,7 @@ inject:
     # - <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
     - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7949385915241566"
       crossorigin="anonymous"></script>
-    - <script type="text/javascript" src="//js.users.51.la/21923731.js"></script>
+    # - <script type="text/javascript" src="//js.users.51.la/21923731.js"></script>
 
 # footer
 footer:
@@ -140,11 +111,13 @@ footer:
       - "[归档](/archives/)"
     "专栏":
       - "[vscode基础配置](/wiki/vscode/index.html)"
-      - "[常用代码片段/命令](/wiki/codeSnippets/index.html)"
+      # - "[常用代码片段/命令](/wiki/codeSnippets/index.html)"
     "更多":
       - "[文档站点](http://doc.whbbit.cn)"
       - "[GitHub](https://github.com/Whbbit1999)"
     "参与项目":
+      - "[shadcn-vue-admin](https://shadcn-vue-admin.netlify.app/)"
+      - "[shadcn-vue](https://github.com/unovue/shadcn-vue)"
       - "[licht](https://react.codeym.com/)"
       - "[vue devui](https://github.com/DevCloudFE/vue-devui)"
       - "[sable admin](https://github.com/Whbbit1999/sable)"
@@ -216,28 +189,28 @@ services:
     api: https://site-info-api-8paq-jxe4nxdob-whbbit1999s-projects.vercel.app/api/v1?url=${href}
 
 # comments
-comments:
-  service: beaudar
-  beaudar:
-    repo: Whbbit1999/wxw-blog-comments
 # comments:
-#   service: giscus
-#   # giscus
-#   # https://giscus.app/zh-CN
-#   giscus:
-#     data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
-#     data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
-#     data-category: General # [在此输入分类名]
-#     data-category-id: DIC_kwDOI34URs4CT54G
-#     data-mapping: title
-#     data-strict: 0
-#     data-reactions-enabled: 1
-#     data-emit-metadata: 0
-#     data-input-position: top # top, bottom
-#     data-theme: preferred_color_scheme
-#     data-lang: zh-CN
-#     data-loading: lazy
-#     crossorigin: anonymous
+#   service: beaudar
+#   beaudar:
+#     repo: Whbbit1999/wxw-blog-comments
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    data-repo: Whbbit1999/wxw-blog-comments # [在此输入仓库]
+    data-repo-id: R_kgDOI34URg # [在此输入仓库 ID]
+    data-category: General # [在此输入分类名]
+    data-category-id: DIC_kwDOI34URs4CT54G
+    data-mapping: title
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
 
 copycode:
   enable: true

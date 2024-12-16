@@ -93,6 +93,18 @@ HUAWEI Watch GT 4
 
 <!-- cell -->
 
+shadcn-vue-admin {% hashtag Vue3 %} {% hashtag 仪表盘模板 %}
+
+{% ghcard Whbbit1999/shadcn-vue-admin %}
+
+<!-- cell -->
+
+shadcn-vue {% hashtag Vue3 %} {% hashtag 组件库 %}
+
+{% ghcard unovue/shadcn-vue %}
+
+<!-- cell -->
+
 vue-devui {% hashtag Vue3 %} {% hashtag 组件库 %}
 
 {% ghcard DevCloudFE/vue-devui %}
